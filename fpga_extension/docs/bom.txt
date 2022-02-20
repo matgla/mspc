@@ -1,0 +1,15 @@
+Power Supply: 
+Core 1.1V : PAM2312
+IO        : 
+     1.8V : AP7343
+     3.3V : PAM2312
+AUX  2.5V : BCT2028
+
+
+FPGA:
+    LFE5U-25F-8BG381C
+
+Memory:
+    W957D8MFYA5I
+
+Connector 

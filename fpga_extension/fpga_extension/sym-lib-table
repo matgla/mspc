@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "lattice")(type "KiCad")(uri "${KIPRJMOD}/lattice.kicad_sym")(options "")(descr ""))
+  (lib (name "fpga_extension_library")(type "KiCad")(uri "${KIPRJMOD}/fpga_extension_library.kicad_sym")(options "")(descr ""))
+)

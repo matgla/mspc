@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -103,9 +103,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.09999999999999999,
         "min_copper_edge_clearance": 1.0,
-        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.39999999999999997,
         "min_microvia_drill": 0.19999999999999998,
@@ -113,7 +113,7 @@
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.356,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -576,24 +576,36 @@
       ""
     ],
     [
-      "54036806-5cd0-45d6-88ff-9467c591e789",
-      "Power Supply"
+      "138c08cd-f315-49a6-890d-a48ba5f28fe6",
+      "FPGA"
     ],
     [
-      "624842ae-b5b1-4f05-97cf-f5546098f11d",
-      "Connector"
+      "dba551ab-d1c2-4929-8aa3-5e9b49e05fcf",
+      "FPGA Config & Bus"
     ],
     [
-      "5b0622e6-f66f-4f6f-935f-b5190ee4e6e3",
-      "fpga"
+      "0508c078-08cc-417f-b61f-48d56afe205a",
+      "FPGA Power"
     ],
     [
-      "64d5c2fe-181b-407b-84f7-16865657c447",
-      "SDRAM"
+      "1dde2c5a-9472-4da9-baa6-1a560aaf54f6",
+      "FPGA Unused"
     ],
     [
-      "4388141a-9750-447b-bb42-d95e7014d162",
-      "clock"
+      "163e4125-8e51-44a8-bfe7-73013b4370b0",
+      "FPGA HyperRam"
+    ],
+    [
+      "191072c1-f1a0-4628-a85c-1b220f5a8dbe",
+      "HyperRAM"
+    ],
+    [
+      "9c404515-8db6-4333-9ae5-8b98f2cc5e89",
+      "FPGA DVI"
+    ],
+    [
+      "0b1b5c70-1f64-4928-ac3a-4f98af1b6ecc",
+      "FPGA QSPI & Clock"
     ]
   ],
   "text_variables": {}
