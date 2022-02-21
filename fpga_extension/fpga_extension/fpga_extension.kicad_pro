@@ -606,6 +606,14 @@
     [
       "0b1b5c70-1f64-4928-ac3a-4f98af1b6ecc",
       "FPGA QSPI & Clock"
+    ],
+    [
+      "50a7b31e-7ebf-40b9-aea8-607bd559467f",
+      "QSPI Memory"
+    ],
+    [
+      "07fe7618-9967-40cc-943c-0b86764e862b",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
