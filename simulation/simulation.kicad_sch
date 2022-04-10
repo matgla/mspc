@@ -1,0 +1,90 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 322b8664-f1fc-4fb3-a5e9-9ec108cf29af)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 36.83 29.21) (size 38.1 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid be471994-b981-4de9-8b0d-b1119f0831db)
+    (property "Sheet name" "power_supply_simulation" (id 0) (at 36.83 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power_supply_simulation.kicad_sch" (id 1) (at 36.83 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/40fab401-4130-4def-97d7-9720e61a4ea3"
+      (reference "#GND01") (unit 1) (value "0") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/fdb571c0-ea0e-4113-a2a4-a2bd703e0646"
+      (reference "#GND02") (unit 1) (value "~") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/b1e850bc-5b6a-4eb2-9c2f-3f1342925223"
+      (reference "#GND03") (unit 1) (value "~") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/af53036d-ee7e-403a-960a-8c4d62b707f6"
+      (reference "#GND04") (unit 1) (value "~") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/4c479886-16f6-4bfb-973c-923855fba039"
+      (reference "#GND05") (unit 1) (value "0") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/d2e6dbf5-3016-4673-b658-544309c12335"
+      (reference "#GND06") (unit 1) (value "0") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/9b350be6-ea3d-4ec3-9d1a-0f754684fd96"
+      (reference "#GND08") (unit 1) (value "~") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/da0dde0f-1a0b-4f26-aed2-67f0dbdd8fc1"
+      (reference "Q1") (unit 1) (value "SSM6P69NU,LF") (footprint "footprints:SON65P200X200X80-8N")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/5180b848-ef5e-40fa-8acf-43b39afabda7"
+      (reference "Q1") (unit 2) (value "SSM6P69NU,LF") (footprint "footprints:SON65P200X200X80-8N")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/30e8171e-708f-4333-b2aa-4f143665859b"
+      (reference "Q3") (unit 1) (value "BC547") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/c8457b3f-8e72-4628-b3bc-c95bcbc6c811"
+      (reference "R1") (unit 1) (value "2.4") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/705b8923-bb8c-4549-b66c-833698d8a687"
+      (reference "R2") (unit 1) (value "0.06") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/c2007c6e-b0b4-41d7-8be9-795fbff14c3c"
+      (reference "R3") (unit 1) (value "0.05") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/9ac1ddbe-672f-48a8-9d93-9beecfe94d21"
+      (reference "R4") (unit 1) (value "1") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/eb79ab4c-fc63-44ad-8afe-e28c6a26ff84"
+      (reference "R5") (unit 1) (value "2k") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/4c7eb3f6-a4c3-43b6-907e-7b464479057e"
+      (reference "R6") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/094fd2ef-205d-4e18-a771-abb24ed2c467"
+      (reference "V1") (unit 1) (value "PULSE(0 3.3 2 1m 1m 4 0)") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/d01840d4-32a9-4b1b-a1b3-dca2f0c09621"
+      (reference "V2") (unit 1) (value "dc 5") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/5ff8b22f-1347-41d2-a81f-35ad79604a9b"
+      (reference "V3") (unit 1) (value "PULSE(0 3.3 4 1m 1m 1 0)") (footprint "")
+    )
+    (path "/be471994-b981-4de9-8b0d-b1119f0831db/7a35b0e7-d148-4283-8836-45baa57f7cfc"
+      (reference "V4") (unit 1) (value "dc 3.3") (footprint "")
+    )
+  )
+)

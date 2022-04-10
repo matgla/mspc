@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HCS138PWR
+D Encoders, Decoders, Multiplexers & Demultiplexers 3-line to 8-line decoders/demultiplexer 16-TSSOP -40 to 125
+K
+F https://www.ti.com/lit/gpn/sn74hcs138
+$ENDCMP
+#
+#End Doc Library

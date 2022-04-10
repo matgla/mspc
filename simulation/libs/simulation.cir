@@ -1,0 +1,9 @@
+.title KiCad schematic
+.include "libs/pspice/SSM6P49NU_PSpice_20140521.lib"
+V1 Net-_V1-Pad1_ 0 pulse(0 15 1 0.1m 0.1m 10 0)
+R1 Net-_R1-Pad1_ Net-_V1-Pad1_ 10m
+R3 Net-_R3-Pad1_ Net-_V1-Pad1_ 2.2k
+R2 0 Net-_R2-Pad2_ 2
+XQ1 Net-_R2-Pad2_ Net-_R3-Pad1_ unconnected-_Q1-Pad3_ unconnected-_Q1-Pad4_ unconnected-_Q1-Pad5_ Net-_R1-Pad1_ Net-_R1-Pad1_ unconnected-_Q1-Pad8_ PMOS_SSM6P49NU
+.tran 0.1 12
+.end
