@@ -11,4 +11,7 @@
   (lib (name "ABM11")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/ABM11.kicad_sym")(options "")(descr ""))
   (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Crystals.kicad_sym")(options "")(descr ""))
   (lib (name "Genesys")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Genesys.kicad_sym")(options "")(descr ""))
+  (lib (name "CAT10-103J4LF")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/CAT10-103J4LF.lib")(options "")(descr ""))
+  (lib (name "ECS-120-8-36-CGN-TR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/ECS-120-8-36-CGN-TR.lib")(options "")(descr ""))
+  (lib (name "HS8836A")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/HS8836A.kicad_sym")(options "")(descr ""))
 )
