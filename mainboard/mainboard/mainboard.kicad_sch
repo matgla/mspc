@@ -1,4 +1,4 @@
-(kicad_sch (version 20220104) (generator eeschema)
+(kicad_sch (version 20220404) (generator eeschema)
 
   (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
 
@@ -548,11 +548,20 @@
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/2aca688b-5322-4228-99a4-b266b45f9624"
       (reference "#PWR0302") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/234be530-4519-4c25-8348-5077008729de"
+      (reference "#PWR0303") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/a129df17-1b24-4244-a750-db38c390faab"
+      (reference "#PWR0304") (unit 1) (value "+3V3_BUS") (footprint "")
+    )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/b4bc351c-ef80-470a-911e-7f7a3df0fd2a"
       (reference "#PWR0305") (unit 1) (value "VDC") (footprint "")
     )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/daee06d1-ce8a-47a1-825c-c877a6fcf7af"
       (reference "#PWR0306") (unit 1) (value "+5V_VBUS") (footprint "")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/0e361363-33ef-4840-bfa4-dc41f8e7dfdc"
+      (reference "#PWR0307") (unit 1) (value "GND") (footprint "")
     )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/478e9df5-4679-4faf-8df9-7a1e6f836538"
       (reference "#PWR0308") (unit 1) (value "GND") (footprint "")
@@ -622,6 +631,15 @@
     )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/684746c4-1887-4b1d-9bbf-734e8ddab14d"
       (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/f04abe95-fa02-4eb5-90f8-7879e73b8144"
+      (reference "#PWR0331") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/861327c8-5076-4c32-8803-15af4878a3a8"
+      (reference "#PWR0332") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/108f9a45-5793-45c3-9e71-170985ad53b3"
+      (reference "#PWR0333") (unit 1) (value "GND") (footprint "")
     )
     (path "/9cc1db10-8093-47b8-8876-8e0be9b45cae/99ebaa5a-082d-4ea7-b907-dfe4aafaac4c"
       (reference "#PWR0401") (unit 1) (value "GND") (footprint "")
@@ -773,18 +791,6 @@
     (path "/561b7203-f3af-4b67-b44f-3fc4204c8b68/4bacffdc-276d-46d9-b2ab-b93ba1ea67e2"
       (reference "#PWR0804") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/108f9a45-5793-45c3-9e71-170985ad53b3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/234be530-4519-4c25-8348-5077008729de"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/861327c8-5076-4c32-8803-15af4878a3a8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/a129df17-1b24-4244-a750-db38c390faab"
-      (reference "#PWR?") (unit 1) (value "+3V3_BUS") (footprint "")
-    )
     (path "/90a5bc85-07ac-4ee1-af41-887c984cc4b9/deb17ea4-b74e-40ae-abb6-544e92eb5be4"
       (reference "C201") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -921,19 +927,19 @@
       (reference "F701") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/31f32a76-d757-410b-85fe-f0562223ebc5/257faebc-b411-47d6-861d-4a5348ccb693"
-      (reference "IC501") (unit 1) (value "SN74HCS138PWR") (footprint "SOP65P640X120-16N")
+      (reference "IC501") (unit 1) (value "SN74HCS138PWR") (footprint "footprints:SOP65P640X120-16N")
     )
     (path "/31f32a76-d757-410b-85fe-f0562223ebc5/17c6d879-6209-49e7-b2b7-e7a33805aa62"
-      (reference "IC502") (unit 1) (value "SN74HCS138PWR") (footprint "SOP65P640X120-16N")
+      (reference "IC502") (unit 1) (value "SN74HCS138PWR") (footprint "footprints:SOP65P640X120-16N")
     )
     (path "/31f32a76-d757-410b-85fe-f0562223ebc5/32a267be-7d09-4fc0-92b3-879ef08c2c00"
-      (reference "IC503") (unit 1) (value "SN74HCS138PWR") (footprint "SOP65P640X120-16N")
+      (reference "IC503") (unit 1) (value "SN74HCS138PWR") (footprint "footprints:SOP65P640X120-16N")
     )
     (path "/31f32a76-d757-410b-85fe-f0562223ebc5/930a7ae8-50d5-40ae-801e-df86baba11d5"
-      (reference "IC504") (unit 1) (value "SN74HCS138PWR") (footprint "SOP65P640X120-16N")
+      (reference "IC504") (unit 1) (value "SN74HCS138PWR") (footprint "footprints:SOP65P640X120-16N")
     )
     (path "/31f32a76-d757-410b-85fe-f0562223ebc5/472688fa-ec21-44f0-aa02-4625cd51386f"
-      (reference "IC505") (unit 1) (value "SN74HCS151PWR") (footprint "SOP65P640X120-16N")
+      (reference "IC505") (unit 1) (value "SN74HCS151PWR") (footprint "footprints:SOP65P640X120-16N")
     )
     (path "/90a5bc85-07ac-4ee1-af41-887c984cc4b9/d83bba22-9ee3-4634-811d-7cdd5aa1e596"
       (reference "J201") (unit 1) (value "Power LED connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -942,7 +948,7 @@
       (reference "J202") (unit 1) (value "Power button connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/7079405c-3ad1-43fd-927f-d2fd30c0a1a1"
-      (reference "J301") (unit 1) (value "DC-005-5A-2.0") (footprint "XKB_DC-005-5A-2.0")
+      (reference "J301") (unit 1) (value "DC-005-5A-2.0") (footprint "footprints:XKB_DC-005-5A-2.0")
     )
     (path "/02991af4-c61c-4970-8a20-194a633e3b5e/99b7aeeb-d494-4822-b7aa-18230d217a0a"
       (reference "J601") (unit 1) (value "Connector 1") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
@@ -1044,13 +1050,31 @@
       (reference "R802") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/90a5bc85-07ac-4ee1-af41-887c984cc4b9/32ae94c8-874c-4f09-a2a7-68934193f58b"
-      (reference "S201") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "SW_PTS636_SM43J_SMTR_LFS")
+      (reference "S201") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "footprints:SW_PTS636_SM43J_SMTR_LFS")
     )
     (path "/9cc1db10-8093-47b8-8876-8e0be9b45cae/566653c3-8e65-4de9-8964-65d41f87dbb4"
-      (reference "S401") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "SW_PTS636_SM43J_SMTR_LFS")
+      (reference "S401") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "footprints:SW_PTS636_SM43J_SMTR_LFS")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/4b4afe15-46f5-4b2f-9388-31f066d36424"
+      (reference "TP301") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/1f68b0e8-4f84-4ec0-8b57-be7daee8f533"
+      (reference "TP302") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/2949254a-b28a-49b5-af18-97123183da4c"
+      (reference "TP303") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/d594195a-bb47-4505-b368-c7256e86d207"
+      (reference "TP304") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/8ffa5883-6335-4e84-8ff2-54db4d4c5df4"
+      (reference "TP305") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/23045760-48c0-4e4d-ae23-ca02d01be46e"
+      (reference "TP306") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/90a5bc85-07ac-4ee1-af41-887c984cc4b9/59982c73-886b-4170-86b9-ec6a59582b98"
-      (reference "U201") (unit 1) (value "RP2040") (footprint "QFN40P700X700X90-57N")
+      (reference "U201") (unit 1) (value "RP2040") (footprint "footprints:QFN40P700X700X90-57N")
     )
     (path "/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1/3423fef0-4b0b-42be-b35a-2d4dc99c5655"
       (reference "U301") (unit 1) (value "LD1117S50TR_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
@@ -1068,7 +1092,7 @@
       (reference "U701") (unit 1) (value "hs8836a") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
     )
     (path "/90a5bc85-07ac-4ee1-af41-887c984cc4b9/5c701851-ab5e-4026-9eeb-b00ec3a07414"
-      (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "XTAL_ECS-120-8-36-CGN-TR")
+      (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
     )
   )
 )

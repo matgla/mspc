@@ -56,8 +56,25 @@
         }
       ],
       "drc_exclusions": [
+        "footprint_type_mismatch|107800000|93400000|f70be763-9f16-449c-b50c-c8428d8ddb53|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|108500000|112400000|84dea478-b855-4267-aa24-6b336fbce1d8|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|120000000|89000000|728d05a9-b3a6-43c1-bf2b-9af491e8e1bd|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|120400000|89600000|728d05a9-b3a6-43c1-bf2b-9af491e8e1bd|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|34400000|109000000|b79977ea-9fcd-4912-bb12-8519c1692c72|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|46765000|115400000|cc58504e-912a-4b3c-bb4d-7e7a237f459f|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|47000000|141000000|e6730344-2df2-428e-9c3a-ef40152cf7a9|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|58800000|136600000|82843485-a72b-4017-9f0c-4de6995b5e50|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|95400000|111800000|059945cf-7e0d-4bdb-be33-ca1646f9075a|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|95800000|92800000|3b452a52-ef8d-46d6-bfda-3fa01761dba8|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|99000000|125000000|8093407e-f901-4b5f-bb80-312934b2b0e5|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|24839997|125800009|0779b706-bfb3-4a2b-903a-0d707d7a0db2|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|24880000|146600000|39803ae7-9031-4808-8af1-c6cacfb1fc78|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|123000000|123500000|f5413c94-6fe6-46be-8577-dd2a47c23d96|0d11d68f-685e-4071-9ee9-ae98904b02e0",
+        "silk_edge_clearance|123000000|132500000|f5413c94-6fe6-46be-8577-dd2a47c23d96|9abfde99-0c46-44dd-bedc-d5f552d37e1c",
+        "silk_edge_clearance|23000000|119490009|f5413c94-6fe6-46be-8577-dd2a47c23d96|900cf75d-1938-4e82-99ff-20b0f2d42036",
+        "silk_edge_clearance|23000000|132110009|f5413c94-6fe6-46be-8577-dd2a47c23d96|2f251e82-c255-4fe9-8185-cc4517efe7fb",
+        "silk_edge_clearance|23000000|140290000|f5413c94-6fe6-46be-8577-dd2a47c23d96|7aa44419-6cf9-4dbd-81bc-f606b6f57777",
+        "silk_edge_clearance|23000000|152910000|f5413c94-6fe6-46be-8577-dd2a47c23d96|b7b8101d-ba7d-4398-b51c-131454be7075",
         "silk_over_copper|123000000|123500000|f5413c94-6fe6-46be-8577-dd2a47c23d96|d51d5b8f-1e1e-4a76-bc08-20517c62d1ae",
         "silk_over_copper|123000000|132500000|f5413c94-6fe6-46be-8577-dd2a47c23d96|795c8c90-fed5-41b7-befe-40181862e84d",
         "silk_over_copper|23000000|119490009|f5413c94-6fe6-46be-8577-dd2a47c23d96|900cf75d-1938-4e82-99ff-20b0f2d42036",
@@ -83,6 +100,7 @@
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -94,9 +112,11 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
+        "overlapping_pads": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -112,7 +132,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -142,6 +161,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -155,7 +175,8 @@
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_target_name": "td_round_shape"
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
         },
         {
           "td_curve_segcount": 0,
@@ -163,7 +184,8 @@
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_target_name": "td_rect_shape"
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
         },
         {
           "td_curve_segcount": 0,
@@ -171,7 +193,8 @@
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_target_name": "td_track_end"
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
         }
       ],
       "track_widths": [

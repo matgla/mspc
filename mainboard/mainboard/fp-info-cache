@@ -1,4 +1,4 @@
-20250062155357057
+20262559216669066
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -45843,6 +45843,13 @@ USB Type-C Receptacle Through-hole Right angle
 20
 17
 Connector_USB
+USB_C_Receptacle_GCT_USB4115-03-C
+USB TYPE C, VERT RCPT PCB, SMT, https://gct.co/files/drawings/usb4115.pdf
+USB C Type-C Receptacle SMD
+0
+28
+25
+Connector_USB
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
 usb usb-c 2.0 pd
@@ -55376,6 +55383,20 @@ L_CommonMode_Toroid Vertical series Radial pin pitch 17.78*30.48mm^2  length 43.
 0
 4
 4
+Inductor_THT
+L_CommonMode_VAC_T60405-S6123-X140
+3 Phase, CM Choke, https://vacuumschmelze.com/03_Documents/Datasheets%20-%20Drawings/Commom-Mode-Chokes/6123-X140.pdf
+common mode filter
+0
+6
+6
+Inductor_THT
+L_CommonMode_VAC_T60405-S6123-X240
+3 Phase, CM Choke, https://vacuumschmelze.com/03_Documents/Datasheets%20-%20Drawings/Commom-Mode-Chokes/6123-X240.pdf
+common mode filter
+0
+6
+6
 Inductor_THT
 L_CommonMode_Wuerth_WE-CMB-L
 Wuerth, WE-CMB, Bauform L,
@@ -72034,7 +72055,7 @@ VSON-8_3.3x3.3mm_P0.65mm_NexFET
 8-Lead Plastic Dual Flat, No Lead Package (MF) - 3.3x3.3x1 mm Body [VSON] http://www.ti.com/lit/ds/symlink/csd87334q3d.pdf
 VSON 0.65
 0
-12
+13
 5
 Package_SON
 VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm
