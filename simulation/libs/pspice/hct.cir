@@ -1,0 +1,220 @@
+HCMOS BERKELEY SPICE MODELS
+* HCT.CIR
+* HC AND HCT PRODUCT FAMILY
+* STANDARD LOGIC PRODUCT GROUP
+* NXP SEMICONDUCTORS
+*
+* Version Date       By   Remarks
+* ---------------------------------------------------------------------
+*    1.4  31/01/2022 KDD  Added HC(T)10/11
+*    1.3  25/01/2022 KDD  Added HC11
+*    1.2  30/03/2011 RRV  Rewritten netlists to add package options.
+*    1.12 27/10/2010 RRV  Added HC(T)240/253
+*    1.11 06/07/2010 RRV  Added HC(T)02/08/86
+*    1.10 10/12/2009 RRV  Removed HCT05
+*    1.09 09/22/2009 RRV  Corrected typo in SWITCH3N
+*    1.08 09/04/2009 RRV  Added HC(T)4020/4060
+*    1.07 03/27/2009 RRV  Added HC(T)05
+*    1.06 02/20/2006 RRV  Added HC(T)366/368
+*    1.05 10/27/2005 RRV  Updated HC/T04 and HCU04 models
+*    1.04 09/22/2003 RM   Active High Enable for SWI2 and SWI2T
+*
+*--------------------------------------------------------------*
+*SIMULATION MODULES OF CMOS LOGIC PARTS OF NXP SEMICONDUCTORS  *
+*HCMOS FAMILY IN BERKELEY SPICE FORMAT                         *
+*--------------------------------------------------------------*
+* IN ORDER TO SIMULATE A SPECIFIC HCMOS DEVICE, GO TO THE END  *
+* OF THE FILE UNDER HEADING 'START RUNNING CIRCUIT MODEL' AND  *
+* REMOVE THE COMMENT STATEMENT '*' BEFORE THE REQUIRED DEVICE. *
+* ALL OTHER DEVICES MUST HAVE AN '*' COMMENT STATEMENT.        *
+* IF YOU LIKE TO SIMULATE WITH FAST OR SLOW PARAMETERS, GO TO  *
+* HEADING 'PROCESS MODELS' AND REMOVE THE COMMENT STATEMENT '*'*
+* BEFORE THE REQUIRED PROCESS MODEL.                           *
+* YOU MAY ONLY SIMULATE ONE DEVICE AT THE TIME.                *
+* THE LOAD CIRCUIT AND SIMULATION TIMING SHOULD NORMALLY BE    *
+* ADAPTED TO YOUR SPECIFIC SITUATION.                          *
+*--------------------------------------------------------------*
+
+******************************************************************
+*                                                                *
+* These HCMOS models represent only one data input and one output*
+* of the device. Devices with a 3-state output buffer also have  *
+* an Output Enable (OE) input. The HC138 also has an Input Enable*
+* (EN) input. Other control inputs such as DIR or CLK inputs are *
+* not modeled. Circuitry between the input and output buffers are*
+* also omitted, such as gates, registers, latches, mux's and     *
+* intermediate buffers. One result of this is that HC models do  *
+* not show the exact function of the device.  Another result of  *
+* this is that propagation delays in SPICE will not necessarily  *
+* match with the published AC timing specifications in the device*
+* datasheet.                                                     *
+*                                                                *
+******************************************************************
+
+**********************************************************
+.OPTIONS  ACCT   LIST  OPTS  ITL5=25000  NOMOD INGOLD=2
+
+* Nominal parameters
+*.INC hc_tnomi.cir
+
+* Fast parameters
+*.INC hc_tfast.cir
+
+* Slow parameters
+.INC hc_tslow.cir
+
+**********************************************************
+* Package Options
+**********************************************************
+*.INC ssop.s
+*.INC so.s
+*.INC dip.s
+.INC tssop.s
+*.INC dhvqfn.s
+
+*************  START RUNNING CIRCUIT MODEL  **************
+*XHC00     2  3  1  0        HC00pck
+*XHCT00    2  3  1  0        HCT00pck
+*XHC02     2  3  1  0        HC02pck
+*XHCT02    2  3  1  0        HCT02pck
+*XHC04     2  3  1  0        HC04pck
+*XHCT04    2  3  1  0        HCT04pck
+*XHCU04    2  3  1  0        HCU04pck
+*XHC05     2  3  1  0        HC05pck
+*XHC08     2  3  1  0        HC08pck
+*XHCT08    2  3  1  0        HCT08pck
+*XHC10     2  3  1  0        HC10pck
+XHCT10    2  3  1  0        HCT10pck
+*XHC11     2  3  1  0        HC11pck  
+*XHCT11    2  3  1  0        HCT11pck
+*XHC14     2  3  1  0        HC14pck
+*XHCT14    2  3  1  0        HCT14pck
+*XHC32     2  3  1  0        HC32pck
+*XHCT32    2  3  1  0        HCT32pck
+*XHC74     2  3  1  0        HC74pck
+*XHCT74    2  3  1  0        HCT74pck
+*XHC86     2  3  1  0        HC86pck
+*XHCT86    2  3  1  0        HCT86pck
+*XHC123    2  3  1  0        HC123pck
+*XHCT123   2  3  1  0        HCT123pck
+*XHC132    2  3  1  0        HC132pck
+*XHCT132   2  3  1  0        HCT132pck
+*XHC138    2  5  3  1  0     HC138pck
+*XHCT138   2  5  3  1  0     HCT138pck
+*XHC161    2  3  1  0        HC161pck
+*XHCT161   2  3  1  0        HCT161pck
+*XHC163    2  3  1  0        HC163pck
+*XHCT163   2  3  1  0        HCT163pck
+*XHC240    2  5  3  1  0     HC240pck
+*XHCT240   2  5  3  1  0     HCT240pck
+*XHC244    2  5  3  1  0     HC244pck
+*XHCT244   2  5  3  1  0     HCT244pck
+*XHC245    2  5  3  1  0     HC245pck
+*XHCT245   2  5  3  1  0     HCT245pck
+*XHC253    2  5  3  1  0     HC253pck
+*XHCT253   2  5  3  1  0     HCT253pck
+*XHC273    2  3  1  0        HC273pck
+*XHCT273   2  3  1  0        HCT273pck
+*XHC366    2  5  3  1  0     HC366pck
+*XHCT366   2  5  3  1  0     HCT366pck
+*XHC368    2  5  3  1  0     HC368pck
+*XHCT368   2  5  3  1  0     HCT368pck
+*XHC373    2  5  3  1  0     HC373pck
+*XHCT373   2  5  3  1  0     HCT373pck
+*XHC374    2  5  3  1  0     HC374pck
+*XHCT374   2  5  3  1  0     HCT374pck
+*XHC595    2  5  3  1  0     HC595pck
+*XHCT595   2  5  3  1  0     HCT595pck
+*XHC4020   2  3  1  0        HC4020pck
+*XHCT4020  2  3  1  0        HCT4020pck
+*XHC4040   2  3  1  0        HC4040pck
+*XHCT4040  2  3  1  0        HCT4040pck
+*XHC4051   2  3  4  5  1  0  HC4051pck
+*XHCT4051  2  3  4  5  1  0  HCT4051pck
+*XHC4052   2  3  4  5  1  0  HC4052pck
+*XHCT4052  2  3  4  5  1  0  HCT4052pck
+*XHC4053   2  3  4  5  1  0  HC4053pck
+*XHCT4053  2  3  4  5  1  0  HCT4053pck
+*XHC4060   2  5  3  1  0     HC4060pck
+*XHCT4060  2  5  3  1  0     HCT4060pck
+*XHC4066   2  3  4  1  0     HC4066pck
+*XHCT4066  2  3  4  1  0     HCT4066pck
+*XHC4316   2  3  4  5  1  0  HC4316pck
+*XHCT4316  2  3  4  5  1  0  HCT4316pck
+*XHC4538   2  3  1  0        HC4538pck
+*XHCT4538  2  3  1  0        HCT4538pck
+
+
+*********************** EXTERNAL TEST LOAD ************************
+*R1  3  1  1K
+* Use only for 3-state Tplz
+
+*R1  3  0  1K
+* Use only for 3-state Tphz
+
+*R1  3  0  1K
+C1  3  0  50P
+* Datasheet specifies Cload only. 
+
+* RPU   3  1 1K 
+* For Open-drain types
+*******************************************************************
+
+
+VCC   1  0  DC   4.5
+VIN1  2  0  PULSE 0  4.5  5N  6N  6N  40N  80N
+
+* Use for HC(T)138/244/245/373/374/595
+
+***************************** SWITCH *******************************
+
+****Use ONLY with TRAN. ANAL. (4051 / 4052 / 4053 / 4066 / 4316)****
+
+*VCC   1  0  DC    4.5
+*VIN1  2  0  PULSE 0  4.5  5N  6N  6N  80N  160N
+*VIN2  3  0  DC    4.5
+
+*VEE   5  0  DC    0.0  
+*Do not use with 4066
+
+*RZ    4  0  1K
+*CL    4  0  50P
+
+********************************************************************
+
+
+* Use this part only for 4051 - 4053 and the 4316 Ron calculations *
+*VEE   5  0  DC  -4.5
+*VIN2  2  0  DC   4.5
+
+*VIN3  3  5  PULSE 0  4.5  5N  6N  6N  40N  80N
+*Only for TRAN
+
+*VIN4  3  5  DC   9.0
+*ILAST 4  5  DC   1mA
+*C2    4  0  50P
+********************************************************************
+
+
+******* Use this part only for the 4066 Ron calculations ***********
+*VIN2  2  0  DC   4.5
+
+*VIN3  3  0  PULSE 0  4.5  5N  6N  6N  40N  80N
+*Only for TRAN
+
+*VIN4  3  0  DC   4.5
+*ILAST 4  0  DC   1mA
+*C2    4  0  50P
+********************************************************************
+
+.TRAN  1N   180N
+.PRINT TRAN  V(3)
+
+*PRINT TRAN  V(2)  V(5)
+*Only for 4051 - 4316 with TRAN analyse
+
+.OPTIONS ITL4 = 50
+.OPTIONS POST=2
+
+.PROBE V(2) V(3)
+.END

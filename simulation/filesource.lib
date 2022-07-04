@@ -1,0 +1,7 @@
+.SUBCKT FileSource n1 n0
+ 
+AV1 %v([n1 n0]) filesrc
+
+.model filesrc filesource(file="/home/mateusz/repos/mspc/simulation/sine.m" amploffset=[0 0] amplscale=[1 1] timeoffset=0 timescale=1 timerelative=false amplstep=false) 
+
+.ends

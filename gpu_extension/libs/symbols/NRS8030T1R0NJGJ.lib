@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# NRS8030T1R0NJGJ
+#
+DEF NRS8030T1R0NJGJ L 0 40 N N 1 L N
+F0 "L" -200 -100 50 H V L BNN
+F1 "NRS8030T1R0NJGJ" 0 80 50 H V L BNN
+F2 "NRS8030" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+A -150 0 50 1800 900 0 0 10 N -200 0 -150 50
+A -150 0 50 0 900 0 0 10 N -100 0 -150 50
+A -50 0 50 1800 900 0 0 10 N -100 0 -50 50
+A -50 0 50 0 900 0 0 10 N 0 0 -50 50
+A 50 0 50 1800 900 0 0 10 N 0 0 50 50
+A 50 0 50 0 900 0 0 10 N 100 0 50 50
+A 150 0 50 1800 900 0 0 10 N 100 0 150 50
+A 150 0 50 0 900 0 0 10 N 200 0 150 50
+X ~ 2 300 0 100 L 40 40 0 0 P 
+X ~ 1 -300 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

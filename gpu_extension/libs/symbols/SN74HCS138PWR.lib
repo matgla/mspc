@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SN74HCS138PWR
+#/13354469/801318/2.49/16/3/Integrated Circuit
+DEF SN74HCS138PWR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74HCS138PWR" 850 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/sn74hcs138" 850 0 50 H I L CNN
+F4 "Encoders, Decoders, Multiplexers & Demultiplexers 3-line to 8-line decoders/demultiplexer 16-TSSOP -40 to 125" 850 -100 50 H I L CNN "Description"
+F5 "1.2" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74HCS138PWR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN74HCS138PWR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS138PWR?qs=DPoM0jnrROWeaotPs36QqA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN74HCS138PWR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn74hcs138pwr/texas-instruments" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A0 1 0 0 200 R 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X A2 3 0 -200 200 R 50 50 0 0 P
+X ~G0 4 0 -300 200 R 50 50 0 0 P
+X ~G1 5 0 -400 200 R 50 50 0 0 P
+X G2 6 0 -500 200 R 50 50 0 0 P
+X Y7 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1000 0 200 L 50 50 0 0 P
+X Y0 15 1000 -100 200 L 50 50 0 0 P
+X Y1 14 1000 -200 200 L 50 50 0 0 P
+X Y2 13 1000 -300 200 L 50 50 0 0 P
+X Y3 12 1000 -400 200 L 50 50 0 0 P
+X Y4 11 1000 -500 200 L 50 50 0 0 P
+X Y5 10 1000 -600 200 L 50 50 0 0 P
+X Y6 9 1000 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
