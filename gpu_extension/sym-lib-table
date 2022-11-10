@@ -19,4 +19,7 @@
   (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Crystals.kicad_sym")(options "")(descr ""))
   (lib (name "CAT10-103J4LF")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/CAT10-103J4LF.lib")(options "")(descr ""))
   (lib (name "ABM11")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/ABM11.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC157ADR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/SN74LVC157ADR.lib")(options "")(descr ""))
+  (lib (name "SN74CBTLV3257PW")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/SN74CBTLV3257PW.lib")(options "")(descr ""))
+  (lib (name "APS6408L-3OBM-BA")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/APS6408L-3OBM-BA.lib")(options "")(descr ""))
 )

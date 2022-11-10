@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -88,6 +89,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -96,6 +98,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -112,7 +115,6 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "overlapping_pads": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
@@ -139,6 +141,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
@@ -454,7 +457,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -468,10 +471,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -480,24 +483,15 @@
         "microvia_diameter": 1.524,
         "microvia_drill": 0.762,
         "name": "Power",
-        "nets": [
-          "+3V3_USB_HUB",
-          "+5V_BUS",
-          "+5V_USB_HUB",
-          "+5V_VBUS",
-          "GND",
-          "Net-(U701-VCC)",
-          "VDC"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.524,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -506,18 +500,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power MCU",
-        "nets": [
-          "+1V1"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -526,130 +517,493 @@
         "microvia_diameter": 0.4,
         "microvia_drill": 0.2,
         "name": "Signal",
-        "nets": [
-          "/Bus multiplexers & demultiplexers/BUS.CS0",
-          "/Bus multiplexers & demultiplexers/BUS.CS1",
-          "/Bus multiplexers & demultiplexers/BUS.CS10",
-          "/Bus multiplexers & demultiplexers/BUS.CS11",
-          "/Bus multiplexers & demultiplexers/BUS.CS12",
-          "/Bus multiplexers & demultiplexers/BUS.CS13",
-          "/Bus multiplexers & demultiplexers/BUS.CS14",
-          "/Bus multiplexers & demultiplexers/BUS.CS2",
-          "/Bus multiplexers & demultiplexers/BUS.CS3",
-          "/Bus multiplexers & demultiplexers/BUS.CS4",
-          "/Bus multiplexers & demultiplexers/BUS.CS5",
-          "/Bus multiplexers & demultiplexers/BUS.CS6",
-          "/Bus multiplexers & demultiplexers/BUS.CS7",
-          "/Bus multiplexers & demultiplexers/BUS.CS8",
-          "/Bus multiplexers & demultiplexers/BUS.CS9",
-          "/Bus multiplexers & demultiplexers/BUS.CTRL0",
-          "/Bus multiplexers & demultiplexers/BUS.CTRL1",
-          "/Bus multiplexers & demultiplexers/BUS.CTRL2",
-          "/Bus multiplexers & demultiplexers/BUS.CTRL3",
-          "/Bus multiplexers & demultiplexers/BUS.CTRL4",
-          "/Bus multiplexers & demultiplexers/BUS.INT0",
-          "/Bus multiplexers & demultiplexers/BUS.INT1",
-          "/Bus multiplexers & demultiplexers/BUS.INT2",
-          "/Bus multiplexers & demultiplexers/BUS.INT3",
-          "/Bus multiplexers & demultiplexers/BUS.INT4",
-          "/Bus multiplexers & demultiplexers/BUS.INT5",
-          "/Bus multiplexers & demultiplexers/BUS.INT6",
-          "/Bus multiplexers & demultiplexers/BUS.INT7",
-          "/Bus multiplexers & demultiplexers/BUS.RE0",
-          "/Bus multiplexers & demultiplexers/BUS.RE1",
-          "/Bus multiplexers & demultiplexers/BUS.RE2",
-          "/Bus multiplexers & demultiplexers/BUS.RE3",
-          "/Bus multiplexers & demultiplexers/BUS.RE4",
-          "/Bus multiplexers & demultiplexers/BUS.RE5",
-          "/Bus multiplexers & demultiplexers/BUS.RE6",
-          "/Bus multiplexers & demultiplexers/BUS.RE7",
-          "/Bus multiplexers & demultiplexers/BUS.RE_USB",
-          "/Bus multiplexers & demultiplexers/BUS_INTERRUPT",
-          "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL0",
-          "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL1",
-          "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL2",
-          "/Connectors/BUS.D0",
-          "/Connectors/BUS.D1",
-          "/Connectors/BUS.D2",
-          "/Connectors/BUS.D3",
-          "/Connectors/BUS.D4",
-          "/Connectors/BUS.D5",
-          "/Connectors/BUS.D6",
-          "/Connectors/BUS.D7",
-          "/Connectors/BUS.RWDS",
-          "/Connectors/BUS.SCLK",
-          "/Connectors/DEBUG.SWCLK",
-          "/Connectors/DEBUG.SWD",
-          "/Connectors/I2C.SCL",
-          "/Connectors/I2C.SDA",
-          "/Connectors/UART.RX",
-          "/Connectors/UART.TX",
-          "/Flash memory/FLASH.CSN",
-          "/Flash memory/FLASH.SCLK",
-          "/Flash memory/FLASH.SD0",
-          "/Flash memory/FLASH.SD1",
-          "/Flash memory/FLASH.SD2",
-          "/Flash memory/FLASH.SD3",
-          "/RP2040 Core/SDIO.CLK",
-          "/RP2040 Core/SDIO.CMD",
-          "/RP2040 Core/SDIO.D0",
-          "/RP2040 Core/SDIO.D1",
-          "/RP2040 Core/SDIO.D2",
-          "/RP2040 Core/SDIO.D3",
-          "/RP2040 Core/USB.D+",
-          "/RP2040 Core/USB.D-",
-          "D1+",
-          "D1-",
-          "D2+",
-          "D2-",
-          "D3+",
-          "D3-",
-          "D4+",
-          "D4-",
-          "DEMUX_1_EN",
-          "DEMUX_2_EN",
-          "DEMUX_3_EN",
-          "Net-(R301-Pad2)",
-          "Net-(R304-Pad2)",
-          "Net-(R401-Pad1)",
-          "Net-(U201-RUN)",
-          "Net-(U201-USB_DM)",
-          "Net-(U201-USB_DP)",
-          "Net-(U303-BOOT)",
-          "Net-(U303-FB)",
-          "Net-(U303-SS)",
-          "Net-(U303-SW)",
-          "Net-(U303-VREG)",
-          "Net-(U304-BOOT)",
-          "Net-(U304-FB)",
-          "Net-(U304-SS)",
-          "Net-(U304-SW)",
-          "Net-(U304-VREG)",
-          "Net-(U701-REF)",
-          "Net-(Y201-OUT/IN)",
-          "OSC_XIN",
-          "OSC_XOUT",
-          "POWER_LED",
-          "unconnected-(IC501-Y4)",
-          "unconnected-(IC501-Y5)",
-          "unconnected-(IC501-Y6)",
-          "unconnected-(IC501-Y7)",
-          "unconnected-(IC502-Y0)",
-          "unconnected-(IC505-W)",
-          "unconnected-(U701-NC)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+3V3_USB_HUB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V_BUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V_USB_HUB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V_VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U701-VCC)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "Power MCU",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS10"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS11"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS12"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS13"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS14"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS5"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS7"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS8"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CS9"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CTRL0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CTRL1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CTRL2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CTRL3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.CTRL4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT5"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.INT7"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE5"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE7"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS.RE_USB"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS_INTERRUPT"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Bus multiplexers & demultiplexers/BUS_INTERRUPT.CTRL2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D5"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.D7"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.RWDS"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/BUS.SCLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/DEBUG.SWCLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/DEBUG.SWD"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/I2C.SCL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/I2C.SDA"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/UART.RX"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Connectors/UART.TX"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.CSN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.SCLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.SD0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.SD1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.SD2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Flash memory/FLASH.SD3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.CLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.CMD"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.D0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.D1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.D2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/SDIO.D3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/USB.D+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RP2040 Core/USB.D-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D1+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D1-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D2+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D2-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D3+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D3-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D4+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "D4-"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DEMUX_1_EN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DEMUX_2_EN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DEMUX_3_EN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(R301-Pad2)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(R304-Pad2)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(R401-Pad1)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U201-RUN)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U201-USB_DM)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U201-USB_DP)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U303-BOOT)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U303-FB)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U303-SS)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U303-SW)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U303-VREG)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U304-BOOT)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U304-FB)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U304-SS)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U304-SW)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U304-VREG)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(U701-REF)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net-(Y201-OUT/IN)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "OSC_XIN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "OSC_XOUT"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "POWER_LED"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC501-Y4)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC501-Y5)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC501-Y6)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC501-Y7)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC502-Y0)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(IC505-W)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U701-NC)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -699,6 +1053,8 @@
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
