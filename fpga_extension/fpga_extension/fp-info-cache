@@ -1,4 +1,4 @@
-19823261250981324
+19818324927730203
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84482,24 +84482,3 @@ varistor SIOV
 0
 2
 2
-fpga_extension
-BGA24C100P5X5_800X600X120N
-
-
-0
-24
-24
-fpga_extension
-L_TDK_SLF6025
-Inductor, TDK, SLF6025, 6.0mmx6.0mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/document/catalog/smd/inductor_commercial_power_slf6025_en.pdf)
-Inductor TDK_SLF6025
-0
-2
-2
-fpga_extension
-VREG_AP7340D-25FS4-7
-
-
-0
-5
-5

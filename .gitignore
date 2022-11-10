@@ -1,2 +1,3 @@
-mainboard/mainboard/mainboard-backups/
-gpu_extension/gpu_extension/gpu_externsion-backups
+mainboard/mainboard/mainboard-backups/*
+gpu_extension/gpu_extension-backups/*
+fpga_extension/fpga_extension/fpga_extension-backups/*

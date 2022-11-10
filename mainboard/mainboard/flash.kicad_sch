@@ -192,7 +192,7 @@
             (xy -2.54 0)
             (xy -5.08 0)
           )
-          (stroke (width 0.1524) (type default))
+          (stroke (width 0.1524) (type solid))
           (fill (type none))
         )
         (polyline
@@ -200,7 +200,7 @@
             (xy -2.54 0)
             (xy 2.794 2.1336)
           )
-          (stroke (width 0.1524) (type default))
+          (stroke (width 0.1524) (type solid))
           (fill (type none))
         )
         (polyline
@@ -208,11 +208,11 @@
             (xy 5.08 0)
             (xy 2.921 0)
           )
-          (stroke (width 0.1524) (type default))
+          (stroke (width 0.1524) (type solid))
           (fill (type none))
         )
         (circle (center 2.54 0) (radius 0.3302)
-          (stroke (width 0.1524) (type default))
+          (stroke (width 0.1524) (type solid))
           (fill (type none))
         )
         (pin passive line (at -7.62 0 0) (length 2.54)
@@ -569,7 +569,7 @@
     (property "Value" "PTS636_SM43J_SMTR_LFS" (at 95.25 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:SW_PTS636_SM43J_SMTR_LFS" (at 91.44 88.9 0)
+    (property "Footprint" "SW_PTS636_SM43J_SMTR_LFS" (at 91.44 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 91.44 88.9 0)
@@ -592,7 +592,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9cc1db10-8093-47b8-8876-8e0be9b45cae"
-          (reference "S401") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "footprints:SW_PTS636_SM43J_SMTR_LFS")
+          (reference "S401") (unit 1) (value "PTS636_SM43J_SMTR_LFS") (footprint "SW_PTS636_SM43J_SMTR_LFS")
         )
       )
     )
