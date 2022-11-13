@@ -440,6 +440,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -1002,6 +1003,14 @@
       {
         "netclass": "Signal",
         "pattern": "unconnected-(U701-NC)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Connectors/BUS.D1"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3_BUS"
       }
     ]
   },
