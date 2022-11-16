@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -62,20 +63,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -85,9 +92,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -96,7 +108,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -104,20 +115,65 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.09999999999999999,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 1.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.39999999999999997,
         "min_microvia_drill": 0.19999999999999998,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.356,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.1,
@@ -154,7 +210,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -376,7 +433,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -390,10 +447,10 @@
         "track_width": 0.13,
         "via_diameter": 0.356,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -402,40 +459,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "BUS",
-        "nets": [
-          "/Connector/BUS_ACCESS",
-          "/Connector/BUS_CLK",
-          "/Connector/BUS_COMMAND_DATA",
-          "/Connector/BUS_D0",
-          "/Connector/BUS_D1",
-          "/Connector/BUS_D2",
-          "/Connector/BUS_D3",
-          "/Connector/BUS_D4",
-          "/Connector/BUS_D5",
-          "/Connector/BUS_D6",
-          "/Connector/BUS_D7",
-          "/Connector/BUS_GRANT",
-          "/Connector/CONF_CDONE",
-          "/Connector/CONF_NSTATUS",
-          "/Connector/CONF_RESET",
-          "/Connector/EXT_CLK",
-          "/Connector/SPI_CLOCK",
-          "/Connector/SPI_DATA",
-          "/fpga/CONF_DONE",
-          "/fpga/CONF_NSTATUS",
-          "/fpga/CONF_RESET",
-          "/fpga/SPI_CLK",
-          "/fpga/SPI_DATA"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.356,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -444,21 +476,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POWER",
-        "nets": [
-          "+1V2",
-          "+3V3",
-          "GND",
-          "Net-(C24-Pad1)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.356,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -467,59 +493,285 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RAM",
-        "nets": [
-          "/SDRAM/RAM_A0",
-          "/SDRAM/RAM_A1",
-          "/SDRAM/RAM_A10",
-          "/SDRAM/RAM_A11",
-          "/SDRAM/RAM_A12",
-          "/SDRAM/RAM_A2",
-          "/SDRAM/RAM_A3",
-          "/SDRAM/RAM_A4",
-          "/SDRAM/RAM_A5",
-          "/SDRAM/RAM_A6",
-          "/SDRAM/RAM_A7",
-          "/SDRAM/RAM_A8",
-          "/SDRAM/RAM_A9",
-          "/SDRAM/RAM_BS0",
-          "/SDRAM/RAM_BS1",
-          "/SDRAM/RAM_CAS#",
-          "/SDRAM/RAM_CKE",
-          "/SDRAM/RAM_CLK",
-          "/SDRAM/RAM_CS#",
-          "/SDRAM/RAM_D0",
-          "/SDRAM/RAM_D1",
-          "/SDRAM/RAM_D10",
-          "/SDRAM/RAM_D11",
-          "/SDRAM/RAM_D12",
-          "/SDRAM/RAM_D13",
-          "/SDRAM/RAM_D14",
-          "/SDRAM/RAM_D15",
-          "/SDRAM/RAM_D2",
-          "/SDRAM/RAM_D3",
-          "/SDRAM/RAM_D4",
-          "/SDRAM/RAM_D5",
-          "/SDRAM/RAM_D6",
-          "/SDRAM/RAM_D7",
-          "/SDRAM/RAM_D8",
-          "/SDRAM/RAM_D9",
-          "/SDRAM/RAM_LDQM",
-          "/SDRAM/RAM_RAS#",
-          "/SDRAM/RAM_UDQM",
-          "/SDRAM/RAM_WE#"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.356,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_ACCESS"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_CLK"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_COMMAND_DATA"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D0"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D1"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D2"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D3"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D4"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D5"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D6"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_D7"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/BUS_GRANT"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/CONF_CDONE"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/CONF_NSTATUS"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/CONF_RESET"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/EXT_CLK"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/SPI_CLOCK"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/Connector/SPI_DATA"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/fpga/CONF_DONE"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/fpga/CONF_NSTATUS"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/fpga/CONF_RESET"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/fpga/SPI_CLK"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "/fpga/SPI_DATA"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "Net-(C24-Pad1)"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A0"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A1"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A10"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A11"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A12"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A2"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A3"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A4"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A5"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A6"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A7"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A8"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_A9"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_BS0"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_BS1"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_CAS#"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_CKE"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_CLK"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_CS#"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D0"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D1"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D10"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D11"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D12"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D13"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D14"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D15"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D2"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D3"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D4"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D5"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D6"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D7"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D8"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_D9"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_LDQM"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_RAS#"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_UDQM"
+      },
+      {
+        "netclass": "RAM",
+        "pattern": "/SDRAM/RAM_WE#"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -535,6 +787,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -567,6 +821,8 @@
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
