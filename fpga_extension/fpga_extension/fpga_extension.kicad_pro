@@ -837,7 +837,7 @@
     ],
     [
       "dba551ab-d1c2-4929-8aa3-5e9b49e05fcf",
-      "FPGA Config & Bus"
+      "FPGA Config, Bus & Clock"
     ],
     [
       "0508c078-08cc-417f-b61f-48d56afe205a",
@@ -849,15 +849,7 @@
     ],
     [
       "163e4125-8e51-44a8-bfe7-73013b4370b0",
-      "FPGA HyperRam"
-    ],
-    [
-      "191072c1-f1a0-4628-a85c-1b220f5a8dbe",
-      "HyperRAM"
-    ],
-    [
-      "9c404515-8db6-4333-9ae5-8b98f2cc5e89",
-      "FPGA DVI"
+      "FPGA RAM"
     ],
     [
       "0b1b5c70-1f64-4928-ac3a-4f98af1b6ecc",

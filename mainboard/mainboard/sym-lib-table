@@ -15,4 +15,6 @@
   (lib (name "ECS-120-8-36-CGN-TR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/ECS-120-8-36-CGN-TR.lib")(options "")(descr ""))
   (lib (name "HS8836A")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/HS8836A.kicad_sym")(options "")(descr ""))
   (lib (name "10067847-001RLF")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/10067847-001RLF.lib")(options "")(descr ""))
+  (lib (name "SN74HCS238PWR")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/SN74HCS238PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "Project Audio DAC")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Project Audio DAC.kicad_sym")(options "")(descr ""))
 )

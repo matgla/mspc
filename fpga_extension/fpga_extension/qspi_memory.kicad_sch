@@ -505,7 +505,7 @@
   (symbol (lib_id "power:GND") (at 49.53 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 123f3ad3-0fd7-40f5-9a7f-3e2dc105ea7e)
-    (property "Reference" "#PWR?" (at 49.53 85.09 0)
+    (property "Reference" "#PWR0163" (at 49.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 83.82 0)
@@ -521,7 +521,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -530,7 +530,7 @@
   (symbol (lib_id "power:GND") (at 119.38 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b87a5b2-d2d7-4479-ab0e-7b984ae895ce)
-    (property "Reference" "#PWR?" (at 119.38 104.14 0)
+    (property "Reference" "#PWR0162" (at 119.38 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 102.87 0)
@@ -546,7 +546,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -555,7 +555,7 @@
   (symbol (lib_id "power:GND") (at 182.88 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e9044c0-446d-4daf-96f8-d106e2441d3c)
-    (property "Reference" "#PWR?" (at 182.88 104.14 0)
+    (property "Reference" "#PWR0158" (at 182.88 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 102.87 0)
@@ -571,7 +571,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -606,7 +606,7 @@
   (symbol (lib_id "fpga_extension_library:VCC_QSPI") (at 119.38 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32aa64a7-8a9e-4c47-8aa8-9e71a2daa867)
-    (property "Reference" "#PWR?" (at 119.38 69.85 0)
+    (property "Reference" "#PWR0160" (at 119.38 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_QSPI" (at 119.38 60.96 0)
@@ -622,7 +622,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "VCC_QSPI") (footprint "")
+          (reference "#PWR0160") (unit 1) (value "VCC_QSPI") (footprint "")
         )
       )
     )
@@ -773,7 +773,7 @@
   (symbol (lib_id "fpga_extension_library:VCC_QSPI") (at 49.53 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ab1bac9-d4a6-44f7-aea5-bbf23f5ffec3)
-    (property "Reference" "#PWR?" (at 49.53 68.58 0)
+    (property "Reference" "#PWR0161" (at 49.53 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_QSPI" (at 49.53 59.69 0)
@@ -789,7 +789,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "VCC_QSPI") (footprint "")
+          (reference "#PWR0161") (unit 1) (value "VCC_QSPI") (footprint "")
         )
       )
     )
@@ -798,7 +798,7 @@
   (symbol (lib_id "fpga_extension_library:VCC_QSPI") (at 182.88 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccd1c0b7-64f5-4ba4-a740-925b7145dfd3)
-    (property "Reference" "#PWR?" (at 182.88 69.85 0)
+    (property "Reference" "#PWR0159" (at 182.88 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_QSPI" (at 182.88 60.96 0)
@@ -814,7 +814,7 @@
     (instances
       (project "fpga_extension"
         (path "/a6f73e0d-9cce-49ab-8363-cdcc30f9e355/50a7b31e-7ebf-40b9-aea8-607bd559467f"
-          (reference "#PWR?") (unit 1) (value "VCC_QSPI") (footprint "")
+          (reference "#PWR0159") (unit 1) (value "VCC_QSPI") (footprint "")
         )
       )
     )

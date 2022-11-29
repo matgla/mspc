@@ -1,4 +1,8 @@
 (sym_lib_table
   (lib (name "lattice")(type "KiCad")(uri "${KIPRJMOD}/lattice.kicad_sym")(options "")(descr ""))
   (lib (name "fpga_extension_library")(type "KiCad")(uri "${KIPRJMOD}/fpga_extension_library.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-480-10-37B2-RWN-TR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/ECS-480-10-37B2-RWN-TR.lib")(options "")(descr ""))
+  (lib (name "MT41K64M16TW1")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/MT41K64M16TW.kicad_sym")(options "")(descr ""))
+  (lib (name "MT41K64M16TW-107_J_TR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/MT41K64M16TW-107_J_TR.lib")(options "")(descr ""))
+  (lib (name "project_power")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/project_power.kicad_sym")(options "")(descr ""))
 )

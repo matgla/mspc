@@ -476,7 +476,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -493,7 +493,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -510,7 +510,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -1011,6 +1011,10 @@
       {
         "netclass": "Power",
         "pattern": "+3V3_BUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3_BUS"
       }
     ]
   },
@@ -1081,24 +1085,48 @@
       "power_supply"
     ],
     [
-      "9cc1db10-8093-47b8-8876-8e0be9b45cae",
-      "Flash memory"
+      "ee636c63-5fee-42d9-b500-aef9f04ef5c4",
+      "South Bridge"
     ],
     [
-      "31f32a76-d757-410b-85fe-f0562223ebc5",
-      "Bus multiplexers & demultiplexers"
+      "82247a11-188e-40f6-a2f8-9149daba124e",
+      "Audio DAC"
     ],
     [
-      "02991af4-c61c-4970-8a20-194a633e3b5e",
-      "Connectors"
+      "e2a0288b-5594-4970-9369-10c890ff0b60",
+      "Main bus control"
     ],
     [
-      "b04c7282-7715-4444-b680-e16531d85cc8",
-      "Usb connectors"
-    ],
-    [
-      "561b7203-f3af-4b67-b44f-3fc4204c8b68",
+      "b34a86cb-f778-45af-b876-f75dc7b3f02d",
       "SD Card"
+    ],
+    [
+      "2f8d2ed3-bd82-4f8a-ae27-6fa7e5d02426",
+      "Bus south connectors"
+    ],
+    [
+      "9c458a31-8cc6-4b30-bfc6-26fedc686704",
+      "South Bridge Oscillator"
+    ],
+    [
+      "e539fd0d-6f44-42c6-b17c-465bf8b74b11",
+      "South Bridge Flash"
+    ],
+    [
+      "fda91f01-15e3-49e1-9dbc-660155d6725a",
+      "MCU Connectors"
+    ],
+    [
+      "51111487-80c0-4835-8136-aa58f0849e66",
+      "MCU USB Hub"
+    ],
+    [
+      "78fa6cb9-f921-4861-9f70-f5ecadaf057b",
+      "MCU flash"
+    ],
+    [
+      "e8a0e619-f78c-4b86-bbf0-84ff0e9ddba1",
+      "North Bridge BUS multiplexer"
     ]
   ],
   "text_variables": {}
