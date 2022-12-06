@@ -335,7 +335,7 @@
     (property "Value" "1k" (at 157.48 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 157.48 103.378 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 157.48 103.378 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 157.48 101.6 0)
@@ -346,13 +346,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "R202") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R202") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R207") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R207") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "R206") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -367,7 +367,7 @@
     (property "Value" "14p" (at 104.14 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 108.9152 109.22 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 108.9152 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 105.41 0)
@@ -378,13 +378,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "C201") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C201") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C225") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C225") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "C216") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C73") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -399,7 +399,7 @@
     (property "Value" "ECS-120-8-36-CGN-TR" (at 125.73 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "XTAL_ECS-120-8-36-CGN-TR" (at 125.73 104.14 0)
+    (property "Footprint" "footprints:XTAL_ECS-120-8-36-CGN-TR" (at 125.73 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 125.73 104.14 0)
@@ -436,13 +436,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "Y202") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y202") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "Y202") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y2") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
         )
       )
     )
@@ -457,7 +457,7 @@
     (property "Value" "14p" (at 149.86 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 154.6352 109.22 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 154.6352 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 105.41 0)
@@ -468,13 +468,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "C202") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C202") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C226") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C226") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "C218") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C74") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )

@@ -1536,13 +1536,13 @@
   (symbol (lib_id "Device:C") (at 123.19 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05a33a53-3485-40ff-a402-f4e8d0f8d1f2)
-    (property "Reference" "C313" (at 127 124.4599 0)
+    (property "Reference" "C29" (at 127 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 127 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 124.1552 129.54 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 124.1552 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 125.73 0)
@@ -1553,7 +1553,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C313") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C29") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -1587,13 +1587,13 @@
   (symbol (lib_id "Device:C") (at 110.49 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 082bee8d-f96b-4994-bbfa-65abeaa570ad)
-    (property "Reference" "C309" (at 114.3 53.3399 0)
+    (property "Reference" "C28" (at 114.3 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 114.3 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 111.4552 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 111.4552 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 54.61 0)
@@ -1604,7 +1604,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C309") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C28") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -1688,13 +1688,13 @@
   (symbol (lib_id "Device:R") (at 173.99 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1064ec5b-454c-41c7-8419-5f8016c9148d)
-    (property "Reference" "R304" (at 176.53 125.7299 0)
+    (property "Reference" "R2" (at 176.53 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "120k" (at 176.53 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 172.212 127 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 172.212 127 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 127 0)
@@ -1705,7 +1705,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R304") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R2") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -1739,7 +1739,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 54.61 58.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f68b0e8-4f84-4ec0-8b57-be7daee8f533)
-    (property "Reference" "TP302" (at 59.69 57.785 90)
+    (property "Reference" "TP2" (at 59.69 57.785 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 59.69 60.325 90)
@@ -1755,7 +1755,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP302") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+          (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
         )
       )
     )
@@ -1764,7 +1764,7 @@
   (symbol (lib_name "L_1") (lib_id "Device:L") (at 172.72 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20175a4b-572b-4aff-9611-7d1751d2db8e)
-    (property "Reference" "L301" (at 172.72 53.34 90)
+    (property "Reference" "L2" (at 172.72 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2u" (at 172.72 55.88 90)
@@ -1781,7 +1781,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "L301") (unit 1) (value "2.2u") (footprint "footprints:IND_NR6028T4R7M")
+          (reference "L2") (unit 1) (value "2.2u") (footprint "footprints:IND_NR6028T4R7M")
         )
       )
     )
@@ -1790,7 +1790,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 196.85 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23045760-48c0-4e4d-ae23-ca02d01be46e)
-    (property "Reference" "TP306" (at 193.04 114.3 0)
+    (property "Reference" "TP5" (at 193.04 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 191.77 116.84 0)
@@ -1806,7 +1806,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP306") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+          (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
         )
       )
     )
@@ -1865,7 +1865,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 80.01 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2949254a-b28a-49b5-af18-97123183da4c)
-    (property "Reference" "TP303" (at 82.55 177.673 0)
+    (property "Reference" "TP3" (at 82.55 177.673 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 82.55 180.213 0)
@@ -1881,7 +1881,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP303") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -1915,13 +1915,13 @@
   (symbol (lib_id "Device:C") (at 100.33 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a94e58b-5fde-41fa-a661-8f9e1cf1fe7c)
-    (property "Reference" "C307" (at 104.14 53.3399 0)
+    (property "Reference" "C26" (at 104.14 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 104.14 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 101.2952 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 101.2952 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 54.61 0)
@@ -1932,7 +1932,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C307") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C26") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -1966,7 +1966,7 @@
   (symbol (lib_id "project_power:BD9D321EFJ") (at 148.59 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e6026be-6895-4b41-87bb-b839d1e6ee4b)
-    (property "Reference" "U303" (at 148.59 43.18 0)
+    (property "Reference" "U6" (at 148.59 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BD9D321EFJ" (at 148.59 45.72 0)
@@ -1990,7 +1990,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "U303") (unit 1) (value "BD9D321EFJ") (footprint "footprints:SOIC127P600X100-9N")
+          (reference "U6") (unit 1) (value "BD9D321EFJ") (footprint "footprints:SOIC127P600X100-9N")
         )
       )
     )
@@ -1999,13 +1999,13 @@
   (symbol (lib_id "Device:C") (at 107.95 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31e6c9f5-82ae-4301-bfa0-506b67b64648)
-    (property "Reference" "C310" (at 111.76 118.1099 0)
+    (property "Reference" "C27" (at 111.76 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 111.76 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 108.9152 123.19 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 108.9152 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 119.38 0)
@@ -2016,7 +2016,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C310") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C27") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2025,7 +2025,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S50TR_SOT223") (at 41.91 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3423fef0-4b0b-42be-b35a-2d4dc99c5655)
-    (property "Reference" "U301" (at 41.91 54.61 0)
+    (property "Reference" "U2" (at 41.91 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1117S50TR_SOT223" (at 41.91 57.15 0)
@@ -2043,7 +2043,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "U301") (unit 1) (value "LD1117S50TR_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+          (reference "U2") (unit 1) (value "LD1117S50TR_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
         )
       )
     )
@@ -2102,13 +2102,13 @@
   (symbol (lib_id "Device:R") (at 176.53 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45801e50-45ec-4892-af18-34a3e6ab3fad)
-    (property "Reference" "R303" (at 179.07 76.1999 0)
+    (property "Reference" "R7" (at 179.07 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 179.07 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 174.752 77.47 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 174.752 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 77.47 0)
@@ -2119,7 +2119,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R303") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R7") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -2128,13 +2128,13 @@
   (symbol (lib_id "Device:C") (at 33.02 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4609ee1b-4b06-452f-8572-26abde358c80)
-    (property "Reference" "C325" (at 35.56 181.61 0)
+    (property "Reference" "C19" (at 35.56 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (at 35.56 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 33.9852 186.69 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 33.9852 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 182.88 0)
@@ -2145,7 +2145,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C325") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C19") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2208,13 +2208,13 @@
   (symbol (lib_id "Device:C") (at 20.32 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b1067d5-7bd2-46b2-af8d-f511227a5f3e)
-    (property "Reference" "C324" (at 22.86 170.18 0)
+    (property "Reference" "C16" (at 22.86 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 22.86 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 21.2852 175.26 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 21.2852 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.32 171.45 0)
@@ -2225,7 +2225,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C324") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C16") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2234,7 +2234,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 49.53 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b4afe15-46f5-4b2f-9388-31f066d36424)
-    (property "Reference" "TP301" (at 52.07 72.517 0)
+    (property "Reference" "TP1" (at 52.07 72.517 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 52.07 75.057 0)
@@ -2250,7 +2250,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP301") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
+          (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
         )
       )
     )
@@ -2309,13 +2309,13 @@
   (symbol (lib_id "Device:C") (at 125.73 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 541d28a4-d832-483e-9ae1-3a014710c3a2)
-    (property "Reference" "C311" (at 129.54 59.6899 0)
+    (property "Reference" "C31" (at 129.54 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 129.54 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 126.6952 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 126.6952 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 60.96 0)
@@ -2326,7 +2326,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C311") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C31") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2335,13 +2335,13 @@
   (symbol (lib_id "Device:C") (at 161.29 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c07d2fa-6012-4d0b-8c01-85b2e0276806)
-    (property "Reference" "C315" (at 163.83 53.34 0)
+    (property "Reference" "C34" (at 163.83 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 163.83 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 162.2552 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 162.2552 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 54.61 0)
@@ -2352,7 +2352,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C315") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2411,7 +2411,7 @@
   (symbol (lib_id "project_power:BD9D321EFJ") (at 146.05 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66a66c25-cca2-45d7-816b-22b904c47118)
-    (property "Reference" "U304" (at 146.05 107.95 0)
+    (property "Reference" "U5" (at 146.05 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BD9D321EFJ" (at 146.05 110.49 0)
@@ -2435,7 +2435,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "U304") (unit 1) (value "BD9D321EFJ") (footprint "footprints:SOIC127P600X100-9N")
+          (reference "U5") (unit 1) (value "BD9D321EFJ") (footprint "footprints:SOIC127P600X100-9N")
         )
       )
     )
@@ -2494,13 +2494,13 @@
   (symbol (lib_id "Device:C") (at 182.88 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dc966bc-2ab4-485a-8775-1b6a82af49c3)
-    (property "Reference" "C318" (at 186.69 125.7299 0)
+    (property "Reference" "C35" (at 186.69 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (at 186.69 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 183.8452 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 183.8452 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 127 0)
@@ -2511,7 +2511,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C318") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C35") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2570,13 +2570,13 @@
   (symbol (lib_id "Device:C") (at 54.61 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74e34c61-6a1b-4e13-8628-708b7550dec8)
-    (property "Reference" "C303" (at 58.42 64.7699 0)
+    (property "Reference" "C20" (at 58.42 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 58.42 67.3099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 55.5752 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 55.5752 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 66.04 0)
@@ -2587,7 +2587,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C303") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C20") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2671,13 +2671,13 @@
   (symbol (lib_id "Device:C") (at 203.2 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ceb640e-a095-4e77-9a44-15dd6332ef82)
-    (property "Reference" "C322" (at 207.01 125.7299 0)
+    (property "Reference" "C39" (at 207.01 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 207.01 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 204.1652 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 204.1652 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 127 0)
@@ -2688,7 +2688,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C322") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C39") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -2747,13 +2747,13 @@
   (symbol (lib_id "Device:C") (at 195.58 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eda3e99-176e-45bf-9cda-3b1c89cdad96)
-    (property "Reference" "C319" (at 199.39 60.9599 0)
+    (property "Reference" "C38" (at 199.39 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 199.39 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 196.5452 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 196.5452 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.58 62.23 0)
@@ -2764,7 +2764,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C319") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C38") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -2848,13 +2848,13 @@
   (symbol (lib_id "Device:C") (at 20.32 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c984847-6a8d-47f2-8fe7-48c99e352bf8)
-    (property "Reference" "C302" (at 22.86 116.84 0)
+    (property "Reference" "C15" (at 22.86 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 22.86 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 21.2852 121.92 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 21.2852 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.32 118.11 0)
@@ -2865,7 +2865,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C302") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C15") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -2874,13 +2874,13 @@
   (symbol (lib_id "Device:C") (at 87.63 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d57021b-17d7-425a-b48c-37252c14cee8)
-    (property "Reference" "C306" (at 91.44 118.1099 0)
+    (property "Reference" "C23" (at 91.44 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 91.44 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 88.5952 123.19 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 88.5952 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 119.38 0)
@@ -2891,7 +2891,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C306") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C23") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -2900,7 +2900,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 198.12 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ffa5883-6335-4e84-8ff2-54db4d4c5df4)
-    (property "Reference" "TP305" (at 195.58 49.53 0)
+    (property "Reference" "TP6" (at 195.58 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 194.31 52.07 0)
@@ -2916,7 +2916,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP305") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+          (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
         )
       )
     )
@@ -3100,13 +3100,13 @@
   (symbol (lib_id "Device:C") (at 185.42 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abb31953-5886-40ef-b557-c6c2d3f38a0d)
-    (property "Reference" "C317" (at 189.23 60.9599 0)
+    (property "Reference" "C36" (at 189.23 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (at 189.23 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 186.3852 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 186.3852 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 62.23 0)
@@ -3117,7 +3117,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C317") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C36") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3226,13 +3226,13 @@
   (symbol (lib_id "Device:R") (at 176.53 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf1d01dc-656c-4c24-8bf8-6052c837a81e)
-    (property "Reference" "R301" (at 179.07 60.9599 0)
+    (property "Reference" "R5" (at 179.07 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68k" (at 179.07 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 174.752 62.23 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 174.752 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 62.23 0)
@@ -3243,7 +3243,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R301") (unit 1) (value "68k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R5") (unit 1) (value "68k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -3304,13 +3304,13 @@
   (symbol (lib_id "Device:R") (at 173.99 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c58059f8-647a-41eb-8820-2988f1828af1)
-    (property "Reference" "R305" (at 176.53 133.3499 0)
+    (property "Reference" "R3" (at 176.53 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 176.53 135.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 172.212 134.62 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 172.212 134.62 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 134.62 0)
@@ -3321,7 +3321,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R305") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R3") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -3355,13 +3355,13 @@
   (symbol (lib_id "Device:C") (at 25.4 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c93348b6-5bf8-4d14-812a-4e7289034118)
-    (property "Reference" "C301" (at 29.21 64.7699 0)
+    (property "Reference" "C17" (at 29.21 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 29.21 67.3099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 26.3652 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 26.3652 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 66.04 0)
@@ -3372,7 +3372,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C301") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C17") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3381,13 +3381,13 @@
   (symbol (lib_id "Device:C") (at 205.74 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc508178-93bf-4d75-8b3d-45dd344263ab)
-    (property "Reference" "C321" (at 209.55 60.9599 0)
+    (property "Reference" "C40" (at 209.55 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 209.55 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 206.7052 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 206.7052 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 62.23 0)
@@ -3398,7 +3398,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C321") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C40") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -3407,13 +3407,13 @@
   (symbol (lib_id "Device:C") (at 97.79 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccd620d0-8d9e-4a36-8793-bf4f0ef523c7)
-    (property "Reference" "C308" (at 101.6 118.1099 0)
+    (property "Reference" "C25" (at 101.6 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 101.6 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 98.7552 123.19 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 98.7552 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 119.38 0)
@@ -3424,7 +3424,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C308") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C25") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -3433,13 +3433,13 @@
   (symbol (lib_id "Device:C") (at 125.73 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdbe316e-e905-4f2f-ac48-dd90fdba7cc7)
-    (property "Reference" "C312" (at 129.54 74.9299 0)
+    (property "Reference" "C32" (at 129.54 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3300p" (at 129.54 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 126.6952 80.01 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 126.6952 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 76.2 0)
@@ -3450,7 +3450,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C312") (unit 1) (value "3300p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C32") (unit 1) (value "3300p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3509,13 +3509,13 @@
   (symbol (lib_id "Device:C") (at 33.02 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2f3cfd7-354b-421b-885b-c46e9dd7b995)
-    (property "Reference" "C304" (at 35.56 128.27 0)
+    (property "Reference" "C18" (at 35.56 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (at 35.56 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 33.9852 133.35 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 33.9852 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 129.54 0)
@@ -3526,7 +3526,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C304") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C18") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3560,13 +3560,13 @@
   (symbol (lib_id "Device:C") (at 193.04 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5543228-f596-44af-b92c-776d7bd7dd5c)
-    (property "Reference" "C320" (at 196.85 125.7299 0)
+    (property "Reference" "C37" (at 196.85 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 196.85 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 194.0052 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 194.0052 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 127 0)
@@ -3577,7 +3577,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C320") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C37") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -3586,7 +3586,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 93.98 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d594195a-bb47-4505-b368-c7256e86d207)
-    (property "Reference" "TP304" (at 96.52 177.673 0)
+    (property "Reference" "TP4" (at 96.52 177.673 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 96.52 180.213 0)
@@ -3602,7 +3602,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "TP304") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -3611,13 +3611,13 @@
   (symbol (lib_id "Device:C") (at 59.69 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9f6fbe5-02a0-48db-8dc8-b126844ec3d1)
-    (property "Reference" "C323" (at 62.23 116.84 0)
+    (property "Reference" "C21" (at 62.23 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 62.23 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 60.6552 121.92 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 60.6552 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 118.11 0)
@@ -3628,7 +3628,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C323") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C21") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3687,13 +3687,13 @@
   (symbol (lib_id "Device:C") (at 59.69 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db9b8f50-e16f-4cc0-b40b-e6c868855824)
-    (property "Reference" "C326" (at 62.23 170.18 0)
+    (property "Reference" "C22" (at 62.23 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 62.23 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 60.6552 175.26 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 60.6552 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 171.45 0)
@@ -3704,7 +3704,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C326") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C22") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3713,7 +3713,7 @@
   (symbol (lib_id "Device:L") (at 170.18 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc495f43-30db-47fc-95a5-b2bcf36de27c)
-    (property "Reference" "L302" (at 170.18 118.11 90)
+    (property "Reference" "L1" (at 170.18 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3u" (at 170.18 120.65 90)
@@ -3730,7 +3730,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "L302") (unit 1) (value "3.3u") (footprint "footprints:NRS8030")
+          (reference "L1") (unit 1) (value "3.3u") (footprint "footprints:NRS8030")
         )
       )
     )
@@ -3739,13 +3739,13 @@
   (symbol (lib_id "Device:R") (at 176.53 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd26e399-f443-487c-b5e4-2c289bfcfbb5)
-    (property "Reference" "R302" (at 179.07 68.5799 0)
+    (property "Reference" "R6" (at 179.07 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.6k" (at 179.07 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 174.752 69.85 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 174.752 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 69.85 0)
@@ -3756,7 +3756,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R302") (unit 1) (value "5.6k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R6") (unit 1) (value "5.6k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -3815,13 +3815,13 @@
   (symbol (lib_id "Device:C") (at 123.19 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3da7779-0ea1-46dc-90c1-3da0eae63ac3)
-    (property "Reference" "C314" (at 127 139.6999 0)
+    (property "Reference" "C30" (at 127 139.6999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3300p" (at 127 142.2399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 124.1552 144.78 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 124.1552 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 140.97 0)
@@ -3832,7 +3832,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C314") (unit 1) (value "3300p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C30") (unit 1) (value "3300p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3841,13 +3841,13 @@
   (symbol (lib_id "Device:C") (at 90.17 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaf9da41-6479-4e62-a31e-72d7c1cb38b4)
-    (property "Reference" "C305" (at 93.98 53.3399 0)
+    (property "Reference" "C24" (at 93.98 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 93.98 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 91.1352 58.42 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 91.1352 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 54.61 0)
@@ -3858,7 +3858,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C305") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+          (reference "C24") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         )
       )
     )
@@ -3917,13 +3917,13 @@
   (symbol (lib_id "Device:C") (at 158.75 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2c46314-84ea-4f10-8742-a38a82344d5e)
-    (property "Reference" "C316" (at 161.29 118.11 0)
+    (property "Reference" "C33" (at 161.29 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 161.29 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 159.7152 123.19 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 159.7152 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 119.38 0)
@@ -3934,7 +3934,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "C316") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C33") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
@@ -3968,13 +3968,13 @@
   (symbol (lib_id "Device:R") (at 173.99 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8a26d2e-ad7f-4b08-8ad1-68361c6a3ac6)
-    (property "Reference" "R306" (at 176.53 140.9699 0)
+    (property "Reference" "R4" (at 176.53 140.9699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 176.53 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 172.212 142.24 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 172.212 142.24 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 142.24 0)
@@ -3985,7 +3985,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8c334f51-6a0b-406c-9f2c-47b0eaeba7c1"
-          (reference "R306") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R4") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )

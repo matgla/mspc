@@ -17,4 +17,5 @@
   (lib (name "10067847-001RLF")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/10067847-001RLF.lib")(options "")(descr ""))
   (lib (name "SN74HCS238PWR")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/SN74HCS238PWR.kicad_sym")(options "")(descr ""))
   (lib (name "Project Audio DAC")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Project Audio DAC.kicad_sym")(options "")(descr ""))
+  (lib (name "LESD5D5.0CT1G")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/LESD5D5.0CT1G.kicad_sym")(options "")(descr ""))
 )

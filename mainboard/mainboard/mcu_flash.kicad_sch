@@ -431,13 +431,13 @@
   (symbol (lib_id "Device:R") (at 134.62 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26c891de-2798-4d2d-837a-10d5e5346f0f)
-    (property "Reference" "R402" (at 137.16 73.6599 0)
+    (property "Reference" "R18" (at 137.16 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 137.16 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 136.398 74.93 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 136.398 74.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 74.93 0)
@@ -448,7 +448,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "R402") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
         )
       )
     )
@@ -457,7 +457,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 147.32 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59b0648c-de47-49fb-a0fd-a22136bbb0e5)
-    (property "Reference" "U401" (at 149.3394 77.47 0)
+    (property "Reference" "U11" (at 149.3394 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 149.3394 80.01 0)
@@ -480,7 +480,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "U401") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+          (reference "U11") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
         )
       )
     )
@@ -489,13 +489,13 @@
   (symbol (lib_id "Device:C") (at 165.1 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e8b6c4e-81d9-43df-8bc8-e0e1b4829b80)
-    (property "Reference" "C401" (at 168.91 71.1199 0)
+    (property "Reference" "C76" (at 168.91 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 168.91 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 166.0652 76.2 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 166.0652 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 72.39 0)
@@ -506,7 +506,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "C401") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C76") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
         )
       )
     )
