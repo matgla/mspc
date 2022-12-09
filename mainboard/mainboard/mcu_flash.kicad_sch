@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid fadec781-b4d0-4290-af25-982cbbf8c3d2)
 
@@ -92,6 +92,46 @@
         (pin passive line (at 0 -3.81 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_1" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_1_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -403,35 +443,10 @@
     (uuid a88e2dcf-986d-4fc8-8bfe-2feccd09b9b7)
   )
 
-  (symbol (lib_id "power:GND") (at 147.32 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1a6d9be5-8200-4aa6-8e81-f6854d1a111a)
-    (property "Reference" "#PWR0190" (at 147.32 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 147.32 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 147.32 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 147.32 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 459e1743-abdb-4551-9355-32298e85ed20))
-    (instances
-      (project "mainboard"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "#PWR0190") (unit 1) (value "GND") (footprint "")
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 134.62 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26c891de-2798-4d2d-837a-10d5e5346f0f)
-    (property "Reference" "R18" (at 137.16 73.6599 0)
+    (property "Reference" "R27" (at 137.16 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 137.16 76.1999 0)
@@ -448,7 +463,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -457,7 +472,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 147.32 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59b0648c-de47-49fb-a0fd-a22136bbb0e5)
-    (property "Reference" "U11" (at 149.3394 77.47 0)
+    (property "Reference" "U12" (at 149.3394 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 149.3394 80.01 0)
@@ -480,7 +495,32 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "U11") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+          (reference "U12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 147.32 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 633b2b7d-2280-4507-a1f2-2f1d1836b2d2)
+    (property "Reference" "#PWR0182" (at 147.32 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 147.32 105.41 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8f9493f9-5fed-47ff-a3cf-5d7983e8c339))
+    (instances
+      (project "mainboard"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -489,7 +529,7 @@
   (symbol (lib_id "Device:C") (at 165.1 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e8b6c4e-81d9-43df-8bc8-e0e1b4829b80)
-    (property "Reference" "C76" (at 168.91 71.1199 0)
+    (property "Reference" "C72" (at 168.91 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 168.91 73.6599 0)
@@ -506,7 +546,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "C76") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -531,10 +571,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "#PWR?") (unit 1) (value "+3V3_MCU") (footprint "")
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "#PWR0201") (unit 1) (value "+3V3_MCU") (footprint "")
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -559,7 +599,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9/78fa6cb9-f921-4861-9f70-f5ecadaf057b"
-          (reference "#PWR0189") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0189") (unit 1)
         )
       )
     )

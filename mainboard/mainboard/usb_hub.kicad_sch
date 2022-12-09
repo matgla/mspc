@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid e57a3056-c728-4085-873b-3f197b64163b)
 
@@ -522,11 +522,11 @@
         )
       )
     )
-    (symbol "project_power:+3V3_MCU" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "project_power:+3V3_USB_HUB" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3V3_MCU" (at 0 3.556 0)
+      (property "Value" "+3V3_USB_HUB" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -538,10 +538,10 @@
       (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3_MCU\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3V3_MCU_0_1"
+      (symbol "+3V3_USB_HUB_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -567,61 +567,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3V3_MCU_1_1"
+      (symbol "+3V3_USB_HUB_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3_MCU" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "project_power:+3V3_SOUTH" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3_SOUTH" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3_MCU\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3_SOUTH_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_SOUTH_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3_SOUTH" (effects (font (size 1.27 1.27))))
+          (name "+3V3_USB_HUB" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1037,10 +985,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D3") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D4") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1078,10 +1026,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D6") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D6") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D7") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1106,10 +1054,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0210") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -1147,10 +1095,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D5") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D6") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1188,10 +1136,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D8") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D8") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D9") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1229,10 +1177,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D10") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D11") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1257,10 +1205,35 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0710") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0710") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0710") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0710") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "project_power:+3V3_USB_HUB") (at 140.97 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2924cfb4-e9aa-4338-8b6f-05ca4c564831)
+    (property "Reference" "#PWR0134" (at 140.97 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_USB_HUB" (at 140.97 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 140.97 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 140.97 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5c5bf20-e882-4db0-a6ea-0fbd7a359d7d))
+    (instances
+      (project "mainboard"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -1285,10 +1258,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0157") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0157") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0157") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -1297,7 +1270,7 @@
   (symbol (lib_id "Connector:USB_A_Stacked") (at 41.91 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8742bb-4316-4638-805b-222f79ef3f8d)
-    (property "Reference" "J3" (at 41.91 38.1 0)
+    (property "Reference" "J4" (at 41.91 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 41.91 40.64 0)
@@ -1321,10 +1294,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "J3") (unit 1) (value "~") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
+          (reference "J4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "J19") (unit 1) (value "~") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -1362,10 +1335,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D1") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D2") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1390,10 +1363,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0209") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -1418,10 +1391,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0215") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0215") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0215") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -1446,10 +1419,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0706") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0706") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0706") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0706") (unit 1)
         )
       )
     )
@@ -1458,7 +1431,7 @@
   (symbol (lib_id "Device:R") (at 175.26 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69a35365-3094-4979-8adc-cd6c3ba7b9ff)
-    (property "Reference" "R9" (at 170.18 83.82 90)
+    (property "Reference" "R16" (at 170.18 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7" (at 172.72 83.82 90)
@@ -1475,10 +1448,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "R9") (unit 1) (value "4.7") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R16") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R17") (unit 1) (value "4.7") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1516,10 +1489,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D4") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D5") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1544,10 +1517,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0708") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0708") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0708") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0708") (unit 1)
         )
       )
     )
@@ -1572,10 +1545,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0220") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -1613,10 +1586,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D2") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D3") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1642,10 +1615,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "C42") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C42") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C73") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -1670,10 +1643,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0702") (unit 1) (value "~") (footprint "")
+          (reference "#PWR0702") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0702") (unit 1) (value "~") (footprint "")
+          (reference "#PWR0702") (unit 1)
         )
       )
     )
@@ -1698,10 +1671,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0211") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -1726,10 +1699,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0217") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0217") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0217") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -1754,10 +1727,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0208") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1795,10 +1768,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D7") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D7") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D8") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1823,10 +1796,35 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0712") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0712") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0712") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0712") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "project_power:+3V3_USB_HUB") (at 152.4 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 96e1b85b-6dcc-425a-83bb-1420ad43f017)
+    (property "Reference" "#PWR0184" (at 152.4 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_USB_HUB" (at 152.4 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 152.4 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 152.4 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 505497ed-8975-4197-af65-ef4e85ef4ac9))
+    (instances
+      (project "mainboard"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -1851,10 +1849,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0103") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0103") (unit 1)
         )
       )
     )
@@ -1879,10 +1877,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0214") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0214") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0214") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -1891,7 +1889,7 @@
   (symbol (lib_id "Connector:USB_A_Stacked") (at 40.64 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab6b0cc8-efb8-4dc2-ba44-c3153c9d7d42)
-    (property "Reference" "J2" (at 40.64 100.33 0)
+    (property "Reference" "J3" (at 40.64 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 40.64 102.87 0)
@@ -1915,41 +1913,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "J2") (unit 1) (value "~") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
+          (reference "J3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "J18") (unit 1) (value "~") (footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked")
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "project_power:+3V3_MCU") (at 152.4 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bd1868ac-4126-49cd-8d8a-e382886a4c59)
-    (property "Reference" "#PWR?" (at 152.4 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_MCU" (at 152.4 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 152.4 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 309777da-6855-4ef2-b032-5e5e5ce1407f))
-    (instances
-      (project "mainboard"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "#PWR?") (unit 1) (value "+3V3_MCU") (footprint "")
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0200") (unit 1) (value "+3V3_MCU") (footprint "")
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR?") (unit 1) (value "+3V3_MCU") (footprint "")
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -1974,10 +1941,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0216") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0216") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0216") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -2003,10 +1970,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "C41") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C41") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C72") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -2031,10 +1998,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0218") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0218") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0218") (unit 1) (value "+5V_VBUS") (footprint "")
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -2059,10 +2026,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0701") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0701") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0701") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0701") (unit 1)
         )
       )
     )
@@ -2071,7 +2038,7 @@
   (symbol (lib_id "Device:R") (at 137.16 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df8455b5-9f2d-4f37-82eb-b02881363bd8)
-    (property "Reference" "R8" (at 132.08 110.49 90)
+    (property "Reference" "R15" (at 132.08 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 134.62 110.49 90)
@@ -2088,10 +2055,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "R8") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R15") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R16") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2117,38 +2084,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "C43") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C43") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C74") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "project_power:+3V3_SOUTH") (at 140.97 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e4177499-6748-4a22-84a1-65b392c5f869)
-    (property "Reference" "#PWR0134" (at 140.97 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_SOUTH" (at 140.97 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 140.97 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 140.97 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e900471-5c80-4672-9744-5527fe318448))
-    (instances
-      (project "mainboard"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0134") (unit 1) (value "+3V3_SOUTH") (footprint "")
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0134") (unit 1) (value "+3V3_SOUTH") (footprint "")
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -2186,10 +2125,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "D9") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D9") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "D10") (unit 1) (value "LESD5D5.0CT1G") (footprint "footprints:TVS_LESD5D5.0CT1G")
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -2229,10 +2168,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "U7") (unit 1) (value "hs8836a") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
+          (reference "U7") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "U10") (unit 1) (value "hs8836a") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -2257,10 +2196,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0221") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -2285,10 +2224,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/5992df64-4101-4a52-b6a6-07d8f4453a45"
-          (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0219") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0219") (unit 1)
         )
       )
     )

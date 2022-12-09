@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid e9d114bb-7fde-4afc-b334-9cc44186d240)
 
@@ -252,13 +252,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0129") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0129") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -283,13 +283,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0127") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0127") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -314,13 +314,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0128") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0128") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -346,13 +346,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "R202") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R202") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R207") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R207") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -378,13 +378,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "C201") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C201") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C225") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C225") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "C73") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -436,13 +436,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y201") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "Y202") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y202") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "Y2") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y2") (unit 1)
         )
       )
     )
@@ -468,13 +468,13 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/90a5bc85-07ac-4ee1-af41-887c984cc4b9"
-          (reference "C202") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C202") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C226") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C226") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/9c458a31-8cc6-4b30-bfc6-26fedc686704"
-          (reference "C74") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C70") (unit 1)
         )
       )
     )

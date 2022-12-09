@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid 2fe209f2-76a9-4b1b-be1b-46ece3c9497b)
 
@@ -532,7 +532,7 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "#PWR0203") (unit 1) (value "+3V3_SOUTH") (footprint "")
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -558,10 +558,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "C801") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C801") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "C72") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -587,10 +587,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R802") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R802") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -615,10 +615,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0801") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0801") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "#PWR0801") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0801") (unit 1)
         )
       )
     )
@@ -643,10 +643,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0804") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0804") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "#PWR0804") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0804") (unit 1)
         )
       )
     )
@@ -671,10 +671,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0803") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0803") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "#PWR0803") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0803") (unit 1)
         )
       )
     )
@@ -707,10 +707,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "J801") (unit 1) (value "Micro_SD_Card") (footprint "Connector_Card:microSD_HC_Wuerth_693072010801")
+          (reference "J801") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "J4") (unit 1) (value "Micro_SD_Card") (footprint "Connector_Card:microSD_HC_Wuerth_693072010801")
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -736,10 +736,10 @@
     (instances
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "R801") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R801") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/b34a86cb-f778-45af-b876-f75dc7b3f02d"
-          (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+          (reference "R22") (unit 1)
         )
       )
     )

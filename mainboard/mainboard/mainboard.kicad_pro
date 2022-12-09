@@ -21,32 +21,32 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.15239999999999998,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 1.016,
+        "fab_text_size_v": 1.016,
+        "fab_text_thickness": 0.15239999999999998,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.15239999999999998,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_size_h": 1.016,
+        "other_text_size_v": 1.016,
+        "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.84,
-          "width": 0.2
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 1.016,
+        "silk_text_size_v": 1.016,
+        "silk_text_thickness": 0.15239999999999998,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -118,7 +118,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.635,
         "min_microvia_diameter": 0.5,
         "min_microvia_drill": 0.3,
         "min_resolved_spokes": 2,
@@ -177,7 +177,12 @@
       "track_widths": [
         0.0,
         0.1524,
-        0.5588
+        0.2032,
+        0.254,
+        0.4064,
+        0.5588,
+        0.762,
+        1.524
       ],
       "via_dimensions": [
         {
@@ -187,6 +192,10 @@
         {
           "diameter": 0.6096,
           "drill": 0.3048
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.3556
         }
       ],
       "zones_allow_external_fillets": false,
@@ -388,7 +397,11 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -398,6 +411,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -416,7 +430,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -425,6 +439,40 @@
         "microvia_drill": 0.3048,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "Flash QSPI",
+        "pcb_color": "rgb(255, 217, 53)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "North BUS",
+        "pcb_color": "rgb(49, 255, 5)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.6096,
@@ -450,7 +498,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -460,7 +508,7 @@
         "name": "Power MCU",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1778,
+        "track_width": 0.2032,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
@@ -501,6 +549,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "South BUS",
+        "pcb_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.1016,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
@@ -515,169 +580,64 @@
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "XOSC line",
+        "pcb_color": "rgb(123, 109, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V1_MCU": "rgb(238, 74, 71)",
+      "+1V1_SOUTH": "rgb(255, 74, 118)",
+      "+3V3_MCU": "rgb(255, 136, 104)",
+      "GND": "rgb(42, 0, 255)",
+      "VDC": "rgb(255, 114, 43)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/MCU flash/FLASH.*"
-      },
-      {
-        "netclass": "Power MCU",
-        "pattern": "+1V1_MCU"
-      },
-      {
-        "netclass": "Power MCU",
-        "pattern": "+3V3_MCU"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/MCU USB Hub/USB.D-"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/MCU USB Hub/USB.D+"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/MCU_USB_D-"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/MCU_USB_D+"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/OSC_OUT"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/OSC_IN"
-      },
-      {
-        "netclass": "Power MCU",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Signal MCU",
+        "netclass": "North BUS",
         "pattern": "/RP2040 Core/MCU Connectors/BUS_NORTH.*"
       },
       {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/North Bridge BUS multiplexer/BUS_CTRL.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/North Bridge BUS multiplexer/BUS_CTRL.CS00"
-      },
-      {
-        "netclass": "Signal MCU",
+        "netclass": "South BUS",
         "pattern": "/RP2040 Core/BUS_SOUTH.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/MCU Connectors/DEBUG.SWCLK"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/MCU Connectors/DEBUG.SWD"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/RP2040 Core/BUS_SOUTH.RESET#"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Main bus control/BUS.*"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/South Bridge/USB_D-"
-      },
-      {
-        "netclass": "USB 90Ohm",
-        "pattern": "/South Bridge/USB_D+"
-      },
-      {
-        "netclass": "Power MCU",
-        "pattern": "+3V3_SOUTH"
       },
       {
         "netclass": "Power MCU",
         "pattern": "+1V1_SOUTH"
       },
       {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/South Bridge Flash/FLASH.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Main bus control/BUS.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/BUS_RE#.IN"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/BUS_DET.OUT"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/BUS_INT.OUT"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Main bus control/BUS.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Audio DAC/AUDIO.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/South Bridge Oscillator/XOSC_OUT"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/South Bridge Oscillator/XOSC_IN"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/POWER_BUTTON"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/SD Card/SDIO.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Audio DAC/I2C.*"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/Bus south connectors/UART.*"
+        "netclass": "Power MCU",
+        "pattern": "+3V3_SOUTH"
       },
       {
         "netclass": "Signal MCU",
         "pattern": "/South Bridge/Bus south connectors/DEBUG.*"
       },
       {
-        "netclass": "Signal MCU",
-        "pattern": "/power_supply/POWER_ENABLE"
-      },
-      {
-        "netclass": "Signal MCU",
-        "pattern": "/South Bridge/POWER_LED_DATA"
+        "netclass": "Power MCU",
+        "pattern": "GND"
       },
       {
         "netclass": "USB 90Ohm",
-        "pattern": "/South Bridge/USB Hub/*"
+        "pattern": "/South Bridge/USB_D*"
       }
     ]
   },
