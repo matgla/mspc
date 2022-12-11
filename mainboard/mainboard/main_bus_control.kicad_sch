@@ -101,11 +101,11 @@
         )
       )
     )
-    (symbol "project_power:+3V3_SOUTH" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "project_power:+3V3_BUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3V3_SOUTH" (at 0 3.556 0)
+      (property "Value" "+3V3_BUS" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -117,10 +117,10 @@
       (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3_MCU\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3V3_SOUTH_0_1"
+      (symbol "+3V3_BUS_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -146,9 +146,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3V3_SOUTH_1_1"
+      (symbol "+3V3_BUS_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3_SOUTH" (effects (font (size 1.27 1.27))))
+          (name "+3V3_BUS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -889,62 +889,6 @@
     )
   )
 
-  (symbol (lib_id "project_power:+3V3_SOUTH") (at 170.18 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 16ce84cc-b17a-4876-b98b-e3197cdef5d7)
-    (property "Reference" "#PWR0156" (at 170.18 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_SOUTH" (at 170.18 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 170.18 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 170.18 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b1f2030f-e121-4e5a-88fe-40d4bbff8e5b))
-    (instances
-      (project "mainboard"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0156") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
-          (reference "#PWR0111") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "project_power:+3V3_SOUTH") (at 95.25 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 216c308d-ff03-46f3-a36c-d6f4d2707103)
-    (property "Reference" "#PWR0156" (at 95.25 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_SOUTH" (at 95.25 81.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 95.25 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 95.25 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0fd2776-889b-4cee-90b0-e06ff7518713))
-    (instances
-      (project "mainboard"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4"
-          (reference "#PWR0156") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
-          (reference "#PWR0109") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "sn74:SN74LVC139APWR") (at 161.29 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32572382-623f-425e-8227-67e4b2104c04)
@@ -980,6 +924,31 @@
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
           (reference "U10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "project_power:+3V3_BUS") (at 95.25 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 56484d02-377a-4ba3-a1a6-69e60f8f3394)
+    (property "Reference" "#PWR0109" (at 95.25 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_BUS" (at 95.25 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 95.25 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 95.25 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33ddcf02-1f01-48a3-9ca2-1c6248aa8cec))
+    (instances
+      (project "mainboard"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1072,6 +1041,31 @@
       (project "mainboard"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
           (reference "IC1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "project_power:+3V3_BUS") (at 170.18 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid abbb31e4-f740-4b29-b1a3-8ef3ee78ab60)
+    (property "Reference" "#PWR0111" (at 170.18 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_BUS" (at 170.18 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 170.18 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 170.18 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid da11a656-7bff-4aba-bd46-2437f6a86e43))
+    (instances
+      (project "mainboard"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ee636c63-5fee-42d9-b500-aef9f04ef5c4/e2a0288b-5594-4970-9369-10c890ff0b60"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )

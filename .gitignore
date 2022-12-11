@@ -1,3 +1,4 @@
 mainboard/mainboard/mainboard-backups/*
 gpu_extension/gpu_extension-backups/*
 fpga_extension/fpga_extension/fpga_extension-backups/*
+mainboard/mainboard/OUT/*
