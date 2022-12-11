@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid 45679a69-a6b3-4c77-9797-b83ddb43986b)
 
@@ -585,6 +585,11 @@
     (uuid f924ce1a-db05-42eb-8eee-9d015095e269)
   )
 
+  (text "NOT" (at 257.81 38.1 0)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+    (uuid e881f62c-7405-46be-8ca0-7d8e7c805feb)
+  )
+
   (label "TDMS_D2-" (at 245.11 40.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 001fb6c0-b260-4f89-ad2c-bcef166e840f)
@@ -674,7 +679,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0103") (unit 1)
         )
       )
     )
@@ -700,7 +705,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R322") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R322") (unit 1)
         )
       )
     )
@@ -725,7 +730,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "#PWR0114") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -751,7 +756,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R315") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R315") (unit 1)
         )
       )
     )
@@ -777,7 +782,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R321") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R321") (unit 1)
         )
       )
     )
@@ -803,7 +808,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R320") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R320") (unit 1)
         )
       )
     )
@@ -828,7 +833,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -854,7 +859,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R317") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R317") (unit 1)
         )
       )
     )
@@ -879,7 +884,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "#PWR0118") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -905,7 +910,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R319") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R319") (unit 1)
         )
       )
     )
@@ -931,7 +936,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R318") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R318") (unit 1)
         )
       )
     )
@@ -975,7 +980,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "J302") (unit 1) (value "HDMI_A") (footprint "Connector_HDMI:HDMI_A_Molex_208658-1001_Horizontal")
+          (reference "J302") (unit 1)
         )
       )
     )
@@ -1001,7 +1006,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/cb4a3f3b-aabc-4eab-856b-57c798d9cb78"
-          (reference "R316") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R316") (unit 1)
         )
       )
     )

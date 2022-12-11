@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20221206) (generator eeschema)
 
   (uuid 646ea3a1-29dc-491c-81c4-664396fbd837)
 
@@ -707,6 +707,9 @@
   (junction (at 179.07 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 35b5955e-f2c4-42e7-bb0b-d8a65f037481)
   )
+  (junction (at 119.38 29.21) (diameter 0) (color 0 0 0 0)
+    (uuid 3a9a3370-8657-4ed2-999d-e94f625803f0)
+  )
   (junction (at 93.98 21.59) (diameter 0) (color 0 0 0 0)
     (uuid 3dbe9f0a-5b6e-4c04-9d4d-fed5e1c92369)
   )
@@ -721,6 +724,9 @@
   )
   (junction (at 140.97 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 6b735f01-d688-44e9-9a6e-185146236ba8)
+  )
+  (junction (at 119.38 21.59) (diameter 0) (color 0 0 0 0)
+    (uuid 6e569e43-ecc0-4f57-bd85-020c5764d755)
   )
   (junction (at 173.99 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 70eb8b80-97cb-442a-90a8-8a09913f5d90)
@@ -991,6 +997,10 @@
     (stroke (width 0) (type default))
     (uuid 46704690-961a-4fce-af08-2bf45bf89bd5)
   )
+  (wire (pts (xy 109.22 21.59) (xy 119.38 21.59))
+    (stroke (width 0) (type default))
+    (uuid 49b9c44b-ec5c-45d3-9e2b-d2e4aff82478)
+  )
   (bus (pts (xy 52.07 85.09) (xy 52.07 87.63))
     (stroke (width 0) (type default))
     (uuid 4cd7de66-d5df-43b3-9657-6a3b293600c3)
@@ -1050,6 +1060,10 @@
     (uuid 6c573c1d-ce09-4d01-af98-a028f2f98d82)
   )
 
+  (wire (pts (xy 109.22 29.21) (xy 119.38 29.21))
+    (stroke (width 0) (type default))
+    (uuid 6c6fb209-751e-44bc-a773-7eea106fbfec)
+  )
   (wire (pts (xy 193.04 19.05) (xy 193.04 21.59))
     (stroke (width 0) (type default))
     (uuid 6c750467-4474-4c18-8f1e-8a91ddc1669f)
@@ -1699,7 +1713,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C212") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -1725,7 +1739,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C202") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -1818,7 +1832,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "U4") (unit 1) (value "RP2040") (footprint "QFN40P700X700X90-57N")
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1843,7 +1857,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0140") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1869,7 +1883,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C210") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -1895,7 +1909,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C211") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -1920,7 +1934,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0115") (unit 1) (value "+1V1") (footprint "")
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -1945,7 +1959,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1971,7 +1985,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C204") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -1996,7 +2010,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2022,7 +2036,33 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C208") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C208") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 109.22 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f4ece5b-8a2e-4ece-8404-40c2e72470d7)
+    (property "Reference" "C207" (at 111.76 24.13 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 111.76 26.67 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 110.1852 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d7e0325d-a2fa-448e-899a-a35865a8bbec))
+    (pin "2" (uuid d975a064-d84b-4895-b13e-c7530b9d5cec))
+    (instances
+      (project "gpu_extension"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -2047,7 +2087,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -2072,7 +2112,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -2098,7 +2138,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C205") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -2150,7 +2190,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "Y201") (unit 1) (value "ECS-120-8-36-CGN-TR") (footprint "footprints:XTAL_ECS-120-8-36-CGN-TR")
+          (reference "Y201") (unit 1)
         )
       )
     )
@@ -2176,7 +2216,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C213") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C213") (unit 1)
         )
       )
     )
@@ -2201,7 +2241,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2227,7 +2267,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C201") (unit 1) (value "14p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -2252,7 +2292,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -2277,7 +2317,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0107") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -2303,7 +2343,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C209") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -2328,7 +2368,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -2353,7 +2393,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2379,7 +2419,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C214") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C214") (unit 1)
         )
       )
     )
@@ -2405,7 +2445,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C206") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -2430,7 +2470,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0142") (unit 1) (value "+1V1") (footprint "")
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -2455,7 +2495,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0102") (unit 1)
         )
       )
     )
@@ -2480,7 +2520,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -2506,7 +2546,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "R201") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -2531,7 +2571,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0104") (unit 1)
         )
       )
     )
@@ -2558,7 +2598,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "J201") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+          (reference "J201") (unit 1)
         )
       )
     )
@@ -2584,7 +2624,7 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "C203") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -2609,8 +2649,67 @@
     (instances
       (project "gpu_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
-          (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0108") (unit 1)
         )
+      )
+    )
+  )
+
+  (sheet (at 46.99 123.19) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1895e1ba-4de2-42d8-bbf9-b0a505c19c1d)
+    (property "Sheetname" "Memory" (at 46.99 122.4784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "memory.kicad_sch" (at 46.99 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "gpu_extension"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
+      )
+    )
+  )
+
+  (sheet (at 213.36 68.58) (size 41.91 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 639ecb81-1040-4abe-aed7-43933ba8b3dc)
+    (property "Sheetname" "BUS connector" (at 213.36 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "bus_connector.kicad_sch" (at 213.36 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "BUS{RE# CS# CLK D[0..7] DET}" bidirectional (at 213.36 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ca15e15b-450c-44ce-b04b-a1aa3abdafca)
+    )
+    (instances
+      (project "gpu_extension"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
+      )
+    )
+  )
+
+  (sheet (at 213.36 96.52) (size 49.53 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 66ae4eca-3dee-42c4-af7e-6633bba1afef)
+    (property "Sheetname" "DVI connector" (at 213.36 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dvi.kicad_sch" (at 213.36 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "DVI{CK- CK+ D0- D0+ D1- D1+ D2- D2+}" input (at 213.36 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3bc74f52-4e22-43a1-970d-26bf44f80ca1)
+    )
+    (instances
+      (project "gpu_extension"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
       )
     )
   )

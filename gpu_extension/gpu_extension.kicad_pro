@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "footprint_type_mismatch|40020000|149500000|da1dc7f4-bf88-48fd-b13b-fcc3bc0ed5cc|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|38300000|149250000|da1dc7f4-bf88-48fd-b13b-fcc3bc0ed5cc|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -394,7 +391,11 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -404,6 +405,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -603,24 +605,20 @@
   },
   "sheets": [
     [
-      "125be418-c5a0-4917-8634-47021fa57275",
-      ""
+      "1ecc7548-56b5-4eac-8216-a605e0a61d9c",
+      "BUS connector"
     ],
     [
-      "f0969bf3-d19a-4dd7-b14e-11dc331478c5",
-      "RP2040"
-    ],
-    [
-      "cb4a3f3b-aabc-4eab-856b-57c798d9cb78",
-      "Video Output"
-    ],
-    [
-      "c5a36d5a-2a77-4dcf-aa7e-a138a53688f9",
+      "a704f79e-a8fd-4cdb-8d8b-0ba22147b689",
       "Memory"
     ],
     [
-      "a9283d72-9680-4b6f-8dd5-0b119f8297a7",
-      "Connector"
+      "dbb5fafa-af43-4180-b2d4-80b2fd963ed1",
+      "DVI connector"
+    ],
+    [
+      "125be418-c5a0-4917-8634-47021fa57275",
+      ""
     ]
   ],
   "text_variables": {}
