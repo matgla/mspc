@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|48250000|134000000|da1dc7f4-bf88-48fd-b13b-fcc3bc0ed5cc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -114,21 +116,21 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
-        "min_microvia_diameter": 0.39999999999999997,
-        "min_microvia_drill": 0.19999999999999998,
+        "min_hole_to_hole": 0.5334,
+        "min_microvia_diameter": 0.508,
+        "min_microvia_drill": 0.254,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.12,
-        "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997,
+        "min_text_height": 1.016,
+        "min_text_thickness": 0.15239999999999998,
+        "min_through_hole_diameter": 0.254,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.508,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -176,12 +178,16 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
-        0.0,
-        0.1,
-        0.18,
-        0.35,
-        1.5
+        0.114808,
+        0.1524,
+        0.2032,
+        0.254,
+        0.4064,
+        0.5588,
+        0.7112,
+        0.762,
+        1.143,
+        1.524
       ],
       "via_dimensions": [
         {
@@ -189,8 +195,16 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.46,
-          "drill": 0.2
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.6096,
+          "drill": 0.3048
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.3556
         }
       ],
       "zones_allow_external_fillets": false
@@ -424,53 +438,70 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.11,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.1016,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.175006,
         "line_style": 0,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.3048,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.46,
-        "via_drill": 0.2,
+        "track_width": 0.1524,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.11,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.1016,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.175006,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.3048,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.11,
-        "diff_pair_gap": 0.1016,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.125984,
+        "diff_pair_width": 0.15367,
         "line_style": 0,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.3048,
         "name": "TDMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.46,
-        "via_drill": 0.2,
+        "track_width": 0.1524,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.175006,
+        "line_style": 0,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.3048,
+        "name": "VGA 75Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.114808,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -481,52 +512,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "VGA.R0"
-      },
-      {
         "netclass": "Power",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "TDMS"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_CK-"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_CK+"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D0-"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D0+"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D1-"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D1+"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D2-"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D2-"
-      },
-      {
-        "netclass": "TDMS",
-        "pattern": "/Video Output/TDMS_D2+"
+        "pattern": "+1V1_RENDER"
       },
       {
         "netclass": "Power",
@@ -534,19 +521,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "GND"
+        "pattern": "+1V1"
       },
       {
-        "netclass": "Power",
-        "pattern": "GND"
+        "netclass": "VGA 75Ohm",
+        "pattern": "/DVI connector/VGA*"
       },
       {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
+        "netclass": "TDMS",
+        "pattern": "/DVI connector/DVI.*"
       }
     ]
   },
@@ -605,20 +588,28 @@
   },
   "sheets": [
     [
-      "1ecc7548-56b5-4eac-8216-a605e0a61d9c",
-      "BUS connector"
+      "3d531abf-5983-436e-beeb-9e93cbc00f15",
+      "DVI connector"
     ],
     [
       "a704f79e-a8fd-4cdb-8d8b-0ba22147b689",
       "Memory"
     ],
     [
-      "dbb5fafa-af43-4180-b2d4-80b2fd963ed1",
-      "DVI connector"
+      "77feb0c3-3408-44f7-97d9-1b7c52e39e3e",
+      "BUS connector"
     ],
     [
       "125be418-c5a0-4917-8634-47021fa57275",
       ""
+    ],
+    [
+      "14c52db0-9b69-4a0e-bd50-473e13f558f3",
+      "Render Engine"
+    ],
+    [
+      "5bef4c80-9b45-464d-9de5-89f77dfda338",
+      "Memory Render Engine"
     ]
   ],
   "text_variables": {}

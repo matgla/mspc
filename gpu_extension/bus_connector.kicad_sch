@@ -618,7 +618,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 634fafa6-6b05-4582-8d80-061aa7117e51)
   )
-  (label "BUS.D6" (at 59.69 39.37 0)
+  (label "BUS.D6" (at 59.69 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 707a454a-7ad0-40fb-b915-0bc5a92367ed)
   )
@@ -626,11 +626,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7cb44f4f-c36f-4a39-9386-4dce0ac9e153)
   )
-  (label "BUS.D5" (at 59.69 36.83 0)
+  (label "BUS.D5" (at 59.69 36.83 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9cc55866-39d3-447a-81ca-8259ebb5eb29)
   )
-  (label "BUS.D4" (at 59.69 34.29 0)
+  (label "BUS.D4" (at 59.69 34.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a5bcdf7d-9ffb-43ad-b7e5-02fc04f95791)
   )
@@ -658,7 +658,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ede763b5-66de-4c85-8187-f79ea4659cf2)
   )
-  (label "BUS.D7" (at 59.69 41.91 0)
+  (label "BUS.D7" (at 59.69 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f3187b35-eaa1-43d3-9349-e6feeeb74f0e)
   )
@@ -675,7 +675,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 22.86 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d214d8b-9dd8-46be-aad5-c4e2fec262bf)
-    (property "Reference" "#PWR?" (at 22.86 177.8 0)
+    (property "Reference" "#PWR0127" (at 22.86 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 22.86 170.18 0)
@@ -690,7 +690,7 @@
     (pin "1" (uuid 6c08c924-1556-4fc6-acf5-d866140c8089))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0127") (unit 1)
         )
       )
@@ -715,7 +715,7 @@
     (pin "1" (uuid f95a9fb7-4118-40dd-a2e2-4efe926f79ef))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#FLG0106") (unit 1)
         )
       )
@@ -725,7 +725,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 74.93 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16dae737-72b2-43e1-8a82-e86d080d56e3)
-    (property "Reference" "#PWR?" (at 74.93 96.52 0)
+    (property "Reference" "#PWR0116" (at 74.93 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 74.93 88.9 0)
@@ -740,7 +740,7 @@
     (pin "1" (uuid db23100b-ec86-46d2-91f2-e80168da7fea))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0116") (unit 1)
         )
       )
@@ -750,7 +750,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 69.85 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b81d9fa-f98b-4f31-8df2-2037f5f6649f)
-    (property "Reference" "#PWR?" (at 69.85 86.36 0)
+    (property "Reference" "#PWR01" (at 69.85 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 69.85 78.74 0)
@@ -765,7 +765,7 @@
     (pin "1" (uuid a79c7817-da6b-408f-9667-656995eb9ad1))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -775,7 +775,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 41.91 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5384c79c-fb4d-406a-a7ed-ff003cdcbf07)
-    (property "Reference" "#PWR?" (at 41.91 184.15 0)
+    (property "Reference" "#PWR0125" (at 41.91 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 182.88 0)
@@ -790,7 +790,7 @@
     (pin "1" (uuid c63c627f-d411-4117-8c9b-7b921b4d8b8a))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0125") (unit 1)
         )
       )
@@ -800,7 +800,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 60.96 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cd2efbf-2c91-4898-8678-c8652cf8b54e)
-    (property "Reference" "#PWR?" (at 60.96 104.14 0)
+    (property "Reference" "#PWR0117" (at 60.96 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 102.87 0)
@@ -815,7 +815,7 @@
     (pin "1" (uuid 4c2e6850-0e7e-45c3-b38c-d0e797413fa5))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0117") (unit 1)
         )
       )
@@ -840,7 +840,7 @@
     (pin "1" (uuid 9289c6d3-fec1-48c2-b79c-12946db6e3d6))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#FLG0105") (unit 1)
         )
       )
@@ -850,7 +850,7 @@
   (symbol (lib_id "power:+5V") (at 33.02 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9724dd42-6900-4479-91a5-aa794d2e56e2)
-    (property "Reference" "#PWR?" (at 33.02 177.8 0)
+    (property "Reference" "#PWR0126" (at 33.02 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 33.02 170.18 0)
@@ -865,7 +865,7 @@
     (pin "1" (uuid 3b51c7b1-b7f3-4fb6-8479-2c80650af24e))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0126") (unit 1)
         )
       )
@@ -875,7 +875,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 38.1 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d186c26c-8021-49ed-80b0-6da116cfe3f8)
-    (property "Reference" "#PWR?" (at 38.1 104.14 0)
+    (property "Reference" "#PWR0113" (at 38.1 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 102.87 0)
@@ -890,7 +890,7 @@
     (pin "1" (uuid 96e4d312-0a9d-45d3-9198-3df2dd1fff34))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0113") (unit 1)
         )
       )
@@ -900,7 +900,7 @@
   (symbol (lib_id "power:+5V") (at 30.48 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4cc1a0b-0617-4c92-8ab0-22f6bcbb03f9)
-    (property "Reference" "#PWR?" (at 30.48 95.25 0)
+    (property "Reference" "#PWR0112" (at 30.48 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 30.48 87.63 0)
@@ -915,7 +915,7 @@
     (pin "1" (uuid d2d3f990-e257-448c-8286-5056b8f73076))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#PWR0112") (unit 1)
         )
       )
@@ -940,7 +940,7 @@
     (pin "1" (uuid 5b64e72b-94ad-44b6-8e7f-aac6453df523))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "#FLG0101") (unit 1)
         )
       )
@@ -984,7 +984,7 @@
     (pin "9" (uuid e293da4a-0e05-4e73-9684-a7c0438297a1))
     (instances
       (project "gpu_extension"
-        (path "/125be418-c5a0-4917-8634-47021fa57275/1ecc7548-56b5-4eac-8216-a605e0a61d9c"
+        (path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/77feb0c3-3408-44f7-97d9-1b7c52e39e3e"
           (reference "J1") (unit 1)
         )
       )
