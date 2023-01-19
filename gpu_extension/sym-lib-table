@@ -22,4 +22,5 @@
   (lib (name "SN74LVC157ADR")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/SN74LVC157ADR.lib")(options "")(descr ""))
   (lib (name "SN74CBTLV3257PW")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/SN74CBTLV3257PW.lib")(options "")(descr ""))
   (lib (name "APS6408L-3OBM-BA")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/APS6408L-3OBM-BA.kicad_sym")(options "")(descr ""))
+  (lib (name "ips1604")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/ips1604.kicad_sym")(options "")(descr ""))
 )

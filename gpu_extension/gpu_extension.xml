@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/mateusz/repos/mspc/gpu_extension/gpu_extension.kicad_sch</source>
-    <date>śro, 21 gru 2022, 23:33:03</date>
+    <date>wto, 27 gru 2022, 20:39:22</date>
     <tool>Eeschema 6.99.0-1.20221213git1ebe3dc.fc37</tool>
     <sheet number="1" name="/DVI connector/" tstamps="/3d531abf-5983-436e-beeb-9e93cbc00f15/">
       <title_block>
@@ -188,7 +188,7 @@
     </comp>
     <comp ref="R17">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -199,7 +199,7 @@
     </comp>
     <comp ref="R18">
       <value>309</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -210,7 +210,7 @@
     </comp>
     <comp ref="R19">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -221,7 +221,7 @@
     </comp>
     <comp ref="R20">
       <value>309</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -232,7 +232,7 @@
     </comp>
     <comp ref="R21">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -243,7 +243,7 @@
     </comp>
     <comp ref="R22">
       <value>97.6</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -254,7 +254,7 @@
     </comp>
     <comp ref="R23">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -265,7 +265,7 @@
     </comp>
     <comp ref="R24">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -276,7 +276,7 @@
     </comp>
     <comp ref="R25">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -287,7 +287,7 @@
     </comp>
     <comp ref="R26">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -298,7 +298,7 @@
     </comp>
     <comp ref="R27">
       <value>619</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -309,7 +309,7 @@
     </comp>
     <comp ref="R28">
       <value>309</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -320,7 +320,7 @@
     </comp>
     <comp ref="R29">
       <value>309</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -331,7 +331,7 @@
     </comp>
     <comp ref="R30">
       <value>97.6</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -342,7 +342,7 @@
     </comp>
     <comp ref="R31">
       <value>536</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -353,7 +353,7 @@
     </comp>
     <comp ref="R32">
       <value>536</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -364,7 +364,7 @@
     </comp>
     <comp ref="R33">
       <value>47</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -375,7 +375,7 @@
     </comp>
     <comp ref="R34">
       <value>536</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -386,7 +386,7 @@
     </comp>
     <comp ref="R35">
       <value>267</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -397,7 +397,7 @@
     </comp>
     <comp ref="R36">
       <value>47</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -408,7 +408,7 @@
     </comp>
     <comp ref="R37">
       <value>105</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -419,7 +419,7 @@
     </comp>
     <comp ref="R38">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -430,7 +430,7 @@
     </comp>
     <comp ref="R39">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -441,7 +441,7 @@
     </comp>
     <comp ref="R40">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -452,7 +452,7 @@
     </comp>
     <comp ref="R41">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="DVI connector"/>
       <property name="Sheetfile" value="dvi.kicad_sch"/>
@@ -613,30 +613,19 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Memory/" tstamps="/a704f79e-a8fd-4cdb-8d8b-0ba22147b689/"/>
-      <tstamps>1165f286-8c9f-49b5-81fb-b945495d0713</tstamps>
-    </comp>
-    <comp ref="R406">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Memory"/>
-      <property name="Sheetfile" value="memory.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Memory/" tstamps="/a704f79e-a8fd-4cdb-8d8b-0ba22147b689/"/>
-      <tstamps>76bf7ab1-63be-4611-9e67-85b64b1c6ff1</tstamps>
+      <tstamps>7e1ffb6b-8c2f-4b2d-9795-00c7c3814a60</tstamps>
     </comp>
     <comp ref="U1">
-      <value>GD25D05CT</value>
-      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf</datasheet>
-      <libsource lib="Memory_Flash" part="GD25D05CT" description="512kbit, 3.0V Standard and Dual Serial Flash, SOP-8"/>
+      <value>W25Q32JVSS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
+      <libsource lib="Memory_Flash" part="W25Q32JVSS" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
       <property name="Sheetname" value="Memory"/>
       <property name="Sheetfile" value="memory.kicad_sch"/>
-      <property name="ki_description" value="512kbit, 3.0V Standard and Dual Serial Flash, SOP-8"/>
-      <property name="ki_keywords" value="SPI DSPI QSPI 512Kbit 3.0V"/>
+      <property name="ki_description" value="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI"/>
       <sheetpath names="/Memory/" tstamps="/a704f79e-a8fd-4cdb-8d8b-0ba22147b689/"/>
-      <tstamps>2c787e1a-f5d4-4221-830c-dd8306e55ac3</tstamps>
+      <tstamps>65971bfa-cf15-4162-9ad4-a2edd0554758</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_02x10_Odd_Even</value>
@@ -1093,7 +1082,7 @@
     </comp>
     <comp ref="C403">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Memory Render Engine"/>
       <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
@@ -1102,7 +1091,7 @@
       <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
       <tstamps>42a9af04-ac9e-4c41-9e58-ce39f6ee09a0</tstamps>
     </comp>
-    <comp ref="C405">
+    <comp ref="C409">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1111,44 +1100,11 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>3a330790-cb86-47aa-9402-bd7d1cc64d34</tstamps>
-    </comp>
-    <comp ref="C406">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="Memory Render Engine"/>
-      <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>4fc41a2c-4a98-4de1-8f6a-fed4daeed717</tstamps>
-    </comp>
-    <comp ref="C407">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="Memory Render Engine"/>
-      <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>eeb6ac6d-ec1c-4286-8df1-e75b2d1bf6d3</tstamps>
-    </comp>
-    <comp ref="C408">
-      <value>1u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="Memory Render Engine"/>
-      <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>022e0a8d-c5b9-4120-ab41-2b5c5aef5913</tstamps>
+      <tstamps>0f8b4f0a-2979-4daf-bbea-b1c8e7d95bdf</tstamps>
     </comp>
     <comp ref="R403">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Memory Render Engine"/>
       <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
@@ -1166,26 +1122,17 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>a93b80cb-0caf-4c3c-a9fb-872e663557bc</tstamps>
+      <tstamps>3e697538-ecf7-49ac-a912-5e0dcb37a6bd</tstamps>
     </comp>
-    <comp ref="U7">
-      <value>APS6408L-3OBM-BA</value>
-      <footprint>BGA24C100P5X5_600X800X120</footprint>
-      <fields>
-        <field name="MANUFACTURER">AP Memory</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.20 mm</field>
-        <field name="PARTREV">3.6</field>
-        <field name="STANDARD">IPC 7351B</field>
-      </fields>
-      <libsource lib="APS6408L-3OBM-BA" part="APS6408L-3OBM-BA" description=""/>
-      <property name="STANDARD" value="IPC 7351B"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.20 mm"/>
-      <property name="MANUFACTURER" value="AP Memory"/>
-      <property name="PARTREV" value="3.6"/>
+    <comp ref="U2">
+      <value>IPS1604</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://platform.digiic.com/Docs/Product/IPS6404L-SQ-SPN/IPUS%2064Mbit%20SQPI%20PSRAM%20.pdf</datasheet>
+      <libsource lib="ips1604" part="IPS1604" description=""/>
       <property name="Sheetname" value="Memory Render Engine"/>
       <property name="Sheetfile" value="memory_render_engine.kicad_sch"/>
       <sheetpath names="/Render Engine/Memory Render Engine/" tstamps="/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338/"/>
-      <tstamps>126ad00f-c6ff-4bcb-852b-b379c3d72968</tstamps>
+      <tstamps>8bd2a707-a641-444d-a8a2-2bd5dfcfdaf9</tstamps>
     </comp>
     <comp ref="U403">
       <value>W25Q128JVS</value>
@@ -1201,43 +1148,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="APS6408L-3OBM-BA" part="APS6408L-3OBM-BA">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">APS6408L-3OBM-BA</field>
-        <field name="Footprint">BGA24C100P5X5_600X800X120</field>
-        <field name="STANDARD">IPC 7351B</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">1.20 mm</field>
-        <field name="MANUFACTURER">AP Memory</field>
-        <field name="PARTREV">3.6</field>
-      </fields>
-      <pins>
-        <pin num="A2" name="NC" type="no_connect"/>
-        <pin num="A3" name="~{CE}" type="input"/>
-        <pin num="A4" name="~{RESET}" type="input"/>
-        <pin num="A5" name="NC" type="no_connect"/>
-        <pin num="B1" name="NC" type="no_connect"/>
-        <pin num="B2" name="CLK" type="input"/>
-        <pin num="B3" name="VSS" type="power_in"/>
-        <pin num="B4" name="VDD" type="power_in"/>
-        <pin num="B5" name="NC" type="no_connect"/>
-        <pin num="C1" name="VSSQ" type="power_in"/>
-        <pin num="C2" name="RFU" type="passive"/>
-        <pin num="C3" name="DQS/DM" type="bidirectional"/>
-        <pin num="C4" name="ADQ2" type="bidirectional"/>
-        <pin num="C5" name="NC" type="no_connect"/>
-        <pin num="D1" name="VDDQ" type="power_in"/>
-        <pin num="D2" name="ADQ1" type="bidirectional"/>
-        <pin num="D3" name="ADQ0" type="bidirectional"/>
-        <pin num="D4" name="ADQ3" type="bidirectional"/>
-        <pin num="D5" name="ADQ4" type="bidirectional"/>
-        <pin num="E1" name="ADQ7" type="bidirectional"/>
-        <pin num="E2" name="ADQ6" type="bidirectional"/>
-        <pin num="E3" name="ADQ5" type="bidirectional"/>
-        <pin num="E4" name="VDDQ" type="power_in"/>
-        <pin num="E5" name="VSSQ" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="Conn_01x03_Male">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1405,29 +1315,6 @@
         <pin num="4" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Memory_Flash" part="GD25D05CT">
-      <description>512kbit, 3.0V Standard and Dual Serial Flash, SOP-8</description>
-      <docs>http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf</docs>
-      <footprints>
-        <fp>SOP*3.9x4.9mm*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">GD25D05CT</field>
-        <field name="Footprint">Package_SO:SOP-8_3.9x4.9mm_P1.27mm</field>
-        <field name="Datasheet">http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~{CS}" type="input"/>
-        <pin num="2" name="O1/SO" type="output"/>
-        <pin num="3" name="~{WP}" type="input"/>
-        <pin num="4" name="VSS" type="power_in"/>
-        <pin num="5" name="SI/IO0" type="bidirectional"/>
-        <pin num="6" name="SCLK" type="input"/>
-        <pin num="7" name="NC" type="no_connect"/>
-        <pin num="8" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Memory_Flash" part="W25Q128JVS">
       <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
       <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
@@ -1439,6 +1326,29 @@
         <field name="Value">W25Q128JVS</field>
         <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
         <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q32JVSS">
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVSS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="~{CS}" type="input"/>
@@ -1539,11 +1449,27 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="ips1604" part="IPS1604">
+      <docs>http://platform.digiic.com/Docs/Product/IPS6404L-SQ-SPN/IPUS%2064Mbit%20SQPI%20PSRAM%20.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IPS1604</field>
+        <field name="Footprint">Package_SO:SOP-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://platform.digiic.com/Docs/Product/IPS6404L-SQ-SPN/IPUS%2064Mbit%20SQPI%20PSRAM%20.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE#" type="input"/>
+        <pin num="2" name="SO/SIO1" type="bidirectional"/>
+        <pin num="3" name="SIO2" type="bidirectional"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SI/SIO0" type="bidirectional"/>
+        <pin num="6" name="SCLK" type="input"/>
+        <pin num="7" name="SIO3" type="bidirectional"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="APS6408L-3OBM-BA">
-      <uri>/home/mateusz/repos/mspc/gpu_extension/libs/symbols/APS6408L-3OBM-BA.kicad_sym</uri>
-    </library>
     <library logical="Connector">
       <uri>/usr/share/kicad-nightly/symbols//Connector.kicad_sym</uri>
     </library>
@@ -1564,6 +1490,9 @@
     </library>
     <library logical="Transistor_FET">
       <uri>/usr/share/kicad-nightly/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="ips1604">
+      <uri>/home/mateusz/repos/mspc/gpu_extension/libs/symbols/ips1604.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1604,10 +1533,7 @@
       <node ref="C228" pin="1" pintype="passive"/>
       <node ref="C403" pin="1" pintype="passive"/>
       <node ref="C404" pin="1" pintype="passive"/>
-      <node ref="C405" pin="1" pintype="passive"/>
-      <node ref="C406" pin="1" pintype="passive"/>
-      <node ref="C407" pin="1" pintype="passive"/>
-      <node ref="C408" pin="1" pintype="passive"/>
+      <node ref="C409" pin="1" pintype="passive"/>
       <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
@@ -1617,8 +1543,8 @@
       <node ref="R403" pin="1" pintype="passive"/>
       <node ref="R404" pin="1" pintype="passive"/>
       <node ref="R405" pin="1" pintype="passive"/>
-      <node ref="R406" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
       <node ref="U4" pin="1" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U4" pin="10" pinfunction="IOVDD" pintype="power_in"/>
       <node ref="U4" pin="22" pinfunction="IOVDD" pintype="power_in"/>
@@ -1638,9 +1564,6 @@
       <node ref="U6" pin="44" pinfunction="VREG_VIN" pintype="input"/>
       <node ref="U6" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
       <node ref="U6" pin="49" pinfunction="IOVDD" pintype="power_in"/>
-      <node ref="U7" pin="B4" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U7" pin="D1" pinfunction="VDDQ" pintype="power_in"/>
-      <node ref="U7" pin="E4" pinfunction="VDDQ" pintype="power_in"/>
     </net>
     <net code="4" name="+5V">
       <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
@@ -1780,200 +1703,188 @@
       <node ref="R36" pin="1" pintype="passive"/>
     </net>
     <net code="37" name="/Memory/FLASH.CLK">
-      <node ref="U1" pin="6" pinfunction="SCLK" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U4" pin="52" pinfunction="QSPI_SCLK" pintype="bidirectional"/>
     </net>
     <net code="38" name="/Memory/FLASH.CS#">
-      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U4" pin="56" pinfunction="QSPI_CSN" pintype="bidirectional"/>
     </net>
     <net code="39" name="/Memory/FLASH.IO0">
-      <node ref="U1" pin="5" pinfunction="SI/IO0" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U4" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
     <net code="40" name="/Memory/FLASH.IO1">
-      <node ref="U1" pin="2" pinfunction="O1/SO" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U4" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/OSC_IN">
+    <net code="41" name="/Memory/FLASH.IO2">
+      <node ref="U1" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U4" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/Memory/FLASH.IO3">
+      <node ref="U1" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U4" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/OSC_IN">
       <node ref="C201" pin="1" pintype="passive"/>
       <node ref="U4" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y201" pin="1" pinfunction="IN/OUT" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/OSC_OUT">
+    <net code="45" name="/OSC_OUT">
       <node ref="R201" pin="2" pintype="passive"/>
       <node ref="U4" pin="21" pinfunction="XOUT" pintype="output"/>
     </net>
-    <net code="44" name="/Render Engine/BUS connector/BUS.CLK">
+    <net code="46" name="/Render Engine/BUS connector/BUS.CLK">
       <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U6" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
     </net>
-    <net code="45" name="/Render Engine/BUS connector/BUS.CS#">
+    <net code="47" name="/Render Engine/BUS connector/BUS.CS#">
       <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="U6" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
     </net>
-    <net code="46" name="/Render Engine/BUS connector/BUS.D0">
+    <net code="48" name="/Render Engine/BUS connector/BUS.D0">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U6" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
     </net>
-    <net code="47" name="/Render Engine/BUS connector/BUS.D1">
+    <net code="49" name="/Render Engine/BUS connector/BUS.D1">
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U6" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
     </net>
-    <net code="48" name="/Render Engine/BUS connector/BUS.D2">
+    <net code="50" name="/Render Engine/BUS connector/BUS.D2">
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U6" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
     </net>
-    <net code="49" name="/Render Engine/BUS connector/BUS.D3">
+    <net code="51" name="/Render Engine/BUS connector/BUS.D3">
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U6" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
-    <net code="50" name="/Render Engine/BUS connector/BUS.D4">
+    <net code="52" name="/Render Engine/BUS connector/BUS.D4">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U6" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="51" name="/Render Engine/BUS connector/BUS.D5">
+    <net code="53" name="/Render Engine/BUS connector/BUS.D5">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U6" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="52" name="/Render Engine/BUS connector/BUS.D6">
+    <net code="54" name="/Render Engine/BUS connector/BUS.D6">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U6" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
-    <net code="53" name="/Render Engine/BUS connector/BUS.D7">
+    <net code="55" name="/Render Engine/BUS connector/BUS.D7">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U6" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="54" name="/Render Engine/BUS connector/BUS.RE#">
+    <net code="56" name="/Render Engine/BUS connector/BUS.RE#">
       <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="U4" pin="26" pinfunction="RUN" pintype="input"/>
       <node ref="U6" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
-    <net code="56" name="/Render Engine/DEBUG.SWCLK">
+    <net code="58" name="/Render Engine/DEBUG.SWCLK">
       <node ref="J202" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U6" pin="24" pinfunction="SWCLK" pintype="input"/>
     </net>
-    <net code="57" name="/Render Engine/DEBUG.SWD">
+    <net code="59" name="/Render Engine/DEBUG.SWD">
       <node ref="J202" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U6" pin="25" pinfunction="SWD" pintype="bidirectional"/>
     </net>
-    <net code="58" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.CLK">
+    <net code="60" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.CLK">
       <node ref="U403" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U6" pin="52" pinfunction="QSPI_SCLK" pintype="bidirectional"/>
     </net>
-    <net code="59" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.CS#">
+    <net code="61" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.CS#">
       <node ref="R403" pin="2" pintype="passive"/>
       <node ref="U403" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U6" pin="56" pinfunction="QSPI_CSN" pintype="bidirectional"/>
     </net>
-    <net code="60" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO0">
+    <net code="62" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO0">
       <node ref="U403" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U6" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
-    <net code="61" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO1">
+    <net code="63" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO1">
       <node ref="U403" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U6" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="62" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO2">
+    <net code="64" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO2">
       <node ref="U403" pin="3" pinfunction="IO2" pintype="bidirectional"/>
       <node ref="U6" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
     </net>
-    <net code="63" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO3">
+    <net code="65" name="/Render Engine/Memory Render Engine/FLASH_ENGINE.IO3">
       <node ref="U403" pin="7" pinfunction="IO3" pintype="bidirectional"/>
       <node ref="U6" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
-    <net code="65" name="/Render Engine/Memory Render Engine/PSRAM.CE#">
+    <net code="67" name="/Render Engine/Memory Render Engine/PSRAM.CE#">
       <node ref="R405" pin="2" pintype="passive"/>
-      <node ref="U6" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
-      <node ref="U7" pin="A3" pinfunction="~{CE}" pintype="input"/>
-    </net>
-    <net code="66" name="/Render Engine/Memory Render Engine/PSRAM.CLK">
-      <node ref="U6" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
-      <node ref="U7" pin="B2" pinfunction="CLK" pintype="input"/>
-    </net>
-    <net code="67" name="/Render Engine/Memory Render Engine/PSRAM.IO0">
-      <node ref="U6" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
-      <node ref="U7" pin="D3" pinfunction="ADQ0" pintype="bidirectional"/>
-    </net>
-    <net code="68" name="/Render Engine/Memory Render Engine/PSRAM.IO1">
-      <node ref="U6" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
-      <node ref="U7" pin="D2" pinfunction="ADQ1" pintype="bidirectional"/>
-    </net>
-    <net code="69" name="/Render Engine/Memory Render Engine/PSRAM.IO2">
-      <node ref="U6" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
-      <node ref="U7" pin="C4" pinfunction="ADQ2" pintype="bidirectional"/>
-    </net>
-    <net code="70" name="/Render Engine/Memory Render Engine/PSRAM.IO3">
-      <node ref="U6" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
-      <node ref="U7" pin="D4" pinfunction="ADQ3" pintype="bidirectional"/>
-    </net>
-    <net code="71" name="/Render Engine/Memory Render Engine/PSRAM.IO4">
-      <node ref="U6" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
-      <node ref="U7" pin="D5" pinfunction="ADQ4" pintype="bidirectional"/>
-    </net>
-    <net code="72" name="/Render Engine/Memory Render Engine/PSRAM.IO5">
+      <node ref="U2" pin="1" pinfunction="CE#" pintype="input"/>
       <node ref="U6" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
-      <node ref="U7" pin="E3" pinfunction="ADQ5" pintype="bidirectional"/>
     </net>
-    <net code="73" name="/Render Engine/Memory Render Engine/PSRAM.IO6">
-      <node ref="U6" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
-      <node ref="U7" pin="E2" pinfunction="ADQ6" pintype="bidirectional"/>
+    <net code="68" name="/Render Engine/Memory Render Engine/PSRAM.CLK">
+      <node ref="U2" pin="6" pinfunction="SCLK" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="74" name="/Render Engine/Memory Render Engine/PSRAM.IO7">
-      <node ref="U6" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
-      <node ref="U7" pin="E1" pinfunction="ADQ7" pintype="bidirectional"/>
+    <net code="69" name="/Render Engine/Memory Render Engine/PSRAM.IO0">
+      <node ref="U2" pin="5" pinfunction="SI/SIO0" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="75" name="/Render Engine/Memory Render Engine/PSRAM.RWDS">
-      <node ref="U6" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
-      <node ref="U7" pin="C3" pinfunction="DQS/DM" pintype="bidirectional"/>
+    <net code="70" name="/Render Engine/Memory Render Engine/PSRAM.IO1">
+      <node ref="U2" pin="2" pinfunction="SO/SIO1" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="77" name="/Render Engine/OSC_IN">
+    <net code="71" name="/Render Engine/Memory Render Engine/PSRAM.IO2">
+      <node ref="U2" pin="3" pinfunction="SIO2" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="/Render Engine/Memory Render Engine/PSRAM.IO3">
+      <node ref="U2" pin="7" pinfunction="SIO3" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="/Render Engine/OSC_IN">
       <node ref="C218" pin="1" pintype="passive"/>
       <node ref="U6" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y202" pin="1" pinfunction="IN/OUT" pintype="bidirectional"/>
     </net>
-    <net code="78" name="/Render Engine/OSC_OUT">
+    <net code="75" name="/Render Engine/OSC_OUT">
       <node ref="R202" pin="2" pintype="passive"/>
       <node ref="U6" pin="21" pinfunction="XOUT" pintype="output"/>
     </net>
-    <net code="79" name="/Render Engine/OUT_BUS.CLK">
+    <net code="76" name="/Render Engine/OUT_BUS.CLK">
       <node ref="U4" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
       <node ref="U6" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="80" name="/Render Engine/OUT_BUS.D0">
+    <net code="77" name="/Render Engine/OUT_BUS.D0">
       <node ref="U4" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
       <node ref="U6" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="81" name="/Render Engine/OUT_BUS.D1">
+    <net code="78" name="/Render Engine/OUT_BUS.D1">
       <node ref="U4" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
       <node ref="U6" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="82" name="/Render Engine/OUT_BUS.D2">
+    <net code="79" name="/Render Engine/OUT_BUS.D2">
       <node ref="U4" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="U6" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="83" name="/Render Engine/OUT_BUS.D3">
+    <net code="80" name="/Render Engine/OUT_BUS.D3">
       <node ref="U4" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
       <node ref="U6" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="84" name="/Render Engine/OUT_BUS.D4">
+    <net code="81" name="/Render Engine/OUT_BUS.D4">
       <node ref="U4" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
       <node ref="U6" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="85" name="/Render Engine/OUT_BUS.D5">
+    <net code="82" name="/Render Engine/OUT_BUS.D5">
       <node ref="U4" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
       <node ref="U6" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="86" name="/Render Engine/OUT_BUS.D6">
+    <net code="83" name="/Render Engine/OUT_BUS.D6">
       <node ref="U4" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
       <node ref="U6" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="87" name="/Render Engine/OUT_BUS.D7">
+    <net code="84" name="/Render Engine/OUT_BUS.D7">
       <node ref="U4" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
       <node ref="U6" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="89" name="GND">
+    <net code="86" name="GND">
       <node ref="C201" pin="2" pintype="passive"/>
       <node ref="C202" pin="2" pintype="passive"/>
       <node ref="C203" pin="2" pintype="passive"/>
@@ -2004,10 +1915,7 @@
       <node ref="C228" pin="2" pintype="passive"/>
       <node ref="C403" pin="2" pintype="passive"/>
       <node ref="C404" pin="2" pintype="passive"/>
-      <node ref="C405" pin="2" pintype="passive"/>
-      <node ref="C406" pin="2" pintype="passive"/>
-      <node ref="C407" pin="2" pintype="passive"/>
-      <node ref="C408" pin="2" pintype="passive"/>
+      <node ref="C409" pin="2" pintype="passive"/>
       <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
       <node ref="J2" pin="0" pintype="passive"/>
@@ -2030,186 +1938,165 @@
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="R37" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VSS" pintype="power_in"/>
       <node ref="U4" pin="19" pinfunction="TESTEN" pintype="passive"/>
       <node ref="U4" pin="57" pinfunction="GND" pintype="power_in"/>
       <node ref="U403" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U6" pin="19" pinfunction="TESTEN" pintype="passive"/>
       <node ref="U6" pin="57" pinfunction="GND" pintype="power_in"/>
-      <node ref="U7" pin="B3" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U7" pin="C1" pinfunction="VSSQ" pintype="power_in"/>
-      <node ref="U7" pin="E5" pinfunction="VSSQ" pintype="power_in"/>
       <node ref="Y201" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="Y201" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="Y202" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="Y202" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="90" name="Net-(J2-Pad12)">
+    <net code="87" name="Net-(J2-Pad12)">
       <node ref="J2" pin="12" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(J2-Pad15)">
+    <net code="88" name="Net-(J2-Pad15)">
       <node ref="J2" pin="15" pintype="passive"/>
       <node ref="R43" pin="2" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(J302-CK+)">
+    <net code="89" name="Net-(J302-CK+)">
       <node ref="J302" pin="10" pinfunction="CK+" pintype="passive"/>
       <node ref="R318" pin="2" pintype="passive"/>
     </net>
-    <net code="93" name="Net-(J302-CK-)">
+    <net code="90" name="Net-(J302-CK-)">
       <node ref="J302" pin="12" pinfunction="CK-" pintype="passive"/>
       <node ref="R322" pin="2" pintype="passive"/>
     </net>
-    <net code="94" name="Net-(J302-D0+)">
+    <net code="91" name="Net-(J302-D0+)">
       <node ref="J302" pin="7" pinfunction="D0+" pintype="passive"/>
       <node ref="R317" pin="2" pintype="passive"/>
     </net>
-    <net code="95" name="Net-(J302-D0-)">
+    <net code="92" name="Net-(J302-D0-)">
       <node ref="J302" pin="9" pinfunction="D0-" pintype="passive"/>
       <node ref="R321" pin="2" pintype="passive"/>
     </net>
-    <net code="96" name="Net-(J302-D1+)">
+    <net code="93" name="Net-(J302-D1+)">
       <node ref="J302" pin="4" pinfunction="D1+" pintype="passive"/>
       <node ref="R316" pin="2" pintype="passive"/>
     </net>
-    <net code="97" name="Net-(J302-D1-)">
+    <net code="94" name="Net-(J302-D1-)">
       <node ref="J302" pin="6" pinfunction="D1-" pintype="passive"/>
       <node ref="R320" pin="2" pintype="passive"/>
     </net>
-    <net code="98" name="Net-(J302-D2+)">
+    <net code="95" name="Net-(J302-D2+)">
       <node ref="J302" pin="1" pinfunction="D2+" pintype="passive"/>
       <node ref="R315" pin="2" pintype="passive"/>
     </net>
-    <net code="99" name="Net-(J302-D2-)">
+    <net code="96" name="Net-(J302-D2-)">
       <node ref="J302" pin="3" pinfunction="D2-" pintype="passive"/>
       <node ref="R319" pin="2" pintype="passive"/>
     </net>
-    <net code="100" name="Net-(J302-SCL)">
+    <net code="97" name="Net-(J302-SCL)">
       <node ref="J302" pin="15" pinfunction="SCL" pintype="passive"/>
       <node ref="R44" pin="1" pintype="passive"/>
     </net>
-    <net code="101" name="Net-(J302-SDA)">
+    <net code="98" name="Net-(J302-SDA)">
       <node ref="J302" pin="16" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="R45" pin="1" pintype="passive"/>
     </net>
-    <net code="102" name="Net-(Q1-D)">
+    <net code="99" name="Net-(Q1-D)">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="103" name="Net-(Q3-D)">
+    <net code="100" name="Net-(Q3-D)">
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="104" name="Net-(R17-Pad2)">
+    <net code="101" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="105" name="Net-(R18-Pad2)">
+    <net code="102" name="Net-(R18-Pad2)">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
     </net>
-    <net code="106" name="Net-(R24-Pad2)">
+    <net code="103" name="Net-(R24-Pad2)">
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
     </net>
-    <net code="107" name="Net-(R25-Pad2)">
+    <net code="104" name="Net-(R25-Pad2)">
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
     </net>
-    <net code="108" name="Net-(R31-Pad2)">
+    <net code="105" name="Net-(R31-Pad2)">
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
       <node ref="R35" pin="1" pintype="passive"/>
     </net>
-    <net code="109" name="Net-(U1-~{WP})">
-      <node ref="R404" pin="2" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="~{WP}" pintype="input"/>
-    </net>
-    <net code="110" name="Net-(Y201-OUT{slash}IN)">
+    <net code="106" name="Net-(Y201-OUT{slash}IN)">
       <node ref="C202" pin="1" pintype="passive"/>
       <node ref="R201" pin="1" pintype="passive"/>
       <node ref="Y201" pin="3" pinfunction="OUT/IN" pintype="bidirectional"/>
     </net>
-    <net code="111" name="Net-(Y202-OUT{slash}IN)">
+    <net code="107" name="Net-(Y202-OUT{slash}IN)">
       <node ref="C223" pin="1" pintype="passive"/>
       <node ref="R202" pin="1" pintype="passive"/>
       <node ref="Y202" pin="3" pinfunction="OUT/IN" pintype="bidirectional"/>
     </net>
-    <net code="112" name="unconnected-(J1-Pin_10)">
+    <net code="108" name="unconnected-(J1-Pin_10)">
       <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(J1-Pin_11)">
+    <net code="109" name="unconnected-(J1-Pin_11)">
       <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(J1-Pin_16)">
+    <net code="110" name="unconnected-(J1-Pin_16)">
       <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(J1-Pin_19)">
+    <net code="111" name="unconnected-(J1-Pin_19)">
       <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(J2-Pad4)">
+    <net code="112" name="unconnected-(J2-Pad4)">
       <node ref="J2" pin="4" pintype="passive+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(J2-Pad11)">
+    <net code="113" name="unconnected-(J2-Pad11)">
       <node ref="J2" pin="11" pintype="passive+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(J302-CEC)">
+    <net code="114" name="unconnected-(J302-CEC)">
       <node ref="J302" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(J302-HPD)">
+    <net code="115" name="unconnected-(J302-HPD)">
       <node ref="J302" pin="19" pinfunction="HPD" pintype="passive+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(J302-UTILITY)">
+    <net code="116" name="unconnected-(J302-UTILITY)">
       <node ref="J302" pin="14" pinfunction="UTILITY" pintype="passive+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(U1-NC)">
-      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="122" name="unconnected-(U4-GPIO27{slash}ADC1)">
+    <net code="117" name="unconnected-(U4-GPIO27{slash}ADC1)">
       <node ref="U4" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(U4-QSPI_SD2)">
-      <node ref="U4" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="124" name="unconnected-(U4-QSPI_SD3)">
-      <node ref="U4" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="125" name="unconnected-(U4-USB_DM)">
+    <net code="118" name="unconnected-(U4-USB_DM)">
       <node ref="U4" pin="46" pinfunction="USB_DM" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(U4-USB_DP)">
+    <net code="119" name="unconnected-(U4-USB_DP)">
       <node ref="U4" pin="47" pinfunction="USB_DP" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(U6-USB_DM)">
+    <net code="120" name="unconnected-(U6-GPIO6)">
+      <node ref="U6" pin="8" pinfunction="GPIO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U6-GPIO7)">
+      <node ref="U6" pin="9" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U6-GPIO8)">
+      <node ref="U6" pin="11" pinfunction="GPIO8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U6-GPIO9)">
+      <node ref="U6" pin="12" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U6-GPIO10)">
+      <node ref="U6" pin="13" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U6-USB_DM)">
       <node ref="U6" pin="46" pinfunction="USB_DM" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(U6-USB_DP)">
+    <net code="126" name="unconnected-(U6-USB_DP)">
       <node ref="U6" pin="47" pinfunction="USB_DP" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="129" name="unconnected-(U7-NC)">
-      <node ref="U7" pin="C5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="130" name="unconnected-(U7-NC)_1">
-      <node ref="U7" pin="A2" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="131" name="unconnected-(U7-NC)_2">
-      <node ref="U7" pin="A5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="132" name="unconnected-(U7-NC)_3">
-      <node ref="U7" pin="B1" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="133" name="unconnected-(U7-NC)_4">
-      <node ref="U7" pin="B5" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="134" name="unconnected-(U7-RFU)">
-      <node ref="U7" pin="C2" pinfunction="RFU" pintype="passive+no_connect"/>
-    </net>
-    <net code="135" name="unconnected-(U7-~{RESET})">
-      <node ref="U7" pin="A4" pinfunction="~{RESET}" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
