@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -64,8 +64,14 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_fffffffb",
+    "visible_layers": "fff5000_7ffffff8",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "gpu_extension.kicad_prl",

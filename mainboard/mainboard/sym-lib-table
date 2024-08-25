@@ -1,4 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/RP2040.kicad_sym")(options "")(descr ""))
   (lib (name "PTS636_SM43J_SMTR_LFS")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/PTS636_SM43J_SMTR_LFS.lib")(options "")(descr ""))
   (lib (name "SSM6N58NU_LF")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/SSM6N58NU_LF.lib")(options "")(descr ""))
@@ -16,4 +17,5 @@
   (lib (name "Project Audio DAC")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/Project Audio DAC.kicad_sym")(options "")(descr ""))
   (lib (name "LESD5D5.0CT1G")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/LESD5D5.0CT1G.kicad_sym")(options "")(descr ""))
   (lib (name "sn74")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/sn74.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2350B")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/RP2350B.kicad_sym")(options "")(descr ""))
 )
