@@ -1,46 +1,46 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
-%TF.CreationDate,2024-08-25T14:13:04+02:00*%
-%TF.ProjectId,fpga_extension,66706761-5f65-4787-9465-6e73696f6e2e,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Copper,L4,Inr*%
-%TF.FilePolarity,Positive*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*
+G04 #@! TF.CreationDate,2024-11-24T11:16:57+01:00*
+G04 #@! TF.ProjectId,fpga_extension,66706761-5f65-4787-9465-6e73696f6e2e,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L4,Inr*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4) date 2024-08-25 14:13:04*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2024-11-24 11:16:57*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,ComponentPad*%
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD10O,1.000000X2.100000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD11O,1.000000X1.600000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD12R,1.700000X1.700000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD13O,1.700000X1.700000*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD14C,0.406400*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD15C,0.711200*%
-%TD*%
-%TA.AperFunction,ViaPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD16C,0.600000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD17C,0.457200*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD18C,0.245364*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD19C,0.156464*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X187200000Y-77373000D03*

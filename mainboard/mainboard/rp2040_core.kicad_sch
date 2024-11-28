@@ -3624,14 +3624,6 @@
 		(color 0 0 0 0)
 		(uuid "fc3cb9a1-239d-4a60-83a4-d1aecb4468d3")
 	)
-	(no_connect
-		(at 135.89 167.64)
-		(uuid "4447b490-9ce1-4198-91c1-dd0f8674f41d")
-	)
-	(no_connect
-		(at 135.89 165.1)
-		(uuid "7f58f162-fa16-49af-9bd5-2a38e4a81d6b")
-	)
 	(bus_entry
 		(at 180.34 45.72)
 		(size 2.54 2.54)
@@ -6960,6 +6952,17 @@
 		)
 		(uuid "54c29f3a-ca40-4ec2-ab80-e373ef6039e8")
 	)
+	(label "BUS.CONTROL1"
+		(at 135.89 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59a44d46-b719-40fb-9656-83855486ed6a")
+	)
 	(label "BUS_RE#.IN"
 		(at 135.89 182.88 0)
 		(fields_autoplaced yes)
@@ -7014,6 +7017,17 @@
 			(justify left bottom)
 		)
 		(uuid "6793cf65-9dce-41e1-ba2e-f3f134139358")
+	)
+	(label "BUS.CONTROL0"
+		(at 135.89 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6795cd2c-8316-4c15-82a2-bbf4a740b8d2")
 	)
 	(label "BUS_NORTH.D2"
 		(at 236.22 74.93 0)
@@ -7410,6 +7424,17 @@
 			(justify left bottom)
 		)
 		(uuid "a60cd4f9-0b21-4c1a-9577-d6a791452c80")
+	)
+	(label "BUS.CONTROL2"
+		(at 135.89 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a657dc9c-a2e6-4383-a6c0-769270c46034")
 	)
 	(label "BUS_NORTH.D11"
 		(at 135.89 129.54 0)
