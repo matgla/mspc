@@ -1,6 +1,52 @@
-mainboard/mainboard/mainboard-backups/*
-gpu_extension/gpu_extension-backups/*
-fpga_extension/fpga_extension/fpga_extension-backups/*
-mainboard/mainboard/OUT/*
-mainboard/mainboard/gerber*
-gpu_extension/gerber*
+# ===== KiCad (7/8/9/10): per-machine state, caches, backups =====
+# Automatic project backups (zip archives in <project>-backups/)
+*-backups/
+# Footprint info cache, regenerated on every machine
+fp-info-cache
+# Per-user project settings (open sheets, layer visibility, window state)
+*.kicad_prl
+# Lock files written while a document is open (~name.kicad_pcb.lck)
+*.lck
+# Autosave files and the autosave index
+_autosave-*
+\#auto_saved_files\#
+# KiCad 9+/10 local history snapshots (a nested git repository)
+.history/
+# Backup copies written on save (.kicad_sch-bak, .kicad_pcb-bak, library .bak)
+*-bak
+*.bak
+# Legacy KiCad 5 caches and rescue libraries
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+# Autorouter scratch (Specctra/Freerouting)
+*.dsn
+*.ses
+freerouting.log
+# ERC/DRC reports
+*.rpt
+
+# Fabrication outputs (outputs/, gerbers, drill, stencil STL, schematic PDF,
+# BOM) are TRACKED on purpose: boards are ordered from them. Do not ignore.
+
+# ===== Simulation sandbox: files the simulator regenerates =====
+# (hand-written SPICE models under simulation/libs/pspice/ stay tracked)
+simulation/*.net
+simulation/*.cir
+simulation/*.wbk
+*.raw
+
+# ===== Python (simulation helpers) =====
+__pycache__/
+*.py[cod]
+
+# ===== OS and editor junk =====
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+.directory
+*~
+*.swp
+.vscode/
+.idea/
