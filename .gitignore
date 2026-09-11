@@ -26,8 +26,27 @@ freerouting.log
 # ERC/DRC reports
 *.rpt
 
-# Fabrication outputs (outputs/, gerbers, drill, stencil STL, schematic PDF,
-# BOM) are TRACKED on purpose: boards are ordered from them. Do not ignore.
+# ===== Fabrication outputs =====
+# Gerbers and drill files are plotted from the KiCad projects when a board is
+# ordered, so they are not tracked. Schematic PDFs (outputs/schematic.pdf) stay
+# tracked, so the schematics can be read without KiCad.
+gerber/
+gerbers/
+*.gbr
+*.gbrjob
+*.gtl
+*.gbl
+*.gto
+*.gbo
+*.gts
+*.gbs
+*.gtp
+*.gbp
+*.gm1
+*.gko
+*.g[0-9]
+*.g[0-9][0-9]
+*.drl
 
 # ===== Simulation sandbox: files the simulator regenerates =====
 # (hand-written SPICE models under simulation/libs/pspice/ stay tracked)
