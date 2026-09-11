@@ -1721,7 +1721,7 @@
 			(uuid "484149d9-719e-4baf-a3b7-e3f350f1a996")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "C409")
 					(unit 1)
@@ -1787,7 +1787,7 @@
 			(uuid "cc34fbc7-473a-4593-951b-97a17644871e")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0122")
 					(unit 1)
@@ -1857,7 +1857,7 @@
 			(uuid "a9ec429f-7221-4a22-9f7b-91b4654287e2")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "R405")
 					(unit 1)
@@ -1922,7 +1922,7 @@
 			(uuid "77ff5ad8-e5cf-4676-a439-196b5376229e")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0152")
 					(unit 1)
@@ -1992,7 +1992,7 @@
 			(uuid "678ca948-ddfc-4f02-a349-ca7fadf990a3")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "C403")
 					(unit 1)
@@ -2080,7 +2080,7 @@
 			(uuid "49b3fc7d-f13c-4eaf-8128-761eca1f8fe7")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "U403")
 					(unit 1)
@@ -2146,7 +2146,7 @@
 			(uuid "fab73b9c-245a-4f32-91ed-b84f03fb17eb")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0124")
 					(unit 1)
@@ -2212,7 +2212,7 @@
 			(uuid "33bcb7b1-c561-48c8-a636-9218728f268f")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0151")
 					(unit 1)
@@ -2298,7 +2298,7 @@
 			(uuid "33b66b1c-009a-4bfb-9396-5f2161edc8b5")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "U2")
 					(unit 1)
@@ -2368,7 +2368,7 @@
 			(uuid "5759aa0e-b103-43f1-818a-84d619a8b54c")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "R403")
 					(unit 1)
@@ -2434,7 +2434,7 @@
 			(uuid "40ea029f-64d3-4e5a-b2e1-96574d2f01c4")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0153")
 					(unit 1)
@@ -2500,7 +2500,7 @@
 			(uuid "773f7f27-d174-4112-8250-d82ac32dc388")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0123")
 					(unit 1)
@@ -2566,7 +2566,7 @@
 			(uuid "5bb456e9-c830-4803-ac10-d7d02f1d1268")
 		)
 		(instances
-			(project "gpu_extension"
+			(project "gpu_vga_extension"
 				(path "/125be418-c5a0-4917-8634-47021fa57275/14c52db0-9b69-4a0e-bd50-473e13f558f3/5bef4c80-9b45-464d-9de5-89f77dfda338"
 					(reference "#PWR0139")
 					(unit 1)
