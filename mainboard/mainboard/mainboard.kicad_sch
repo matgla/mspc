@@ -612,7 +612,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "90a5bc85-07ac-4ee1-af41-887c984cc4b9")
-		(property "Sheetname" "RP2040 Core"
+		(property "Sheetname" "RP2350 Core"
 			(at 114.3 78.0284 0)
 			(effects
 				(font
@@ -621,7 +621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "rp2040_core.kicad_sch"
+		(property "Sheetfile" "rp2350_core.kicad_sch"
 			(at 114.3 112.3446 0)
 			(effects
 				(font

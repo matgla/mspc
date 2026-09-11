@@ -1711,7 +1711,7 @@
     (pin "1" (uuid 6ca1d37c-738b-4923-87e9-d11c45811feb))
     (pin "2" (uuid 9d8b3c92-5d3d-4441-b78b-e9b7995816da))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C212") (unit 1)
         )
@@ -1737,7 +1737,7 @@
     (pin "1" (uuid bc37312b-bd8e-43a9-9249-3dc0badfa491))
     (pin "2" (uuid 4640761b-b360-4825-82a1-2e06fe9dc3b1))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C202") (unit 1)
         )
@@ -1830,7 +1830,7 @@
     (pin "8" (uuid 516f7347-ee1d-4953-b0e5-104fea5dad79))
     (pin "9" (uuid 68685b07-ad64-43ea-b566-57e4c977b610))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "U4") (unit 1)
         )
@@ -1855,7 +1855,7 @@
     )
     (pin "1" (uuid faf5a60e-9b58-4fb6-b0a9-21810816196f))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0140") (unit 1)
         )
@@ -1881,7 +1881,7 @@
     (pin "1" (uuid 6766f3f6-9e22-47c8-ab1b-1c57bfe85694))
     (pin "2" (uuid 6bb22d88-125c-45dd-9904-092ba1733887))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C210") (unit 1)
         )
@@ -1907,7 +1907,7 @@
     (pin "1" (uuid 20638749-a0b5-473c-88dd-9b248071e762))
     (pin "2" (uuid f9e1edae-3251-436f-9821-be0d2c55673b))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C211") (unit 1)
         )
@@ -1932,7 +1932,7 @@
     )
     (pin "1" (uuid 37187aca-38ea-48a5-88ba-7aa848f9eeba))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0115") (unit 1)
         )
@@ -1957,7 +1957,7 @@
     )
     (pin "1" (uuid a249db6c-b8f4-4c65-8bbd-1a6f5ef6ff0d))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0105") (unit 1)
         )
@@ -1983,7 +1983,7 @@
     (pin "1" (uuid e5173eda-50f1-4657-94c8-ed8e2f628311))
     (pin "2" (uuid a1dae769-b8d1-43ce-aff2-1cb5b69f267c))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C204") (unit 1)
         )
@@ -2008,7 +2008,7 @@
     )
     (pin "1" (uuid 09fb4261-78cc-4d54-bfa3-a47ce0a378f9))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0101") (unit 1)
         )
@@ -2034,7 +2034,7 @@
     (pin "1" (uuid ee20381c-b4da-42c8-895c-930a6585dc33))
     (pin "2" (uuid cd7c50bd-6b16-4cae-b044-c33271ac08e3))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C208") (unit 1)
         )
@@ -2060,7 +2060,7 @@
     (pin "1" (uuid d7e0325d-a2fa-448e-899a-a35865a8bbec))
     (pin "2" (uuid d975a064-d84b-4895-b13e-c7530b9d5cec))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C207") (unit 1)
         )
@@ -2085,7 +2085,7 @@
     )
     (pin "1" (uuid 4d40b80e-f7b4-47b5-9b76-d818874fdf7a))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0104") (unit 1)
         )
@@ -2110,7 +2110,7 @@
     )
     (pin "1" (uuid 46c9878e-ce64-42f2-9c33-0218d8c49464))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0106") (unit 1)
         )
@@ -2136,7 +2136,7 @@
     (pin "1" (uuid c6b290b7-a439-4618-8776-7d166b489101))
     (pin "2" (uuid 5a06ecc8-2627-46ec-9c93-33192bd74215))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C205") (unit 1)
         )
@@ -2188,7 +2188,7 @@
     (pin "3" (uuid 1f50badd-07b8-48cf-9bb1-1e1aa0731465))
     (pin "4" (uuid 302f4fc3-c605-4fe4-abf0-2801945208c0))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "Y201") (unit 1)
         )
@@ -2214,7 +2214,7 @@
     (pin "1" (uuid 2c3b4346-c374-4f08-8fba-a788f8e74bc2))
     (pin "2" (uuid 14f89d94-8f07-4f1a-9671-2ececeb1afcb))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C213") (unit 1)
         )
@@ -2239,7 +2239,7 @@
     )
     (pin "1" (uuid 3ab8b661-74f2-4d10-9eea-d6049a354c6d))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0110") (unit 1)
         )
@@ -2265,7 +2265,7 @@
     (pin "1" (uuid 01ab6211-bafd-4977-a2e8-d5d4d6e95396))
     (pin "2" (uuid 6271b94b-15a7-4aef-b86d-d909c248b332))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C201") (unit 1)
         )
@@ -2290,7 +2290,7 @@
     )
     (pin "1" (uuid 5ad01c86-7f36-47ed-a396-c7987bafa21b))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0141") (unit 1)
         )
@@ -2315,7 +2315,7 @@
     )
     (pin "1" (uuid 067a9889-b81c-43f9-a243-f0f3a5524dae))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0107") (unit 1)
         )
@@ -2341,7 +2341,7 @@
     (pin "1" (uuid 540671ca-777a-4608-b47e-e26529f9dd5b))
     (pin "2" (uuid 06885bd1-41f3-468e-9349-9534a6ffcf1c))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C209") (unit 1)
         )
@@ -2366,7 +2366,7 @@
     )
     (pin "1" (uuid b70e44ab-0157-4aa7-8a99-94f5b38809fa))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0109") (unit 1)
         )
@@ -2391,7 +2391,7 @@
     )
     (pin "1" (uuid f10a238e-a0c6-404d-be4f-3b36406b70a6))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0102") (unit 1)
         )
@@ -2417,7 +2417,7 @@
     (pin "1" (uuid 9b2f47c3-89de-4aba-a0ba-437761407a3f))
     (pin "2" (uuid fcc6e074-1746-4bfb-9339-04ad3f6dd234))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C214") (unit 1)
         )
@@ -2443,7 +2443,7 @@
     (pin "1" (uuid 97bc89e3-ffff-46c9-bee8-f4f8d353ebf4))
     (pin "2" (uuid ca7290a1-1653-4a4a-82d2-b3c20cd9982c))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C206") (unit 1)
         )
@@ -2468,7 +2468,7 @@
     )
     (pin "1" (uuid 93f5dc8f-1456-4595-9c5d-88e1f99ebd6b))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0142") (unit 1)
         )
@@ -2493,7 +2493,7 @@
     )
     (pin "1" (uuid 541c2977-be8d-4dda-9c8f-176b0736a0ac))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#FLG0102") (unit 1)
         )
@@ -2518,7 +2518,7 @@
     )
     (pin "1" (uuid dd527295-488b-459f-8c24-9b75e6e1a892))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0103") (unit 1)
         )
@@ -2544,7 +2544,7 @@
     (pin "1" (uuid f3b6b2a0-da08-4f6a-a8ea-8e397f8a291f))
     (pin "2" (uuid 10b3b03e-8078-4d09-9eb5-a6aa6bc35228))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "R201") (unit 1)
         )
@@ -2569,7 +2569,7 @@
     )
     (pin "1" (uuid 3cbd0ba3-825e-4dbc-bb76-833e32273cef))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#FLG0104") (unit 1)
         )
@@ -2596,7 +2596,7 @@
     (pin "2" (uuid 847d1199-51ce-43ad-ba12-db0faae0f775))
     (pin "3" (uuid f7a470f5-9c69-4d0d-b320-0d85b483e8f4))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "J201") (unit 1)
         )
@@ -2622,7 +2622,7 @@
     (pin "1" (uuid ae4e20fd-dbbc-445d-805d-4678ff03178a))
     (pin "2" (uuid 222b425c-79b6-4094-b888-87b17e77b925))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "C203") (unit 1)
         )
@@ -2647,7 +2647,7 @@
     )
     (pin "1" (uuid b729a55a-56eb-41aa-bb0d-1e5a0b60a945))
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5"
           (reference "#PWR0108") (unit 1)
         )
@@ -2666,7 +2666,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
       )
     )
@@ -2687,7 +2687,7 @@
       (uuid ca15e15b-450c-44ce-b04b-a1aa3abdafca)
     )
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
       )
     )
@@ -2697,10 +2697,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 66ae4eca-3dee-42c4-af7e-6633bba1afef)
-    (property "Sheetname" "DVI connector" (at 213.36 95.8084 0)
+    (property "Sheetname" "VGA connector" (at 213.36 95.8084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "dvi.kicad_sch" (at 213.36 107.2646 0)
+    (property "Sheetfile" "vga.kicad_sch" (at 213.36 107.2646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "DVI{CK- CK+ D0- D0+ D1- D1+ D2- D2+}" input (at 213.36 101.6 180)
@@ -2708,7 +2708,7 @@
       (uuid 3bc74f52-4e22-43a1-970d-26bf44f80ca1)
     )
     (instances
-      (project "gpu_extension"
+      (project "gpu_vga_extension"
         (path "/125be418-c5a0-4917-8634-47021fa57275/f0969bf3-d19a-4dd7-b14e-11dc331478c5" (page ""))
       )
     )

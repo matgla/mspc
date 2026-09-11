@@ -1577,7 +1577,7 @@
 			(uuid "fcc388d5-44d3-4be7-bfa9-76e4f25a415c")
 		)
 		(instances
-			(project "bus_adapter_10pin"
+			(project "bus_adapter_20pin"
 				(path "/71bb766b-928e-4f8f-b70a-7dfe81f2f274"
 					(reference "J4")
 					(unit 1)
@@ -1857,7 +1857,7 @@
 			(uuid "cc0e3465-eee6-4504-b64d-79a46723191f")
 		)
 		(instances
-			(project "bus_adapter_10pin"
+			(project "bus_adapter_20pin"
 				(path "/71bb766b-928e-4f8f-b70a-7dfe81f2f274"
 					(reference "#PWR02")
 					(unit 1)

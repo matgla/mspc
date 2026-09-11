@@ -640,7 +640,7 @@
     "netclass_patterns": [
       {
         "netclass": "Signal 50Ohm",
-        "pattern": "/RP2040 Core/MCU Connectors/BUS_NORTH.*"
+        "pattern": "/RP2350 Core/MCU Connectors/BUS_NORTH.*"
       },
       {
         "netclass": "Power MCU",
@@ -652,15 +652,15 @@
       },
       {
         "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/USB Hub/*"
+        "pattern": "/RP2350 Core/USB Hub/*"
       },
       {
         "netclass": "USB 90Ohm",
-        "pattern": "/RP2040 Core/USB*"
+        "pattern": "/RP2350 Core/USB*"
       },
       {
         "netclass": "Signal 50Ohm",
-        "pattern": "/RP2040 Core/*"
+        "pattern": "/RP2350 Core/*"
       },
       {
         "netclass": "Power MCU",
@@ -802,7 +802,7 @@
     ],
     [
       "90a5bc85-07ac-4ee1-af41-887c984cc4b9",
-      "RP2040 Core"
+      "RP2350 Core"
     ],
     [
       "8c334f51-6a0b-406c-9f2c-47b0eaeba7c1",

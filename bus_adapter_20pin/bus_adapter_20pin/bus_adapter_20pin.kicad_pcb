@@ -170,7 +170,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/640d03fa-40c2-45f2-b1c1-49ddbbb7bf63")
 		(sheetname "Root")
-		(sheetfile "bus_adapter_10pin.kicad_sch")
+		(sheetfile "bus_adapter_20pin.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -526,7 +526,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4326fb9e-b466-4f37-aa0b-7232d00faaeb")
 		(sheetname "Root")
-		(sheetfile "bus_adapter_10pin.kicad_sch")
+		(sheetfile "bus_adapter_20pin.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -887,7 +887,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/49e2e7ad-3dd2-431f-87d0-7b3dbb4ec8ec")
 		(sheetname "Root")
-		(sheetfile "bus_adapter_10pin.kicad_sch")
+		(sheetfile "bus_adapter_20pin.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.765 6.41)

@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "gpu_extension.kicad_pro",
+    "filename": "gpu_vga_extension.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -584,11 +584,11 @@
       },
       {
         "netclass": "VGA 75Ohm",
-        "pattern": "/DVI connector/VGA*"
+        "pattern": "/VGA connector/VGA*"
       },
       {
         "netclass": "TDMS",
-        "pattern": "/DVI connector/DVI.*"
+        "pattern": "/VGA connector/DVI.*"
       },
       {
         "netclass": "Power",
@@ -810,7 +810,7 @@
   "sheets": [
     [
       "3d531abf-5983-436e-beeb-9e93cbc00f15",
-      "DVI connector"
+      "VGA connector"
     ],
     [
       "a704f79e-a8fd-4cdb-8d8b-0ba22147b689",

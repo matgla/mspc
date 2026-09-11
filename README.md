@@ -37,11 +37,9 @@ Every board is a KiCad project with its fabrication outputs next to it in `outpu
 
 ## Known issues
 
-- Project names do not match their directories: both GPU cards contain a project named
-  `gpu_extension`, and `bus_adapter_20pin/` contains `bus_adapter_10pin`. Rename them from inside
-  KiCad, not by renaming files.
 - Some outputs are older than the boards they sit next to: the mainboard stencil (from v1), the
   GPU cards' schematic PDFs and stencils (from before the VGA/DVI split), and the FPGA card's
-  schematic PDF. Regenerate them before the next order.
-- The mainboard sheet named "RP2040 Core" holds the RP2350.
+  schematic PDF. Existing gerbers keep the file names of the old project names
+  (`gpu_extension-*`, `bus_adapter_10pin-*`). Regenerate them before the next order.
+- The silkscreen of the 20-pin bus adapter reads "2x15" (copied from the 30-pin adapter).
 - The libraries are copied into each project and have diverged.
