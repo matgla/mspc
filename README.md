@@ -31,15 +31,14 @@ Every board is a KiCad project with its fabrication outputs next to it in `outpu
 - The projects are in **KiCad 8** format. Newer KiCad versions upgrade them on the first save, and
   the result no longer opens in KiCad 8. Do such an upgrade as its own commit, with no design
   changes, so later diffs stay readable.
-- Fabrication outputs (gerbers, drill files, schematic PDFs, stencils) are tracked on purpose:
-  boards are ordered from them. Per-machine files (backups, caches, `*.kicad_prl`, lock files,
-  local history) are ignored.
+- Schematic PDFs (`outputs/schematic.pdf`) are tracked, so the schematics can be read without
+  KiCad. Gerbers and drill files are not: plot them from the KiCad project when ordering a board.
+  Per-machine files (backups, caches, `*.kicad_prl`, lock files, local history) are ignored too.
 
 ## Known issues
 
 - Some outputs are older than the boards they sit next to: the mainboard stencil (from v1), the
   GPU cards' schematic PDFs and stencils (from before the VGA/DVI split), and the FPGA card's
-  schematic PDF. Existing gerbers keep the file names of the old project names
-  (`gpu_extension-*`, `bus_adapter_10pin-*`). Regenerate them before the next order.
+  schematic PDF. Regenerate them before the next order.
 - The silkscreen of the 20-pin bus adapter reads "2x15" (copied from the 30-pin adapter).
 - The libraries are copied into each project and have diverged.
