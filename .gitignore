@@ -12,6 +12,8 @@ _autosave-*
 \#auto_saved_files\#
 # KiCad 9+/10 local history snapshots (a nested git repository)
 .history/
+# KiCad 10 copies of the files it replaced when restoring from local history
+_restore_backup_*/
 # Backup copies written on save (.kicad_sch-bak, .kicad_pcb-bak, library .bak)
 *-bak
 *.bak

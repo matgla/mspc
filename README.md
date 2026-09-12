@@ -25,6 +25,7 @@ Every board is a KiCad project with its fabrication outputs next to it in `outpu
 | `bus_adapter_20pin/` | Passive breakout from the 2×10 1.27 mm bus socket to two 1×10 2.54 mm headers. |
 | `bus_adapter_30pin/` | Passive breakout from the 2×15 1.27 mm bus socket to two 1×15 2.54 mm headers. |
 | `simulation/` | 2022 SPICE sandbox: KiCad/ngspice schematics (audio filter, power switch) and PySpice scripts. Not a board. |
+| `libs/` | KiCad libraries shared by all boards (see below). |
 
 ## Working with the files
 
@@ -35,10 +36,25 @@ Every board is a KiCad project with its fabrication outputs next to it in `outpu
   KiCad. Gerbers and drill files are not: plot them from the KiCad project when ordering a board.
   Per-machine files (backups, caches, `*.kicad_prl`, lock files, local history) are ignored too.
 
+## Libraries
+
+Every board uses the libraries in `libs/`. Each project's `sym-lib-table`, `fp-lib-table` and
+`design-block-lib-table` point there through `${KIPRJMOD}`, so nothing has to be set up in KiCad.
+
+| path | contents |
+|---|---|
+| `libs/symbols/` | symbol libraries, one per file; the nickname is the file name (`project_power`, `RP2040`, …) |
+| `libs/footprints.pretty/` | footprints (nickname `footprints`) |
+| `libs/RP2350_60QFN_minimal.pretty/`, `libs/RP2350_80QFN_minimal.pretty/` | RP2350 footprints and the small parts around them |
+| `libs/3dmodels/` | STEP models; the footprints do not reference them yet |
+| `libs/mspc.kicad_blocks/` | design blocks (KiCad 9+): circuits to reuse between boards, placed from the Design Blocks panel of the schematic editor. `TLV62569DRL_buck` is the FPGA card's 1.1 V buck. |
+
+Add new parts to `libs/`, not to a project. A new symbol library file has to be added to the
+`sym-lib-table` of every project.
+
 ## Known issues
 
 - Some outputs are older than the boards they sit next to: the mainboard stencil (from v1), the
   GPU cards' schematic PDFs and stencils (from before the VGA/DVI split), and the FPGA card's
   schematic PDF. Regenerate them before the next order.
 - The silkscreen of the 20-pin bus adapter reads "2x15" (copied from the 30-pin adapter).
-- The libraries are copied into each project and have diverged.

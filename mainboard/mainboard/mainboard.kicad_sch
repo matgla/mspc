@@ -16,7 +16,7 @@
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -113,13 +113,313 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 86.36) (xy 114.3 86.36)
+			(xy 153.67 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91559c47-83ea-4d6f-a4a5-ec56ddfec6ed")
+		(uuid "05da7745-f9f9-4d51-a350-5dc547d23555")
+	)
+	(bus
+		(pts
+			(xy 137.16 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b09b94b-08d6-443a-a981-075d2ccd8848")
+	)
+	(bus
+		(pts
+			(xy 137.16 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c85b992-3f90-4c81-9109-a3e873f16dda")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccd2ab5-9ee3-456c-b738-e7ddef8d91a1")
+	)
+	(bus
+		(pts
+			(xy 163.83 118.11) (xy 163.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d34c33b-7af4-4818-839c-d09b2871a1b6")
+	)
+	(wire
+		(pts
+			(xy 138.43 107.95) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4a3bbe-5da4-436c-8561-184a12f0dce1")
+	)
+	(bus
+		(pts
+			(xy 137.16 73.66) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30432e9a-6316-4a02-b925-55d1999195e8")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c6525f-5f63-43fe-a76d-43c94497779a")
+	)
+	(wire
+		(pts
+			(xy 156.21 111.76) (xy 156.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbadf84-8107-46a7-8d28-7a7704d16d61")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58241d48-9a43-4785-8375-207d59ae51fe")
+	)
+	(bus
+		(pts
+			(xy 167.64 140.97) (xy 161.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6010de-34bb-42a8-8957-0f2911c27d53")
+	)
+	(bus
+		(pts
+			(xy 161.29 140.97) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c51c89-39ca-4e01-b936-1ccc9965bf71")
+	)
+	(bus
+		(pts
+			(xy 137.16 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c0b2b5-5b74-40c4-91e5-8d8c494a72fa")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6919f142-89de-42ab-8e9d-ca6b38f0414d")
+	)
+	(wire
+		(pts
+			(xy 156.21 144.78) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb35006-419b-4851-ae9a-f37808d523ed")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982e4224-19c2-452f-bf34-c3c29c9091a1")
+	)
+	(bus
+		(pts
+			(xy 161.29 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b576adb-dd11-457d-9bf2-4fa408868e9e")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 143.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d507281-12c2-4a3b-afc7-97cbda4ef430")
+	)
+	(wire
+		(pts
+			(xy 153.67 142.24) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae29d894-4037-4d35-a846-6f51bcea64ae")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35e2db8-a25e-4014-b133-f45e8c8790b9")
+	)
+	(wire
+		(pts
+			(xy 148.59 142.24) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cf5c52-c5fc-49ff-8724-16c1441391c8")
+	)
+	(bus
+		(pts
+			(xy 137.16 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5e45c3-65c2-443f-bbb0-f6605d62760d")
+	)
+	(bus
+		(pts
+			(xy 163.83 138.43) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc7db82-98d8-456c-a943-24296dcbde17")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 167.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9074bf8-800d-4061-85fb-506ae52d3dba")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98fbed0-7861-453c-8e32-c169d16b675e")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdb66ac-bbfa-48bc-96c3-cd51df2d6d86")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1a4242-e779-4fd7-bc41-22a984103907")
+	)
+	(bus
+		(pts
+			(xy 167.64 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1b0d80-fee9-432b-8082-b7ec2743f6ec")
+	)
+	(wire
+		(pts
+			(xy 148.59 149.86) (xy 167.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2838701-c582-4bdc-8e74-05a69413d8d2")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee896ca6-01d4-4fd3-898a-50bf3a10de88")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64b22c1-ccf4-4a25-a0ce-418b8d79b032")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -133,7 +433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f104f8a-0e62-43d2-922f-8cff4b15b603")
-		(property "Reference" "H7"
+		(property "Reference" "H107"
 			(at 58.42 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -177,7 +477,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 55.88 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -191,7 +491,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H7")
+					(reference "H107")
 					(unit 1)
 				)
 			)
@@ -209,7 +509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ccf068-6171-4d6c-b24e-616341f88437")
-		(property "Reference" "H1"
+		(property "Reference" "H101"
 			(at 33.02 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -253,7 +553,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -267,7 +567,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H1")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -285,7 +585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf971f46-f582-4d59-a3a7-bd0a70cb5584")
-		(property "Reference" "H3"
+		(property "Reference" "H103"
 			(at 33.02 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -329,7 +629,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -343,7 +643,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H3")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -361,7 +661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf1af40-1d48-4208-8af1-10b0ab2d4aab")
-		(property "Reference" "H4"
+		(property "Reference" "H104"
 			(at 33.02 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -405,7 +705,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -419,7 +719,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H4")
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -437,7 +737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed45556-ba85-4469-8809-66fa29b39dad")
-		(property "Reference" "H6"
+		(property "Reference" "H106"
 			(at 58.42 31.115 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -481,7 +781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 55.88 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -495,7 +795,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H6")
+					(reference "H106")
 					(unit 1)
 				)
 			)
@@ -513,7 +813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90694ca-b92b-442a-95c2-33929c84f3a8")
-		(property "Reference" "H5"
+		(property "Reference" "H105"
 			(at 58.42 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -557,7 +857,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 55.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -571,7 +871,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H5")
+					(reference "H105")
 					(unit 1)
 				)
 			)
@@ -589,7 +889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e225e0-d75f-4234-a140-1ff3e3fc4aba")
-		(property "Reference" "H2"
+		(property "Reference" "H102"
 			(at 33.02 31.115 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -633,7 +933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -647,15 +947,289 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H2")
+					(reference "H102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 45.72 77.47)
-		(size 36.83 31.75)
+		(at 95.25 69.85)
+		(size 41.91 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "036c5455-65a1-4518-85e4-9ce787cea3ad")
+		(property "Sheetname" "MSPC bus"
+			(at 95.25 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mspc_bus.kicad_sch"
+			(at 95.25 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUS_CARD0{D[0..7] CLK INT# RST# CS#}" bidirectional
+			(at 137.16 73.66 0)
+			(uuid "f9d2b397-3fb7-42f5-b94b-81a262c7ad12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUS_CARD1{D[0..1] CLK INT# RST# CS#}" bidirectional
+			(at 137.16 76.2 0)
+			(uuid "16d8e2f5-245c-4720-9871-4f5d3221b503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUS_CARD2{D[0..3] CLK INT# RST# CS#}" bidirectional
+			(at 137.16 78.74 0)
+			(uuid "0cab6a5c-66ab-4d98-8607-3ac2865941e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 88.9)
+		(size 41.91 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06944e83-481d-4de8-9bd8-dad25eed9848")
+		(property "Sheetname" "Audio DAC"
+			(at 95.25 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_dac.kicad_sch"
+			(at 95.25 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AUDIO{BCK DIN LRCK}" bidirectional
+			(at 137.16 92.71 0)
+			(uuid "53dfb0cf-c8e9-41ba-96a8-6cfbaadc3960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 133.35)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1008c9a6-967f-4290-8258-82210ebc6b40")
+		(property "Sheetname" "Debug Probe"
+			(at 167.64 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug_probe.kicad_sch"
+			(at 167.64 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PROBE_USB_D+" bidirectional
+			(at 167.64 149.86 180)
+			(uuid "2a124d15-d65f-421f-a9ed-52483c747155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PROBE_USB_D-" bidirectional
+			(at 167.64 152.4 180)
+			(uuid "9c919916-a670-49ab-ae87-9175cc08d5b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD{CLK DIO}" bidirectional
+			(at 167.64 138.43 180)
+			(uuid "b65e554c-e68f-4807-8406-75951e2e4d55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_DEBUG{TX RX}" bidirectional
+			(at 167.64 140.97 180)
+			(uuid "85476180-4a97-4736-b3dc-1135dfd925cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 52.07)
+		(size 41.91 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "679ff435-2b87-4904-a071-8b7e4c6f8a6b")
+		(property "Sheetname" "USB Hub"
+			(at 95.25 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 95.25 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{D-, D+}" bidirectional
+			(at 137.16 57.15 0)
+			(uuid "5450834e-3bca-465b-9dfd-f818dc088081")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 101.6)
+		(size 17.78 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -669,8 +1243,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8c334f51-6a0b-406c-9f2c-47b0eaeba7c1")
-		(property "Sheetname" "power_supply"
-			(at 45.72 76.7584 0)
+		(property "Sheetname" "Power Supply"
+			(at 119.38 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -681,7 +1255,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 45.72 109.8046 0)
+			(at 119.38 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -691,9 +1265,39 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER_ENABLE" input
-			(at 82.55 86.36 0)
-			(uuid "13d41e65-24d8-4bc1-91d4-aa56d790d737")
+		(pin "CARD_0_EN" input
+			(at 137.16 107.95 0)
+			(uuid "c81fbd5f-cf2f-40e4-8610-56ddb4d26ad8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CARD_1_EN" input
+			(at 137.16 110.49 0)
+			(uuid "9ba3c744-a300-497d-b9ad-d5e4d7965e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CARD_2_EN" input
+			(at 137.16 113.03 0)
+			(uuid "6f60f2ab-398e-4436-9530-d50b27abe25e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_EN" input
+			(at 137.16 115.57 0)
+			(uuid "af4abea2-562d-4dd4-b22d-19af5c0ec9ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,8 +1314,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 78.74)
-		(size 62.23 33.02)
+		(at 167.64 52.07)
+		(size 62.23 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -726,7 +1330,7 @@
 		)
 		(uuid "90a5bc85-07ac-4ee1-af41-887c984cc4b9")
 		(property "Sheetname" "RP2350 Core"
-			(at 114.3 78.0284 0)
+			(at 167.64 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -737,7 +1341,7 @@
 			)
 		)
 		(property "Sheetfile" "rp2350_core.kicad_sch"
-			(at 114.3 112.3446 0)
+			(at 167.64 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -747,9 +1351,129 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER_ENABLE" output
-			(at 114.3 86.36 180)
-			(uuid "67545016-636d-4fcc-addd-ca6acb95f7ba")
+		(pin "AUDIO{BCK DIN LRCK}" bidirectional
+			(at 167.64 92.71 180)
+			(uuid "52370d91-6780-416c-973c-170c80e9091a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUS_CARD0{D[0..7] CLK INT# RST# CS#}" bidirectional
+			(at 167.64 73.66 180)
+			(uuid "278c3e8e-6680-4936-9783-8780a760d763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUS_CARD1{D[0..1] CLK INT# RST# CS#}" bidirectional
+			(at 167.64 76.2 180)
+			(uuid "75f6d308-2165-4b33-9f92-6f20c33f2283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUS_CARD2{D[0..3] CLK INT# RST# CS#}" bidirectional
+			(at 167.64 78.74 180)
+			(uuid "874181ae-56c1-4ed9-b346-66c8e5beec6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD{CLK DIO}" bidirectional
+			(at 167.64 118.11 180)
+			(uuid "c89fc616-81e8-4ffe-a412-edacde9c72db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_DEBUG{TX RX}" bidirectional
+			(at 167.64 115.57 180)
+			(uuid "0947621c-a7b8-4379-9f0a-6b4230454212")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{D-, D+}" bidirectional
+			(at 167.64 57.15 180)
+			(uuid "74699499-a683-44c8-90ad-45a8f43e173e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRIMARY_POWER_FAULT#" input
+			(at 167.64 109.22 180)
+			(uuid "4bf7031a-c3db-4419-8cc9-b89f2929f5f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SECONDARY_POWER_FAULT#" input
+			(at 167.64 111.76 180)
+			(uuid "e185d8e0-0ef6-44a4-b195-3ab34d360619")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CARD_0_EN" output
+			(at 167.64 96.52 180)
+			(uuid "b39f3a3b-0c07-424a-a149-8aaea77f5202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CARD_1_EN" output
+			(at 167.64 99.06 180)
+			(uuid "cbb4fdc0-c10b-41d4-9ce7-5054706cae82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CARD_2_EN" output
+			(at 167.64 101.6 180)
+			(uuid "2ad9579f-b77c-44e7-85ff-ce2019754e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_EN" output
+			(at 167.64 104.14 180)
+			(uuid "20527aee-f2f4-437c-8541-978af5ec4ed4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,6 +1485,92 @@
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 137.16)
+		(size 40.64 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea70122d-d8ff-4280-8ad2-88551d7c2296")
+		(property "Sheetname" "Power Connector"
+			(at 107.95 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_connector.kicad_sch"
+			(at 107.95 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PRIMARY_POWER_FAULT#" output
+			(at 148.59 142.24 0)
+			(uuid "c30277ce-4c1f-4d39-8910-f83e446d4f90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROBE_USB_D+" bidirectional
+			(at 148.59 149.86 0)
+			(uuid "bd91c82e-6438-4275-8243-491823ea5754")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROBE_USB_D-" bidirectional
+			(at 148.59 152.4 0)
+			(uuid "bfbfbedd-5987-4b41-8b43-299213546361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SECONDARY_POWER_FAULT#" output
+			(at 148.59 144.78 0)
+			(uuid "ee6d7ed1-3c52-4c3e-ace8-bf889a0d1146")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
 				)
 			)
 		)

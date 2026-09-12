@@ -3,4 +3,7 @@
   (lib (name "PTS636_SM43J_SMTR_LFS")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/PTS636_SM43J_SMTR_LFS.lib")(options "")(descr ""))
   (lib (name "project_power")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/project_power.kicad_sym")(options "")(descr ""))
   (lib (name "SSM6")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/SSM6.kicad_sym")(options "")(descr ""))
+  (lib (name "mspc_power")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/mspc_power.kicad_sym")(options "")(descr "TPS259470L eFuse, SY6280 load switch; from EasyEDA C3662793/C55136, checked against the datasheets"))
+  (lib (name "mspc_usb")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/mspc_usb.kicad_sym")(options "")(descr "CH334R hub, USBLC6-4SC6 ESD; copied from the KiCad 10 standard libraries"))
+  (lib (name "mspc_connectors")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/mspc_connectors.kicad_sym")(options "")(descr "JST SH 1.00 mm front-panel headers (SM02B/SM03B side entry, BM02B/BM03B top entry); KiCad 10 generic connector graphics with the JST part data"))
 )

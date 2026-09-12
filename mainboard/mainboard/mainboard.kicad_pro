@@ -764,7 +764,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "",
@@ -884,7 +884,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L201,L301,H101-107,#FLG201-202,#FLG301-302,#FLG701-702,SW1,SW801-802,D11-28,D301-305,D701-703,D801-805,C15-43,C45-64,C66-70,C73,C76-88,C201-221,C301-318,C501,C601-611,C701-708,C801-816,C901-906,C1101-1106,Q1,U1-9,U13-22,U201-203,U301-306,U601,U701-703,U801-805,U901-903,TP6-14,TP301-308,TP801-802,R2-14,R17-20,R22-24,R26,R28-30,R32-53,R201-209,R301-317,R501-502,R601-602,R701-712,R801-816,Y2-4,Y201,Y801,Y901,#PWR9-23,#PWR28-44,#PWR51-74,#PWR76,#PWR78-83,#PWR85,#PWR87-88,#PWR94-165,#PWR168-193,#PWR195,#PWR197-231,#PWR301-365,#PWR501-504,#PWR601-612,#PWR701-736,#PWR801-832,#PWR901-916,#PWR1101-1121,J2,J6-15,J17-19,J201-204,J501,J601,J701-702,J801,J901-902,J1101-1103",
     "variants": []
   },
   "sheets": [
@@ -898,31 +898,27 @@
     ],
     [
       "8c334f51-6a0b-406c-9f2c-47b0eaeba7c1",
-      "power_supply"
+      "Power Supply"
     ],
     [
-      "d587dd48-9ba0-476e-8466-6af504502978",
-      "USB Hub"
-    ],
-    [
-      "816b49d5-b2e1-454c-85ec-2de029070370",
-      "MCU Connectors"
-    ],
-    [
-      "327769b0-1c61-4f46-a1b7-23bf14af99ac",
+      "06944e83-481d-4de8-9bd8-dad25eed9848",
       "Audio DAC"
     ],
     [
-      "9089ffc6-68fc-4631-846a-fa593a648d8c",
-      "Main bus control"
+      "ea70122d-d8ff-4280-8ad2-88551d7c2296",
+      "Power Connector"
     ],
     [
-      "14c0b523-f3a5-445a-8a14-a8d6854452b4",
-      "SD Card"
+      "1008c9a6-967f-4290-8258-82210ebc6b40",
+      "Debug Probe"
     ],
     [
-      "78fa6cb9-f921-4861-9f70-f5ecadaf057b",
-      "MCU flash"
+      "679ff435-2b87-4904-a071-8b7e4c6f8a6b",
+      "USB Hub"
+    ],
+    [
+      "036c5455-65a1-4518-85e4-9ce787cea3ad",
+      "MSPC bus"
     ]
   ],
   "text_variables": {},
