@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.0198)
+		(thickness 1.0296)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -50,7 +50,9 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(thickness 0.01)
+				(thickness 0.0152)
+				(epsilon_r 3.8)
+				(loss_tangent 0.025)
 			)
 			(layer "F.Cu"
 				(type "copper")
@@ -60,7 +62,7 @@
 				(type "prepreg")
 				(thickness 0.0994)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
@@ -71,7 +73,7 @@
 				(type "core")
 				(thickness 0.7)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.6)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
@@ -80,9 +82,9 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.0994)
 				(material "FR4")
-				(epsilon_r 4.5)
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
@@ -91,7 +93,9 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0.0152)
+				(epsilon_r 3.8)
+				(loss_tangent 0.025)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -99,7 +103,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "HAL SnPb")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)

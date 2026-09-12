@@ -1,0 +1,55 @@
+(version 1)
+
+# JLCPCB 4-layer, base price, stackup JLC04101H-3313 (1.0 mm):
+#   F.Cu signal | 0.0994 3313 | In1.Cu GND | 0.7 core | In2.Cu GND | 0.0994 3313 | B.Cu signal
+# Global minimums live in Board Setup > Constraints; these rules add what that page cannot express.
+# Limits from https://jlcpcb.com/capabilities/pcb-capabilities (checked 2026-09-12).
+
+# JLCPCB: PTH to track 0.28 mm min, 0.35 mm recommended.
+(rule "PTH hole to copper"
+	(constraint hole_clearance (min 0.3mm))
+	(condition "A.Pad_Type == 'Through-hole'"))
+
+# JLCPCB: NPTH to track 0.2 mm; a little extra for drill wander.
+(rule "NPTH hole to copper"
+	(constraint hole_clearance (min 0.25mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical'"))
+
+# JLCPCB: pad hole to pad hole 0.45 mm (vias 0.2 mm, set globally).
+(rule "PTH hole to hole"
+	(constraint hole_to_hole (min 0.45mm))
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'"))
+
+# Routed edge tolerance is +-0.2 mm at regular precision: keep pours well back.
+(rule "Pours back from board edge"
+	(constraint edge_clearance (min 0.5mm))
+	(condition "A.Type == 'Zone'"))
+
+# In1/In2 are unbroken GND planes; a track there cuts the return path of the layer above.
+(rule "No tracks on the GND planes"
+	(severity warning)
+	(layer inner)
+	(constraint disallow track))
+
+# 90 ohm differential on F.Cu/B.Cu: 0.16 mm / 0.15 mm gap (field-solved, see docs/pcb_rules_jlcpcb.md).
+(rule "USB 90 ohm pairs"
+	(condition "A.NetClass == 'USB_90R' && A.inDiffPair('*')")
+	(constraint track_width (min 0.15mm) (opt 0.16mm) (max 0.17mm))
+	(constraint diff_pair_gap (min 0.14mm) (opt 0.15mm) (max 0.17mm))
+	(constraint diff_pair_uncoupled (max 3mm))
+	(constraint skew (max 0.5mm) (within_diff_pairs)))
+
+# 50 ohm single-ended: 0.16 mm; allow necking to 0.1 mm for short pad escapes only.
+(rule "50 ohm signals"
+	(condition "A.NetClass == 'Signal_50R'")
+	(constraint track_width (min 0.1mm) (opt 0.16mm) (max 0.2mm)))
+
+# Keep crystal traces away from other nets' tracks and vias (pads keep the net class clearance).
+(rule "Crystal clearance"
+	(condition "A.NetClass == 'XOSC' && A.Type == 'Track' && B.NetClass != 'XOSC' && B.Net != 'GND' && B.Type != 'Pad'")
+	(constraint clearance (min 0.3mm)))
+
+# JLCPCB: pad to silkscreen 0.15 mm.
+(rule "Silkscreen to pads"
+	(layer outer)
+	(constraint silk_clearance (min 0.15mm)))
