@@ -465,7 +465,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:AudioJack4"
+		(symbol "Connector_Audio:AudioJack4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1429,6 +1429,12 @@
 		(uuid "494bc194-aee1-4630-a88f-147fda60cff2")
 	)
 	(junction
+		(at 125.73 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc108af-0118-4973-b074-0ee51f7e44d2")
+	)
+	(junction
 		(at 82.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1707,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 109.22) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526ffb20-588a-4f6c-9fc6-1229b7f53713")
+	)
+	(wire
+		(pts
 			(xy 110.49 104.14) (xy 96.52 104.14)
 		)
 		(stroke
@@ -1794,6 +1810,16 @@
 			(type default)
 		)
 		(uuid "7bbff69d-7aff-4816-b87e-bcfb1f70722d")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee0654-3f52-40ae-a645-535a1a55e892")
 	)
 	(wire
 		(pts
@@ -1907,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 114.3) (xy 123.19 118.11)
+			(xy 125.73 114.3) (xy 125.73 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2065,6 +2091,26 @@
 		)
 		(uuid "2f5d00c2-3549-41a3-b8fc-b1db67335700")
 	)
+	(label "DAC_OUTR"
+		(at 135.89 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "310140e5-d72d-4c15-88d1-945d25458413")
+	)
+	(label "DAC_CAPM"
+		(at 144.78 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "344a861a-68f0-4168-9842-c33e30acdc6a")
+	)
 	(label "AUDIO.BCK"
 		(at 110.49 91.44 180)
 		(effects
@@ -2075,6 +2121,26 @@
 		)
 		(uuid "3c9cce8b-3269-4b99-96b6-d439987748dc")
 	)
+	(label "DAC_OUTL"
+		(at 135.89 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee0d2ed-4e7a-4d7b-b26d-e53f18cd27da")
+	)
+	(label "AUDIO_L"
+		(at 172.72 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5692b597-af95-4302-95df-deb029c4ff20")
+	)
 	(label "AUDIO.BCK"
 		(at 54.61 26.67 0)
 		(effects
@@ -2084,6 +2150,36 @@
 			(justify left bottom)
 		)
 		(uuid "70f1d171-2f35-49f4-8ec1-129336b936d3")
+	)
+	(label "DAC_CAPP"
+		(at 135.89 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "899ebd9b-8d03-4e7d-8fff-34feb81124a9")
+	)
+	(label "AUDIO_R"
+		(at 172.72 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa92dd11-1ca0-4c5f-aca0-1563b1498089")
+	)
+	(label "DAC_LDOO"
+		(at 135.89 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae3e56b4-32f1-4050-95cf-7303b8af6812")
 	)
 	(label "AUDIO.LRCK"
 		(at 110.49 86.36 180)
@@ -2105,6 +2201,16 @@
 		)
 		(uuid "cfb51a7f-2d67-4d00-9aaf-b1e832697a40")
 	)
+	(label "DAC_VNEG"
+		(at 138.43 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de09d41f-dac9-4771-b97c-15c30b08b208")
+	)
 	(hierarchical_label "AUDIO{BCK DIN LRCK}"
 		(shape bidirectional)
 		(at 45.72 24.13 180)
@@ -2118,7 +2224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 118.11 0)
+		(at 125.73 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2129,7 +2235,7 @@
 		(fields_autoplaced yes)
 		(uuid "03b13947-8803-46bb-a2bf-e13969a93a3e")
 		(property "Reference" "#PWR0605"
-			(at 123.19 124.46 0)
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,7 +2246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 123.19 0)
+			(at 125.73 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2150,7 +2256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 118.11 0)
+			(at 125.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 118.11 0)
+			(at 125.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 118.11 0)
+			(at 125.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35885469-604e-4661-a57d-25fcceb7c3a8")
-		(property "Reference" "C603"
+		(property "Reference" "C102"
 			(at 104.14 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,6 +2600,61 @@
 				)
 			)
 		)
+		(property "Voltage" "25V"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A106KAHNNNE"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9807"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a07a7d0-db6c-4132-8b6f-4627c4b2d082")
 		)
@@ -2503,7 +2664,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C603")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack4")
+		(lib_id "Connector_Audio:AudioJack4")
 		(at 190.5 91.44 180)
 		(unit 1)
 		(body_style 1)
@@ -2598,7 +2759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d476163-5cd3-4738-8e19-24df40638fb8")
-		(property "Reference" "J601"
+		(property "Reference" "J100"
 			(at 199.39 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2829,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "J601")
+					(reference "J100")
 					(unit 1)
 				)
 			)
@@ -2685,7 +2846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "582a50e4-b9be-45dc-935a-ea180954430f")
-		(property "Reference" "C610"
+		(property "Reference" "C109"
 			(at 162.56 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2740,6 +2901,39 @@
 				)
 			)
 		)
+		(property "Voltage" "10V"
+			(at 160.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 160.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 160.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c50d4bcc-a26c-4f85-9303-ef5af595ae3f")
 		)
@@ -2749,7 +2943,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C610")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -2766,7 +2960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b703064-0d66-421c-891a-334bdb4c3e49")
-		(property "Reference" "C604"
+		(property "Reference" "C103"
 			(at 114.3 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,6 +3015,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 111.76 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 111.76 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 111.76 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91342bc1-8d01-42bc-bd73-5bec5d38a967")
 		)
@@ -2830,7 +3057,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C604")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -2847,7 +3074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ecfdb9a-b9ec-4319-9ee5-ddd0bb14fa57")
-		(property "Reference" "R602"
+		(property "Reference" "R101"
 			(at 154.94 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,6 +3127,17 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "51e1e33e-9ff7-4753-a022-51ddd9488b1e")
 		)
@@ -2909,7 +3147,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "R602")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd923d3-211a-4dcd-a9cf-8b7c93358b41")
-		(property "Reference" "C601"
+		(property "Reference" "C100"
 			(at 85.09 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,6 +3375,61 @@
 				)
 			)
 		)
+		(property "Voltage" "25V"
+			(at 82.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 82.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A106KAHNNNE"
+			(at 82.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9807"
+			(at 82.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 82.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64248e93-f28c-4410-8c3d-3462da0b1a7c")
 		)
@@ -3146,7 +3439,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C601")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -3164,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9074503d-8be0-4052-a26a-d6a444bd1b1c")
-		(property "Reference" "C606"
+		(property "Reference" "C107"
 			(at 139.7 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,6 +3512,39 @@
 				)
 			)
 		)
+		(property "Voltage" "10V"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 135.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e24d8754-cfa0-441e-8722-86779cbbe680")
 		)
@@ -3228,7 +3554,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C606")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b81095-e222-4a58-9e73-b8983250fa8a")
-		(property "Reference" "C602"
+		(property "Reference" "C101"
 			(at 93.98 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,6 +3626,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 91.44 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 91.44 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 91.44 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0032ee8-1c25-4eaa-81be-b0aba0ae2062")
 		)
@@ -3309,7 +3668,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C602")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -3326,7 +3685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "928b5804-b276-4635-8611-ba1242715bd3")
-		(property "Reference" "C609"
+		(property "Reference" "C108"
 			(at 151.13 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,6 +3740,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50baa593-1261-4419-8e9f-ffca1c04e957")
 		)
@@ -3390,7 +3782,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C609")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0f6983-5c75-46fd-a5c6-4a7ec5147f6e")
-		(property "Reference" "U601"
+		(property "Reference" "U100"
 			(at 127.8733 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,6 +3923,39 @@
 			)
 		)
 		(property "Description" "2.1 VRMS, 106dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCM5101APWR"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2667024"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3604,7 +4029,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "U601")
+					(reference "U100")
 					(unit 1)
 				)
 			)
@@ -3621,7 +4046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0c82667-5f32-4327-b8d7-f095c17149ee")
-		(property "Reference" "C608"
+		(property "Reference" "C105"
 			(at 147.32 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,6 +4101,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 144.78 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 144.78 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 144.78 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5120b625-7b8e-48ee-bf54-f7c25615f437")
 		)
@@ -3685,7 +4143,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C608")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -3780,7 +4238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3390a09-5d69-4612-b5ba-d5eb183b76e5")
-		(property "Reference" "R601"
+		(property "Reference" "R100"
 			(at 154.94 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3833,6 +4291,17 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 154.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db88d8bf-169d-4379-ac1e-3179f2cb62e0")
 		)
@@ -3842,7 +4311,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "R601")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -3859,7 +4328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8964f16-0a1a-4aa3-826c-aaf52fc2f686")
-		(property "Reference" "C611"
+		(property "Reference" "C110"
 			(at 172.72 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3914,6 +4383,39 @@
 				)
 			)
 		)
+		(property "Voltage" "10V"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9df4c11-28e5-4a32-870e-e07569560715")
 		)
@@ -3923,7 +4425,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C611")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa6687aa-63c1-41d1-a518-a166bb6b3d8b")
-		(property "Reference" "C605"
+		(property "Reference" "C104"
 			(at 138.43 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,6 +4731,61 @@
 				)
 			)
 		)
+		(property "Voltage" "25V"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A106KAHNNNE"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9807"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "661a00ca-5a14-419c-af83-492295bb6d89")
 		)
@@ -4238,7 +4795,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C605")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -4256,7 +4813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5668df-e24d-4756-a959-62224db2fbff")
-		(property "Reference" "C607"
+		(property "Reference" "C106"
 			(at 143.51 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,6 +4868,39 @@
 				)
 			)
 		)
+		(property "Voltage" "10V"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 139.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da461552-6521-4ce1-bbf1-3daa7481525d")
 		)
@@ -4320,7 +4910,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/06944e83-481d-4de8-9bd8-dad25eed9848"
-					(reference "C607")
+					(reference "C106")
 					(unit 1)
 				)
 			)

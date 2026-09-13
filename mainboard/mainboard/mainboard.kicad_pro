@@ -572,6 +572,82 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.3,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.3,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.3,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "Power_3A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.2,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.3,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "Signal_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.3,
@@ -607,82 +683,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.3,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.8,
-        "microvia_drill": 0.4,
-        "name": "Power_3A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.3,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.8,
-        "microvia_drill": 0.4,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.3,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.3,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
-        "name": "Signal_50R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -706,15 +706,11 @@
       },
       {
         "netclass": "USB_90R",
-        "pattern": "/Debug Probe/PROBE_USB_D*"
+        "pattern": "/Debug Probe/PROBE_USB_*"
       },
       {
         "netclass": "USB_90R",
-        "pattern": "Net-(J70?-D*"
-      },
-      {
-        "netclass": "USB_90R",
-        "pattern": "Net-(U803-USB_D*"
+        "pattern": "Net-(U122-USB_D*"
       },
       {
         "netclass": "XOSC",
@@ -726,11 +722,11 @@
       },
       {
         "netclass": "XOSC",
-        "pattern": "Net-(U903-X*"
+        "pattern": "/USB Hub/HUB_X*"
       },
       {
         "netclass": "XOSC",
-        "pattern": "Net-(Y*"
+        "pattern": "/RTC/RTC_X*"
       },
       {
         "netclass": "Power_3A",
@@ -745,16 +741,44 @@
         "pattern": "+5V_DBG"
       },
       {
+        "netclass": "Power_3A",
+        "pattern": "+5V_RAW"
+      },
+      {
         "netclass": "Power",
         "pattern": "+*"
       },
       {
         "netclass": "Power",
-        "pattern": "Net-(U304-SW)"
+        "pattern": "/RP2350 Core/VREG_LX"
       },
       {
         "netclass": "Power",
-        "pattern": "/RP2350 Core/VREG_LX"
+        "pattern": "/Power Supply/BUCK_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Audio DAC/DAC_CAPP"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Audio DAC/DAC_CAPM"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Audio DAC/DAC_VNEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/USB Hub/HUB_VDD33"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/RP2350 Core/VREG_AVDD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/RP2350 Core/ADC_AVDD"
       },
       {
         "netclass": "GND",
@@ -783,6 +807,10 @@
       {
         "netclass": "Signal_50R",
         "pattern": "/Audio DAC/AUDIO.*"
+      },
+      {
+        "netclass": "Signal_50R",
+        "pattern": "Net-(U50-GPIO32)"
       }
     ]
   },
@@ -904,7 +932,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "rtc",
     "plot_directory": "",
     "reuse_designators": true,
     "spice_adjust_passive_values": false,
@@ -923,7 +951,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "L201,L301,H101-107,#FLG201-202,#FLG301-302,#FLG701-702,SW1,SW801-802,D11-28,D301-305,D701-703,D801-805,C15-43,C45-64,C66-70,C73,C76-88,C201-223,C301-318,C501,C601-611,C701-708,C801-816,C901-906,C1101-1106,Q1,U1-9,U13-22,U201-203,U301-306,U601,U701-703,U801-805,U901-903,TP6-14,TP301-308,TP801-802,R2-14,R17-20,R22-24,R26,R28-30,R32-53,R201-213,R301-317,R501-502,R601-602,R701-712,R801-816,R1101-1111,Y2-4,Y201,Y801,Y901,#PWR9-23,#PWR28-44,#PWR51-74,#PWR76,#PWR78-83,#PWR85,#PWR87-88,#PWR94-165,#PWR168-193,#PWR195,#PWR197-233,#PWR301-365,#PWR501-504,#PWR601-612,#PWR701-736,#PWR801-832,#PWR901-916,#PWR1101-1124,J2,J6-15,J17-19,J201-204,J501,J601,J701-702,J801,J901-902,J1101-1103",
+    "used_designators": "SW1,SW801-802,#FLG201-202,#FLG301-302,#FLG501-504,#FLG701-702,#FLG1001,#PWR9-23,#PWR28-44,#PWR51-74,#PWR76,#PWR78-83,#PWR85,#PWR87-88,#PWR94-165,#PWR168-193,#PWR195,#PWR197-247,#PWR301-367,#PWR401-404,#PWR501-523,#PWR601-612,#PWR701-738,#PWR740,#PWR801-840,#PWR901-916,#PWR1001-1006,#PWR1101-1136,Y2-4,Y201,Y801,Y901,Y1001,Y1101,FB201,L201-202,L301,BT1001,BT1101,H101-107,J2,J6-15,J17-19,J201-204,J501,J601,J701-702,J801,J901-902,J1101-1103,R2-14,R17-20,R22-24,R26,R28-30,R32-53,R201-213,R301-317,R501-510,R601-602,R701-712,R801-816,R1001,R1101-1135,TP6-14,TP201,TP301-308,TP701,TP801-803,C15-43,C45-64,C66-70,C73,C76-88,C201-223,C301-318,C401,C501-502,C601-611,C701-708,C801-816,C901-906,C1001-1003,C1101-1106,Q1,Q801-802,D11-28,D301-305,D701-703,D801-805,U1-9,U13-22,U201-203,U301-306,U401,U501-502,U601,U701-703,U801-805,U901-903,U1001,U1101",
     "variants": []
   },
   "sheets": [
@@ -940,6 +968,14 @@
       "Power Supply"
     ],
     [
+      "26dae883-c80a-4f1a-b768-c2c22ab2a353",
+      "Expander"
+    ],
+    [
+      "5d248fa8-4c7e-4ee5-b7a2-9b1e7db8d90b",
+      "Power Measurement"
+    ],
+    [
       "06944e83-481d-4de8-9bd8-dad25eed9848",
       "Audio DAC"
     ],
@@ -954,6 +990,10 @@
     [
       "679ff435-2b87-4904-a071-8b7e4c6f8a6b",
       "USB Hub"
+    ],
+    [
+      "a9deebe2-8570-450c-a527-bccf619ff8c2",
+      "RTC"
     ],
     [
       "036c5455-65a1-4518-85e4-9ce787cea3ad",

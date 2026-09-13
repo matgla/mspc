@@ -48,7 +48,7 @@
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
-      "LCSC Part"
+      "LCSC"
       "C3662793"
       (id 6)
       (at 0 -22.86 0)
@@ -176,7 +176,7 @@
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
-      "LCSC Part"
+      "LCSC"
       "C55136"
       (id 6)
       (at 0 -26.67 0)
@@ -286,7 +286,7 @@
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
-      "LCSC Part"
+      "LCSC"
       "C128401"
       (id 6)
       (at 0 -26.67 0)
@@ -398,7 +398,7 @@
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
-      "LCSC Part"
+      "LCSC"
       "C513108"
       (id 6)
       (at 0 -16.51 0)
@@ -439,6 +439,112 @@
         (at 3.81 0 180)
         (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "AOTA-B201610S3R3-101-T"
+    (pin_numbers hide)
+    (pin_names (offset 1.016) hide)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "L"
+      (id 0)
+      (at -1.27 0 90)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "AOTA-B201610S3R3-101-T"
+      (id 1)
+      (at 1.905 0 90)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "footprints:L_Abracon_AOTA-B201610S_Polarity"
+      (id 2)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://abracon.com/datasheets/AOTA-B201610S.pdf"
+      (id 3)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Abracon"
+      (id 4)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "AOTA-B201610S3R3-101-T"
+      (id 5)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC"
+      "C42411119"
+      (id 6)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_description"
+      "3.3uH 20% shielded molded power inductor, 2.0x1.6mm, 2.1A, 140mOhm, polarity marked; RP2350 core regulator. Pin 1 (dot) to DVDD/VOUT, pin 2 to VREG_LX"
+      (id 7)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "inductor polarised polarity RP2350 SMPS 3.3uH 0806 2016"
+      (id 8)
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "AOTA-B201610S3R3-101-T_0_1"
+      (arc (start 0 2.54) (mid 0.6323 1.905) (end 0 1.27)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (arc (start 0 1.27) (mid 0.6323 0.635) (end 0 0)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (arc (start 0 0) (mid 0.6323 -0.635) (end 0 -1.27)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (arc (start 0 -1.27) (mid 0.6323 -1.905) (end 0 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle (center -0.762 3.048) (radius 0.254)
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+    )
+    (symbol "AOTA-B201610S3R3-101-T_1_1"
+      (pin passive line
+        (at 0 3.81 270)
+        (length 1.27)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0 -3.81 90)
+        (length 1.27)
+        (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )

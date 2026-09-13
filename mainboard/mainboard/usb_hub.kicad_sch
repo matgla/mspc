@@ -2259,6 +2259,18 @@
 		)
 	)
 	(junction
+		(at 72.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f85838a-4356-492c-b378-e7dc96efc8da")
+	)
+	(junction
+		(at 72.39 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fec7a7d-d59e-4ebc-a42b-c591165b5516")
+	)
+	(junction
 		(at 69.85 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2342,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 134.62) (xy 69.85 137.16)
+			(xy 72.39 134.62) (xy 72.39 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 69.85 91.44)
+			(xy 72.39 88.9) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2770,6 +2782,16 @@
 		)
 		(uuid "fd418a23-1236-423f-8ab6-a2e0d17913d4")
 	)
+	(label "HUB_XI"
+		(at 166.37 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e85b303-13ca-4fdb-9b69-36646c72548d")
+	)
 	(label "D1-"
 		(at 80.01 119.38 0)
 		(effects
@@ -2779,6 +2801,16 @@
 			(justify left bottom)
 		)
 		(uuid "289a8436-5937-448f-987f-5c764db0730b")
+	)
+	(label "HUB_XO"
+		(at 166.37 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "327b40af-3b9c-400b-89e0-c660004b97df")
 	)
 	(label "D1+"
 		(at 80.01 116.84 0)
@@ -2899,6 +2931,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac88a5b5-700d-4e6a-9ca9-335264e85aba")
+	)
+	(label "HUB_VDD33"
+		(at 190.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b82c39ca-0116-4171-85f6-c28c5f9466f5")
 	)
 	(label "D3-"
 		(at 80.01 73.66 0)
@@ -3129,7 +3171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8ac2e0-836b-4f04-b3f6-6dcfad45bbd2")
-		(property "Reference" "C902"
+		(property "Reference" "C90"
 			(at 107.95 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,6 +3224,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 107.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 107.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 107.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "82cf0dff-22a0-4f00-a628-94261bde5061")
 		)
@@ -3191,7 +3266,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C902")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -3365,7 +3440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d8742bb-4316-4638-805b-222f79ef3f8d")
-		(property "Reference" "J901"
+		(property "Reference" "J90"
 			(at 69.85 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3375,7 +3450,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "USB_A_Stacked"
 			(at 69.85 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,6 +3494,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C12049"
+			(at 69.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "907-111A1022D10200"
+			(at 69.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Jing Extension"
+			(at 69.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c44f621-5738-46c3-b3ef-c132ff9b4e65")
 		)
@@ -3449,7 +3557,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "J901")
+					(reference "J90")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3169d9-e418-4cf1-a6be-3d3a8f19fe66")
-		(property "Reference" "U901"
+		(property "Reference" "U90"
 			(at 101.6 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 97.79 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3525,6 +3633,39 @@
 				)
 			)
 		)
+		(property "MPN" "USBLC6-4SC6"
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C111212"
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4650637c-512f-4515-8a0b-aa098f987efc")
 		)
@@ -3546,7 +3687,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "U901")
+					(reference "U90")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 137.16 0)
+		(at 72.39 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3643,7 +3784,7 @@
 		(fields_autoplaced yes)
 		(uuid "77f5aea2-e909-46fe-93fb-c921022559ef")
 		(property "Reference" "#PWR0902"
-			(at 69.85 143.51 0)
+			(at 72.39 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 142.24 0)
+			(at 72.39 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 137.16 0)
+			(at 72.39 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3675,7 +3816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 137.16 0)
+			(at 72.39 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3686,7 +3827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 137.16 0)
+			(at 72.39 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9119749a-e6a0-4bfc-96dd-af16468fd5cd")
-		(property "Reference" "U902"
+		(property "Reference" "U91"
 			(at 101.6 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 97.79 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3856,6 +3997,39 @@
 				)
 			)
 		)
+		(property "MPN" "USBLC6-4SC6"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C111212"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "46472d35-a2e6-4bff-9ce7-b3d72b6ea305")
 		)
@@ -3877,7 +4051,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "U902")
+					(reference "U91")
 					(unit 1)
 				)
 			)
@@ -3973,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da71b13-8f53-4f65-ada3-096e1d9ff5f9")
-		(property "Reference" "C905"
+		(property "Reference" "C94"
 			(at 226.06 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,6 +4202,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 222.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 222.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 222.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a45e0c1-6386-4690-b6cf-5f63b0645702")
 		)
@@ -4037,7 +4244,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C905")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a17d48b2-f0fc-48c1-89d6-df05d9c02cba")
-		(property "Reference" "Y901"
+		(property "Reference" "Y90"
 			(at 170.18 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4209,6 +4416,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20625731"
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40c3f83a-9f36-4775-aa27-40a769429eca")
 		)
@@ -4224,7 +4442,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "Y901")
+					(reference "Y90")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab6b0cc8-efb8-4dc2-ba44-c3153c9d7d42")
-		(property "Reference" "J902"
+		(property "Reference" "J91"
 			(at 69.85 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "USB_A_Stacked"
 			(at 69.85 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,6 +4514,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C12049"
+			(at 69.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "907-111A1022D10200"
+			(at 69.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Jing Extension"
+			(at 69.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "971ab72f-1aa1-4734-9c4c-500f7d0047ca")
 		)
@@ -4326,7 +4577,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "J902")
+					(reference "J91")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15385b2-71cc-4908-a420-ce3bf9b7ced4")
-		(property "Reference" "U903"
+		(property "Reference" "U92"
 			(at 191.3733 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,6 +4719,39 @@
 			)
 		)
 		(property "Description" "USB HUB controller, QSOP-16"
+			(at 189.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CH334R"
+			(at 189.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4154405"
+			(at 189.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "WCH"
 			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4529,7 +4813,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "U903")
+					(reference "U92")
 					(unit 1)
 				)
 			)
@@ -4703,7 +4987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beae5725-e530-4945-9b3e-5d964e8eb13b")
-		(property "Reference" "C906"
+		(property "Reference" "C95"
 			(at 226.06 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,6 +5042,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 222.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 222.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 222.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86ba3ac3-bf82-4166-b5bf-d030d9e81ee3")
 		)
@@ -4767,7 +5084,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C906")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -4941,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89a7995-384b-4022-87a8-9c69ecbdc007")
-		(property "Reference" "C903"
+		(property "Reference" "C93"
 			(at 214.63 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,6 +5313,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 210.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 210.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 210.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73606f04-1610-48ca-9584-cb66299d8ed8")
 		)
@@ -5005,7 +5355,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C903")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 91.44 0)
+		(at 72.39 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5102,7 +5452,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddcd303e-1302-475f-ab58-a3adecb98c26")
 		(property "Reference" "#PWR0901"
-			(at 69.85 97.79 0)
+			(at 72.39 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 96.52 0)
+			(at 72.39 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5123,7 +5473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 91.44 0)
+			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 91.44 0)
+			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,7 +5495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 91.44 0)
+			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,7 +5529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6abab7-893e-443e-83bb-2e445f03cf3a")
-		(property "Reference" "C901"
+		(property "Reference" "C91"
 			(at 106.68 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,6 +5582,39 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "154ead80-7481-458b-b7e1-0bb53cd66e75")
 		)
@@ -5241,7 +5624,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C901")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09ee156-62dc-413e-b5fc-f12458870004")
-		(property "Reference" "C904"
+		(property "Reference" "C92"
 			(at 215.9 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,6 +5697,61 @@
 				)
 			)
 		)
+		(property "Voltage" "25V"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A106KAHNNNE"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9807"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 212.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d7bf8b6-9ce0-4083-aa1d-9707eb65b164")
 		)
@@ -5323,7 +5761,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/679ff435-2b87-4904-a071-8b7e4c6f8a6b"
-					(reference "C904")
+					(reference "C92")
 					(unit 1)
 				)
 			)

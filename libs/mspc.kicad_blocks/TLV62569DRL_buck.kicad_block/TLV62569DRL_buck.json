@@ -1,4 +1,4 @@
 {
-  "description": "TLV62569DRL buck from +5 V, copied from the FPGA card (power sheet): 1.1 V out with R16 = 100k (VOUT-FB) and R17 = 120k (FB-GND), 6.8 pF feed-forward, 4.7 uF in, 2 x 10 uF out, 2.2 uH. For 3.3 V: R16 = 453k, R17 = 100k. The 0805 inductor is too small for a 1 A rail; see docs/mspc_v2.5_revision_plan.md section 2.2.",
+  "description": "TLV62569DRL buck from +5 V, copied from the FPGA card (power sheet): 1.1 V out with R16 = 100k (VOUT-FB) and R17 = 120k (FB-GND), 6.8 pF feed-forward, 4.7 uF in, 2 x 10 uF out, 2.2 uH. For 3.3 V: R16 = 453k, R17 = 100k. The 0805 inductor is too small for a 1 A rail; see docs/mspc_v3_revision_plan.md section 2.2.",
   "keywords": "TLV62569 buck regulator switching 5V SOT-563"
 }
