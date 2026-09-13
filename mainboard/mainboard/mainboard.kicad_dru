@@ -20,6 +20,18 @@
 	(constraint hole_to_hole (min 0.45mm))
 	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'"))
 
+# Vias are ordered plugged (soldermask-filled): JLCPCB wants plugged vias >= 0.35 mm from other
+# mask openings. Pads are opened 1:1, so this is via copper to pad copper, same net included.
+(rule "Plugged via to pad"
+	(layer outer)
+	(constraint physical_clearance (min 0.35mm))
+	(condition "A.Type == 'Via' && B.Type == 'Pad'"))
+
+# JLCPCB plugs holes up to 0.5 mm only.
+(rule "Plugged via hole size"
+	(constraint hole_size (max 0.5mm))
+	(condition "A.Type == 'Via'"))
+
 # Routed edge tolerance is +-0.2 mm at regular precision: keep pours well back.
 (rule "Pours back from board edge"
 	(constraint edge_clearance (min 0.5mm))

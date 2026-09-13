@@ -101,12 +101,12 @@ anything not listed at its default.
 | PCB thickness | **1.6 mm** | JLCPCB's default, stiff enough for plugging cables and cards |
 | PCB color | Green | |
 | Silkscreen | White | |
-| Material type | leave the default | |
-| Surface finish | **HASL (with lead)** | cheapest; ENIG only if 0.4 mm QFN pads come out uneven |
+| Material type | **FR-4 TG135** | |
+| Surface finish | **HASL lead-free** | ENIG only if the 0.4 mm QFN pads come out uneven |
 | Outer copper weight | 1 oz | |
 | Inner copper weight | 0.5 oz | |
 | Specify stackup / impedance control | **Yes — JLC04161H-3313** | trace widths below assume it |
-| Via covering | **Tented** | free; the vias are not in pads |
+| Via covering | **Plugged** (filled with soldermask) | see *Plugged vias* below |
 | Min via hole size / diameter | **0.3 mm / (0.4/0.45 mm)** | the no-surcharge option; board minimum is 0.3 / 0.5 |
 | Board outline tolerance | ±0.2 mm (regular) | |
 | Confirm production file | No | |
@@ -114,6 +114,23 @@ anything not listed at its default.
 | Electrical test | Flying probe, fully tested | free |
 | Gold fingers, castellated holes, edge plating, blind slots | No | |
 | 4-wire Kelvin test, paper between boards | No | |
+
+### Plugged vias
+
+JLCPCB fills the vias with soldermask, which only works when:
+
+- the via hole is ≤ 0.5 mm (all via presets are 0.3–0.5 mm; DRC checks it),
+- the via has no mask opening on either side (vias are tented in Board Setup),
+- the via is ≥ 0.35 mm from any mask opening, i.e. from any pad, same net too (DRC rule
+  *Plugged via to pad*). No vias in pads, no vias touching decoupling-capacitor pads.
+
+Plugging is decided by drill size in Gerbers, so keep component holes above 0.5 mm, and add an
+order note: *"Plug all via holes ≤ 0.5 mm; leave the thermal vias in U201's exposed pad open."*
+
+**RP2350B thermal vias:** its footprint (`RP2350-QFN-80-1EP_…_ThermalVias`) has 9 × 0.35 mm holes
+inside the exposed pad, opened on both sides. They cannot be plugged, and unplugged they wick solder
+from the pad during reflow. Either keep them open (fine for hand or hot-air soldering) or switch to the footprint without thermal vias and put GND vias ≥ 0.35 mm
+outside the pad.
 
 Before paying, check that selecting the stackup adds nothing to the price. The default 1.6 mm
 stackup (JLC04161H-7628) has a 0.21 mm outer prepreg: 0.16 mm traces would be ~75 Ω on it, so
@@ -182,6 +199,7 @@ is fine; route the length at 0.16 mm.
 | via drill / diameter | 0.3 / 0.5 mm | 0.15 / 0.25 mm (below 0.3 mm drill costs more) |
 | via annular ring | 0.1 mm | — |
 | hole to copper | 0.2 mm; PTH pad 0.3 mm, NPTH 0.25 mm (`.kicad_dru`) | via 0.2, PTH 0.28, NPTH 0.2 |
+| plugged vias | hole ≤ 0.5 mm, ≥ 0.35 mm to any pad (`.kicad_dru`) | same |
 | hole to hole | 0.25 mm; PTH to PTH 0.45 mm (`.kicad_dru`) | via 0.2, pad 0.45 |
 | copper to edge | 0.3 mm; pours 0.5 mm (`.kicad_dru`) | 0.2 mm, ±0.2 mm routing tolerance |
 | solder mask | 1:1 openings, 0.1 mm min web | 1:1, bridge 0.10 mm (green) |
