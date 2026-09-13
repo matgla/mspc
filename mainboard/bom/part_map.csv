@@ -1,0 +1,82 @@
+value,footprint,refs,requirement,source,stock_id,mpn,manufacturer,lcsc,note,datasheet
+4.7u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,"MLCC X5R/X7R, >=16 V (eFuse input side, OVP transient), 0805",order,,CL21A475KAQNNNE,Samsung,,25 V X5R +/-10 %; nothing 0805 4.7 uF in stock,
+100n,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"MLCC X5R/X7R, >=16 V (some sit on 5 V rails), 0402",stock,1EX-XB,CL05A104KA5NNNC,Samsung,,25 V X5R; alternative FzQRT1 (CC0402KRX7R7BB104 X7R 16 V),https://product.samsungsem.com/part/download.do?type=specsheet&masterKey=CL05A104KA5NNN
+100n,C_0402_1005Metric,,"MLCC X5R/X7R, >=16 V, 0402",stock,1EX-XB,CL05A104KA5NNNC,Samsung,,same part as the hand-solder footprint group,https://product.samsungsem.com/part/download.do?type=specsheet&masterKey=CL05A104KA5NNN
+1u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"MLCC X5R/X7R, >=16 V (eFuse OUT, SY6280 IN, LDO IN on 5 V), 0402",stock,jpSlX5,GRM155R61E105KA12D,Murata,,25 V X5R +/-10 %,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081616_Murata-Electronics-GRM155R61E105KA12D_C77009.pdf
+150u,CP_Elec_8x10.5,,"hybrid polymer, >=16 V, low ESR, 8x10.2 mm (plan 2.2/2.4)",order,,EEHZC1V151P,Panasonic,,150 uF 35 V ZC series; no MnO2 tantalum,
+10n,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"MLCC X7R, >=16 V (CC lines can see 5 V), 0402",order,,CL05B103KB5NNNC,Samsung,,50 V X7R +/-10 %; only 0805 10 nF in stock,
+10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,"MLCC X5R, >=25 V, 1206 (plan 2.4: CL31A106KAHNNNE)",stock,jTQdtx,CL31A106KAHNNNE,Samsung,,second row of the same MPN: lyeBaU (10 pcs),https://product.samsungsem.com/part/download.do?type=specsheet&masterKey=CL31A106KAHNNN
+4.7u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"MLCC X5R, >=16 V (C28 is on +5V), 0402",stock,8ik0E6,GRM155R61E475ME15D,Murata,,25 V X5R; for the 3.3 V / 1.1 V spots CL05A475MQ5NRNC (iXxo7i) is also fine,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108150230_Murata-Electronics-GRM155R61E475ME15D_C2858031.pdf
+6.8p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"C0G/NP0, >=16 V, 0402 (buck feed-forward, RTC load caps)",stock,Mr3DpZ,0402N6R8D500CT,Walsin,,+/-0.5 pF 50 V NPO; RTC value to verify on the bench,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Walsin-Tech-Corp-0402N6R8D500CT_C301992.pdf
+14p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"C0G/NP0, <=5 %, 0402 (12 MHz crystal load)",stock,fADMVi,402N140J500CT,Walsin,,,
+14p,C_0402_1005Metric,,"C0G/NP0, <=5 %, 0402 (12 MHz crystal load)",stock,fADMVi,402N140J500CT,Walsin,,,
+10u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"MLCC X5R, >=6.3 V (on +3V3), 0402",stock,fwsX-M,0402ZD106MAT2A,Kyocera AVX,,10 V X5R; alternative jnb08B (CL05A106MP5NUNC),https://datasheets.kyocera-avx.com/cx5r.pdf
+2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,"MLCC X5R/X7R, >=10 V, 0603 (PCM5101A CAPP/CAPM flying cap and VNEG)",verify,fETy6d,CL10A225KO8NNNC,Samsung,,stock row has no dielectric/voltage/MPN; use it only if the reel says X5R/X7R >=10 V,
+2.2n,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,"C0G/NP0, <=5 %, >=16 V, 0402 (audio output filter)",order,,GRM1555C1H222JA01D,Murata,,50 V C0G +/-5 %,
+2.2u,C_0402_1005Metric,,"MLCC X5R, >=6.3 V (probe 3.3 V / 1.1 V), 0402",stock,g-N9ZG,CL05A225MP5NSNC,Samsung,,10 V X5R,https://product.samsungsem.com/part/download.do?type=specsheet&masterKey=CL05A225MP5NSN
+LED,LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder,"D1,D2","0402 orange-red, eFuse FAULT indicators (plan 2.4)",stock,TPXhNF,ZSR1-1105C-045-Z4,Chau Light,,,
+LED,LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder,,"0402 yellow-green 571 nm (plan 2.4), status/power",stock,lQ5VQw,SZYY0402YG,Yongyu,,colours of D23/D24/D120-D124 are not fixed in the schematic,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2102221739_Yongyu-Photoelectric-SZYY0402YG_C434449.pdf
+FerriteBead,L_0402_1005Metric,,"ferrite bead 0402, >=200 mA, ~600 Ohm at 100 MHz (PCM5101A AVDD/CPVDD, plan 2.3)",order,,BLM15AG601SN1D,Murata,,,only 0805 BLM21PG600SN1D in stock
+PMEG3020EP,D_SOD-128,,"Schottky 30 V 2 A, SOD-128",order,,"PMEG3020EP,115",Nexperia,C513108,,https://assets.nexperia.com/documents/data-sheet/PMEG3020EP.pdf
+MountingHole,MountingHole_3.2mm_M3_DIN965,,,none,,,,,no part,
+MountingHole,MountingHole_2.2mm_M2_DIN965,,,none,,,,,no part,
+TestPoint,TestPoint_THTPad_D1.5mm_Drill0.7mm,,,none,,,,,no part,
+USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,,"USB-C 16P receptacle, HRO TYPE-C-31-M-12 land pattern",verify,nCOv_3,TYPE-C-31-M-12,HRO,C165948,stock row 'USB-C 16 PIN H' has no MPN; check its pins/pegs against the HRO footprint before using,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf
+JST_SH_BM02B-SRSS-TB,JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,,,order,,BM02B-SRSS-TB(LF)(SN),JST,C160388,,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+JST_SH_BM03B-SRSS-TB,JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical,,,order,,BM03B-SRSS-TB(LF)(SN),JST,C160389,,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+Micro_SD_Card,microSD_HC_Wuerth_693072010801,,"microSD push-push, Wurth 693072010801 land pattern",order,,693072010801,Wurth Elektronik,C5912397,stock 'TF_SD' (AaOFNS) has no MPN; usable only if it is this part,https://www.we-online.com/components/products/datasheet/693072010801.pdf
+USB_A_Stacked,USB_A_Wuerth_61400826021_Horizontal_Stacked,,"stacked 2x USB-A, Wurth 61400826021 land pattern",order,,61400826021,Wurth Elektronik,C5366339,stock 'USB-A 2R' (CSPNJL) has no MPN; usable only if it is this part,https://www.we-online.com/components/products/datasheet/61400826021.pdf
+AudioJack4,Jack_3.5mm_PJ320D_Horizontal,,"3.5 mm TRRS jack, PJ-320D land pattern",verify,U9pz_z,PJ-320D,,,stock '3.5mm Jack Connector SMD' has no MPN; check against the PJ-320D footprint,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_SHOU-HAN-PJ-320D_C431535.pdf
+Card 0 8-bit,PinSocket_2x10_P1.27mm_Vertical_SMD,,"1.27 mm 2x10 female, vertical SMD",verify,fQHtus,,,,stock row does not say SMD or THT,
+Card 1 2-bit,PinSocket_2x08_P1.27mm_Vertical_SMD,,"1.27 mm 2x08 female, vertical SMD",verify,fcU0Ie,,,,stock row does not say SMD or THT; shared with card 2,
+Card 2 4-bit,PinSocket_2x08_P1.27mm_Vertical_SMD,,"1.27 mm 2x08 female, vertical SMD",verify,fcU0Ie,,,,,
+2.2u,L_Murata_DFE252012F,,"2.2 uH, Isat >=3 A, 2520 (plan 2.3)",order,,DFE252012F-2R2M=P2,Murata,C576403,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-DFE252012F-2R2M-P2_C576403.pdf
+AOTA-B201610S3R3-101-T,L_Abracon_AOTA-B201610S_Polarity,,"3.3 uH shielded, 2016, polarity marked (RP2350 VREG, plan 14)",order,,AOTA-B201610S3R3-101-T,Abracon,C42411119,,
+2N7002,SOT-23,,"N-MOSFET SOT-23, logic-level gate",order,,2N7002,,C8545,,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf
+300k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"thick film 1 %, 0402",order,,RC0402FR-07300KL,Yageo,,,
+100k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402",stock,kWvIXT,RC0402FR-07100KL,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-07100KL
+40.2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (TPS25200 ILIM)",order,,RC0402FR-0740K2L,Yageo,,,
+10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402",stock,st4yzT,RC0402FR-0710KL,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0710KL
+110k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (TPS25200 ILIM)",order,,RC0402FR-07110KL,Yageo,,,
+5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (USB-C CC Rd)",stock,TdGq5a,RC0402FR-075K1L,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K1L
+7.5k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402",order,,0402WGF7501TCE,UNI-ROYAL,,,
+9.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (SY6280 ISET)",order,,RC0402FR-079K1L,Yageo,,,
+6.8k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (SY6280 ISET)",order,,RC0402FR-076K8L,Yageo,,,
+13.7k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (SY6280 ISET)",order,,RC0402FR-0713K7L,Yageo,,,
+5.6k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (LED current)",verify,9-Kja_,RC0402FR-075K6L,Yageo,,stock row is labelled 56 kOhm but its MPN is 5.6 kOhm; read the reel before using,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-075K6L
+453k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 % (0.1 % preferred, plan 2.3), 0402 (buck FB)",order,,RC0402FR-07453KL,Yageo,,plan 2.3 asks for 0603 and 0.1 % for the divider,
+0,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,0402 jumper,stock,0qNOc7,RC0402FR-070RL,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-070RL
+100,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (series/ESD damping)",substitute,VNCz7H,RC0402FR-0797R6L,Yageo,,97.6 Ohm from stock is fine for series damping,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0797R6L
+33,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (series termination)",stock,-ChzWh,ERJ2RKF33R0X,Panasonic,,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811141239_PANASONIC-ERJ2RKF33R0X_C278594.pdf
+1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402",stock,JTVjTR,RC0402FR-071KL,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL
+1K,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402",stock,JTVjTR,RC0402FR-071KL,Yageo,,R127 value is written 1K; rename to 1k so it groups,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL
+27.4R,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (USB series)",stock,Mw4zml,RC0402FR-0727R4L,Yageo,,,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0727R4L
+27,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (RP2040 USB series)",substitute,Mw4zml,RC0402FR-0727R4L,Yageo,,27.4 Ohm 1 % from stock,https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0727R4L
+4.7k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"<=5 %, 0402 (I2C pull-up)",stock,BO0_XQ,RC0402JR-074K7L,Yageo,,5 % is fine for pull-ups,https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-074K7L
+470,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (audio output filter)",order,,RC0402FR-07470RL,Yageo,,,
+220,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,,"1 %, 0402 (panel LED series, plan 9.1)",order,,RC0402FR-07220RL,Yageo,,no 0402 220 Ohm in stock (0805 only),
+20m,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,"20 mOhm <=1 %, >=0.25 W, 0805 (INA226 shunt, plan 2.8)",order,,ERJ-6CWDR020V,Panasonic,C2089540,,
+50m,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,"50 mOhm 1 %, >=0.1 W, 0603 (INA3221 shunts)",order,,PT0603FR-7W0R05L,Yageo,C784595,,
+USB_BOOT,SW_SPST_TS-1088-xR020,,"tactile SMD, TS-1088 land pattern",order,,TS-1088-AR02016,XKB,C720477,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf
+PROBE_RESET#,SW_SPST_TS-1088-xR020,,"tactile SMD, TS-1088 land pattern",order,,TS-1088-AR02016,XKB,C720477,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf
+TPS25200,TI_DRV0006A_WSON-6-1EP_2x2mm_P0.65mm,,,order,,TPS25200DRVR,Texas Instruments,C128401,,https://www.ti.com/lit/ds/symlink/tps25200.pdf
+USBLC6-2SC6,SOT-23-6,,,stock,M6CkNK,USBLC6-2SC6,STMicroelectronics,,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2410121836_STMicroelectronics-USBLC6-2SC6_C7519.pdf
+SY6280AAC,SOT-23-5_HandSoldering,,,order,,SY6280AAC,Silergy,C55136,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810121532_Silergy-Corp-SY6280AAC_C55136.pdf
+TLV62569DRL,SOT-563,,,stock,X0nkNP,TLV62569DRLR,Texas Instruments,,,https://www.ti.com/lit/ds/symlink/tlv62569.pdf
+TLV70033_SOT23-5,SOT-23-5,,"3.3 V LDO 200 mA, SOT-23-5",order,,TLV70033DDCR,Texas Instruments,C11337,TI makes no DBV version; DDC (SOT-23-THIN) uses the SOT-23-5 land pattern,https://www.ti.com/lit/ds/symlink/tlv700.pdf
+RP2350_80QFN,RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias,,,order,,RP2350B,Raspberry Pi,C42415655,,https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
+W25Q128JVS,SOIC-8_5.3x5.3mm_P1.27mm,,"128 Mb QSPI NOR, SOIC-8 208 mil",substitute,5KxqLF,W25Q128JVSIM,Winbond,,plan says JVSIQ; JVSIM from stock is the same memory and package,https://www.winbond.com/resource-files/W25Q128JV%20RevH%2003102021%20Plus.pdf
+W25Q16JVSS,SOIC-8_5.3x5.3mm_P1.27mm,,"16 Mb QSPI NOR, SOIC-8 208 mil (debug probe flash)",stock,WI5Fmw,W25Q16JVSSIQ,Winbond,,,
+APS1604M-3SQRx-SN,SOIC-8_3.9x4.9mm_P1.27mm,,"QSPI PSRAM, SOIC-8 150 mil",order,,APS1604M-3SQR-SN,AP Memory,,stock ESP-PSRAM64 (t3TCH5) is a pin-compatible 64 Mb part in the same 150 mil package if the larger size is wanted,
+USBLC6-4SC6,SOT-23-6,,,order,,USBLC6-4SC6,STMicroelectronics,C111212,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810130920_STMicroelectronics-USBLC6-4SC6_C111212.pdf
+CH334R,QSOP-16_3.9x4.9mm_P0.635mm,,,order,,CH334R,WCH,C4154405,,https://www.wch-ic.com/download/file?id=327
+PCM5101A,TSSOP-20_4.4x6.5mm_P0.65mm,,,order,,PCM5101APWR,Texas Instruments,C2667024,,https://www.ti.com/lit/ds/symlink/pcm5101a.pdf
+RP2040,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,,,stock,IpOIbl,RP2040,Raspberry Pi,,,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+74AUP1T17GW,SOT-353_SC-70-5,,,order,,"74AUP1T17GW,125",Nexperia,C3756820,,https://assets.nexperia.com/documents/data-sheet/74AUP1T17.pdf
+TCA6408APW,TSSOP-16_4.4x5mm_P0.65mm,,,order,,TCA6408APWR,Texas Instruments,C206177,,https://www.ti.com/lit/ds/symlink/tca6408a.pdf
+INA226,TSSOP-10_3x3mm_P0.5mm,,,order,,INA226AIDGSR,Texas Instruments,C49851,,https://www.ti.com/lit/ds/symlink/ina226.pdf
+INA3221,Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm,,,order,,INA3221AIRGVR,Texas Instruments,C181255,,https://www.ti.com/lit/ds/symlink/ina3221.pdf
+MCP7940N-I/SN,SOIC-8_3.9x4.9mm_P1.27mm,,,order,,MCP7940N-I/SN,Microchip,C51106,,https://ww1.microchip.com/downloads/en/DeviceDoc/20005010H.pdf
+ABM8-272-T3,Crystal_SMD_3225-4Pin_3.2x2.5mm,,"12 MHz, CL 10 pF, 3225 4-pin",order,,ABM8-272-T3,Abracon,C20625731,nearest stock crystal ECS-120-8-36-CKM is 2520,https://abracon.com/datasheets/ABM8-272-T3.pdf
+SC-32S 32.768kHz 7pF,Crystal_SMD_3215-2Pin_3.2x1.5mm,,,order,,SC-32S 32.768KHZ 20PPM 7PF,Seiko Instruments,C97604,,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Seiko-SC-32S32-768kHz20PPM7pF_C97604.pdf
+CR1220,BatteryHolder_QJ_CR1220-2_SMD,,,order,,CR1220-2,Q&J,C70381,the CR1220 cell itself is not in the BOM,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2405081637_Q-J-CR1220-2_C70381.pdf

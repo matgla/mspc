@@ -71,3 +71,6 @@ desktop.ini
 *.swp
 .vscode/
 .idea/
+
+# ===== Inventory snapshot exported from AppSheet (tools/inventory/appsheet_export.py) =====
+/inventory/
