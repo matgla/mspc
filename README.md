@@ -10,7 +10,7 @@ into the MSPC bus. The mainboard runs [yasos](https://github.com/matgla/yasos.zi
 | `main` | the current hardware: the v2 boards (same as `mspc_v2`) |
 | `mspc_v1` | the first generation, kept for reference |
 | `mspc_v2` | the v2 boards as built |
-| `mspc_v2.5` | the next revision, work in progress; `main` moves there when it is done and that point is tagged `mspcv2.5` |
+| `mspc_v3` | the next revision (v3, not compatible with v2 cards), work in progress; `main` moves there when it is done and that point is tagged `mspcv3` |
 
 ## Repository layout
 
@@ -26,7 +26,7 @@ Every board is a KiCad project with its fabrication outputs next to it in `outpu
 | `bus_adapter_30pin/` | Passive breakout from the 2×15 1.27 mm bus socket to two 1×15 2.54 mm headers. |
 | `simulation/` | 2022 SPICE sandbox: KiCad/ngspice schematics (audio filter, power switch) and PySpice scripts. Not a board. |
 | `libs/` | KiCad libraries shared by all boards (see below). |
-| `docs/` | `mspc_v2.5_revision_plan.md` (v2.5 mainboard changes), `pcb_rules_jlcpcb.md` (mainboard stackup, JLCPCB order settings, fab export, design rules). |
+| `docs/` | `mspc_v3_revision_plan.md` (v3 mainboard changes), `pcb_rules_jlcpcb.md` (mainboard stackup, JLCPCB order settings, fab export, design rules). |
 
 ## Working with the files
 

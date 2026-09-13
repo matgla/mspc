@@ -1,6 +1,6 @@
 # Mainboard PCB — JLCPCB 4-layer setup
 
-Everything needed to lay out and order the v2.5 mainboard at JLCPCB's base price: board geometry,
+Everything needed to lay out and order the v3 mainboard at JLCPCB's base price: board geometry,
 stackup, order form, file export, trace widths, design rules and net classes.
 
 All of it is already set in `mainboard/mainboard/`:
@@ -23,7 +23,7 @@ pages on 2026-09-12.
 
 ## 1. Board
 
-The v2.5 layout is new, but the mechanics stay as on v2. Coordinates are KiCad page coordinates
+The v3 layout is new, but the mechanics stay as on v2. Coordinates are KiCad page coordinates
 in mm (the board's top-left corner is at 50, 50).
 
 | item | value |
