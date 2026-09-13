@@ -30,7 +30,7 @@ in mm (the board's top-left corner is at 50, 50).
 |---|---|
 | outline | 100 × 100 mm rectangle, 50,50 → 150,150, square corners, on `Edge.Cuts` |
 | layers | 4: F.Cu signal, In1.Cu GND, In2.Cu GND, B.Cu signal |
-| thickness | 1.0 mm (1.03 mm computed with mask) |
+| thickness | 1.6 mm (1.59 mm computed with mask) |
 | mounting holes, M3 (3.2 mm, DIN965 pad) | (55, 55), (145, 55), (55, 130), (145, 130) |
 | card standoffs, M2 (2.2 mm) | (74.5, 53.5), (111, 53.5), (137.78, 53.5) |
 
@@ -57,7 +57,7 @@ Update the silkscreen label (still reads "MSPC rev 2.0a … 2024").
 
 ---
 
-## 2. Stackup — JLC04101H-3313
+## 2. Stackup — JLC04161H-3313
 
 Set in **Board Setup → Board Stackup**; this is what JLCPCB builds when you select the stackup on the
 order.
@@ -68,7 +68,7 @@ order.
 | 1 | **F.Cu** | signal, components | copper 1 oz | 0.035 mm | |
 | | dielectric 1 | | prepreg 3313 × 1 | **0.0994 mm** | 4.1 |
 | 2 | **In1.Cu** | GND plane | copper 0.5 oz | 0.0152 mm | |
-| | dielectric 2 | | core | 0.7 mm | 4.6 |
+| | dielectric 2 | | core | 1.265 mm | 4.6 |
 | 3 | **In2.Cu** | GND plane | copper 0.5 oz | 0.0152 mm | |
 | | dielectric 3 | | prepreg 3313 × 1 | **0.0994 mm** | 4.1 |
 | 4 | **B.Cu** | signal, microSD | copper 1 oz | 0.035 mm | |
@@ -81,7 +81,7 @@ Every signal is a microstrip 0.1 mm over an unbroken GND plane:
   that changes layer (the return current has to change plane too).
 - Power goes on F.Cu/B.Cu as pours and wide tracks.
 
-Board thickness tolerance at JLCPCB is ±0.1 mm.
+Board thickness tolerance at JLCPCB is ±10 % (1.44–1.76 mm).
 
 ---
 
@@ -98,14 +98,14 @@ anything not listed at its default.
 | PCB qty | 5 | minimum |
 | Different design | 1 | |
 | Delivery format | Single PCB | no panel |
-| PCB thickness | **1.0 mm** | |
+| PCB thickness | **1.6 mm** | JLCPCB's default, stiff enough for plugging cables and cards |
 | PCB color | Green | |
 | Silkscreen | White | |
 | Material type | leave the default | |
 | Surface finish | **HASL (with lead)** | cheapest; ENIG only if 0.4 mm QFN pads come out uneven |
 | Outer copper weight | 1 oz | |
 | Inner copper weight | 0.5 oz | |
-| Specify stackup / impedance control | **Yes — JLC04101H-3313** | trace widths below assume it |
+| Specify stackup / impedance control | **Yes — JLC04161H-3313** | trace widths below assume it |
 | Via covering | **Tented** | free; the vias are not in pads |
 | Min via hole size / diameter | **0.3 mm / (0.4/0.45 mm)** | the no-surcharge option; board minimum is 0.3 / 0.5 |
 | Board outline tolerance | ±0.2 mm (regular) | |
@@ -115,9 +115,9 @@ anything not listed at its default.
 | Gold fingers, castellated holes, edge plating, blind slots | No | |
 | 4-wire Kelvin test, paper between boards | No | |
 
-Before paying, check that 1.0 mm with the stackup selected costs the same as 1.6 mm with no stackup.
-If not, **JLC04161H-3313** (1.6 mm) has the same 0.0994 mm outer prepreg, so every trace width
-still applies; only the core becomes 1.265 mm.
+Before paying, check that selecting the stackup adds nothing to the price. The default 1.6 mm
+stackup (JLC04161H-7628) has a 0.21 mm outer prepreg: 0.16 mm traces would be ~75 Ω on it, so
+don't order without the stackup to save money.
 
 ---
 
@@ -159,7 +159,7 @@ Run DRC with zero errors and refill zones (**B**) before exporting.
 
 Solved with a 2D field solver: 35 µm copper etched 1 mil narrower at the top, JLCPCB's solder mask.
 Check them once in the [JLCPCB calculator](https://jlcpcb.com/pcb-impedance-calculator)
-(4 layers, 1.0 mm, JLC04101H-3313, top layer, reference L2) before ordering. Fab tolerance ±10 %.
+(4 layers, 1.6 mm, JLC04161H-3313, top layer, reference L2) before ordering. Fab tolerance ±10 %.
 
 | target | width | gap | solved |
 |---|---|---|---|

@@ -1,7 +1,7 @@
 (version 1)
 
-# JLCPCB 4-layer, base price, stackup JLC04101H-3313 (1.0 mm):
-#   F.Cu signal | 0.0994 3313 | In1.Cu GND | 0.7 core | In2.Cu GND | 0.0994 3313 | B.Cu signal
+# JLCPCB 4-layer, base price, stackup JLC04161H-3313 (1.6 mm):
+#   F.Cu signal | 0.0994 3313 | In1.Cu GND | 1.265 core | In2.Cu GND | 0.0994 3313 | B.Cu signal
 # Global minimums live in Board Setup > Constraints; these rules add what that page cannot express.
 # Limits from https://jlcpcb.com/capabilities/pcb-capabilities (checked 2026-09-12).
 
