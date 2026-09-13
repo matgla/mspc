@@ -72,5 +72,5 @@ desktop.ini
 .vscode/
 .idea/
 
-# ===== Inventory snapshot exported from AppSheet (tools/inventory/appsheet_export.py) =====
+# ===== Inventory snapshot exported from AppSheet (ElectronicStorageUtils/projects/mspc/appsheet_export.py) =====
 /inventory/
