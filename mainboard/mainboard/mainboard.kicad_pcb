@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "MSPC mainboard")
+		(date "2026-09-13")
+		(rev "3")
+		(company "Mateusz Stadnik")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)

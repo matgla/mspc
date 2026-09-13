@@ -5,8 +5,10 @@
 	(uuid "baa31255-dcaa-42e5-9813-ab408734d04d")
 	(paper "A4")
 	(title_block
-		(title "MSPC")
-		(rev "1")
+		(title "MSPC mainboard")
+		(date "2026-09-13")
+		(rev "3")
+		(company "Mateusz Stadnik")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

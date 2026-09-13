@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "64b4d4c6-2e71-4bb2-bc13-3e7530da9128")
 	(paper "A4")
+	(title_block
+		(title "MSPC mainboard")
+		(date "2026-09-13")
+		(rev "3")
+		(company "Mateusz Stadnik")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

@@ -5,8 +5,10 @@
 	(uuid "12500647-3dde-496b-bf2f-2b963612b9c8")
 	(paper "A4")
 	(title_block
-		(title "MSPC")
-		(rev "1")
+		(title "MSPC mainboard")
+		(date "2026-09-13")
+		(rev "3")
+		(company "Mateusz Stadnik")
 	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card"
